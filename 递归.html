@@ -1,0 +1,1025 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:x="http://www.texmacs.org/2002/extensions" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <head>
+    <title>&#x7B26;&#x53F7;&#x8868;&#x8FBE;&#x5F0F;&#x7684;&#x9012;&#x5F52;&#x51FD;&#x6570;&#x53CA;&#x5176;&#x673A;&#x5668;&#x8BA1;&#x7B97;</title>
+    <meta content="TeXmacs 1.99.14" name="generator"></meta>
+    <style type="text/css">
+      body { text-align: justify } h5 { display: inline; padding-right: 1em }
+      h6 { display: inline; padding-right: 1em } table { border-collapse:
+      collapse } td { padding: 0.2em; vertical-align: baseline } dt { float:
+      left; min-width: 1.75em; text-align: right; padding-right: 0.75em;
+      font-weight: bold; } dd { margin-left: 2.75em; padding-bottom: 0.25em; }
+      dd p { padding-top: 0em; } .subsup { display: inline; vertical-align:
+      -0.2em } .subsup td { padding: 0px; text-align: left} .fraction {
+      display: inline; vertical-align: -0.8em } .fraction td { padding: 0px;
+      text-align: center } .wide { position: relative; margin-left: -0.4em }
+      .accent { position: relative; margin-left: -0.4em; top: -0.1em }
+      .title-block { width: 100%; text-align: center } .title-block p {
+      margin: 0px } .compact-block p { margin-top: 0px; margin-bottom: 0px }
+      .left-tab { text-align: left } .center-tab { text-align: center }
+      .balloon-anchor { border-bottom: 1px dotted #000000; outline: none;
+      cursor: help; position: relative; } .balloon-anchor [hidden] {
+      margin-left: -999em; position: absolute; display: none; }
+      .balloon-anchor: hover [hidden] { position: absolute; left: 1em; top:
+      2em; z-index: 99; margin-left: 0; width: 500px; display: inline-block; }
+      .balloon-body { } .ornament { border-width: 1px; border-style: solid;
+      border-color: black; display: inline-block; padding: 0.2em; } .right-tab
+      { float: right; position: relative; top: -1em; } .no-breaks {
+      white-space: nowrap; } 
+    </style>
+  </head>
+  <body>
+    <table class="title-block" style="margin-bottom: 2em">
+      <tr>
+        <td><table class="title-block" style="margin-top: 0.5em; margin-bottom: 0.5em">
+          <tr>
+            <td><font style="font-size: 168.2%"><strong>&#x7B26;&#x53F7;&#x8868;&#x8FBE;&#x5F0F;&#x7684;&#x9012;&#x5F52;&#x51FD;&#x6570;&#x53CA;&#x5176;&#x673A;&#x5668;&#x8BA1;&#x7B97;</strong></font></td>
+          </tr>
+        </table><div class="compact-block" style="margin-top: 1em; margin-bottom: 1em">
+          <table class="title-block">
+            <tr>
+              <td><p>
+                &#x7EA6;&#x7FF0;<img src="递归-1.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0248242424242424em; margin-right: -0.0248242424242424em; margin-top: -0.0103272727272727em; vertical-align: 0em; height: 0.494836363636364em"></img>&#x9EA6;&#x5361;&#x9521;&#xFF0C;&#x9A6C;&#x8D5B;&#x8BF8;&#x585E;&#x5DDE;&#x7406;&#x5DE5;&#x5927;&#x5B66;&#xFF0C;&#x9A6C;&#x8D5B;&#x8BF8;&#x585E;&#x5DDE;&#xFF0C;&#x5251;&#x6865;&#x5E02;.
+              </p><p>
+                
+              </p><p>
+                1960&#x5E74;4&#x6708;
+              </p></td>
+            </tr>
+          </table>
+        </div></td>
+      </tr>
+    </table>
+    <h2 id="auto-1">1<span style="margin-left: 1em"></span>&#x4ECB;&#x7ECD;<span style="margin-left: 1em"></span></h2>
+    <p>
+      <span style="margin-left: 1em"></span>M.I.T.&#x7684;&#x4EBA;&#x5DE5;&#x667A;&#x80FD;&#x5C0F;&#x7EC4;&#x5DF2;&#x4E3A;IBM
+      704&#x8BA1;&#x7B97;&#x673A;&#x5F00;&#x53D1;&#x4E86;&#x4E00;&#x79CD;&#x540D;&#x4E3A;LISP&#xFF08;&#x7528;&#x4E8E;&#x5217;&#x8868;&#x5904;&#x7406;&#xFF09;&#x7684;&#x7F16;&#x7A0B;&#x7CFB;&#x7EDF;&#x3002;&#x8BE5;&#x7CFB;&#x7EDF;&#x65E8;&#x5728;&#x65B9;&#x4FBF;&#x4F7F;&#x7528;&#x88AB;&#x63D0;&#x8BAE;&#x7684;&#x79F0;&#x4E3A;&ldquo;&#x54A8;&#x8BE2;&#x5EFA;&#x8BAE;&#x8005;&rdquo;(Advice
+      Taker)&#x7684;&#x8F6F;&#x4EF6;&#x7CFB;&#x7EDF;&#x8FDB;&#x884C;&#x5B9E;&#x9A8C;&#xFF0C;&#x4ECE;&#x800C;&#x53EF;&#x4EE5;&#x63A7;&#x5236;&#x673A;&#x5668;&#x5904;&#x7406;&#x9648;&#x8FF0;&#x6027;&#x548C;&#x547D;&#x4EE4;&#x6027;&#x53E5;&#x5B50;&#xFF0C;&#x5E76;&#x4E14;&#x5728;&#x5176;&#x6267;&#x884C;&#x6307;&#x4EE4;&#x65F6;&#x53EF;&#x4EE5;&#x8868;&#x73B0;&#x51FA;&ldquo;&#x5E38;&#x8BC6;&rdquo;&#x7684;&#x7279;&#x5F81;&#x3002;&#x7ED9;Advice
+      Taker&#x7684;&#x539F;&#x59CB;&#x63D0;&#x8BAE;[1]&#x4E8E;1958&#x5E74;11&#x6708;&#x63D0;&#x51FA;&#x3002;&#x4E3B;&#x8981;&#x8981;&#x6C42;&#x662F;&#x4E00;&#x4E2A;&#x7A0B;&#x5E8F;&#x7CFB;&#x7EDF;&#xFF0C;&#x7528;&#x4E8E;&#x64CD;&#x7EB5;&#x8868;&#x793A;&#x5F62;&#x5F0F;&#x5316;&#x7684;&#x9648;&#x8FF0;&#x6027;&#x548C;&#x547D;&#x4EE4;&#x6027;&#x53E5;&#x5B50;&#x7684;&#x8868;&#x8FBE;&#x5F0F;&#xFF0C;&#x4EE5;&#x4FBF;Advice
+      Taker&#x53EF;&#x4EE5;&#x8FDB;&#x884C;&#x63A8;&#x7406;&#x3002;
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>&#x5728;&#x5176;&#x5F00;&#x53D1;&#x8FC7;&#x7A0B;&#x4E2D;&#xFF0C;LISP&#x7CFB;&#x7EDF;&#x7ECF;&#x5386;&#x4E86;&#x591A;&#x4E2A;&#x9636;&#x6BB5;&#x7684;&#x62BD;&#x8C61;&#xFF0C;&#x6700;&#x7EC8;&#x57FA;&#x4E8E;&#x7684;&#x662F;&#x8868;&#x793A;&#x7279;&#x5B9A;&#x7C7B;&#x578B;&#x7684;&#x7B26;&#x53F7;&#x8868;&#x8FBE;&#x5F0F;&#x7684;&#x5C40;&#x90E8;&#x9012;&#x5F52;&#x51FD;&#x6570;&#x7684;&#x65B9;&#x6848;&#x3002;&#x6B64;&#x8868;&#x793A;&#x72EC;&#x7ACB;&#x4E8E;IBM
+      704&#x8BA1;&#x7B97;&#x673A;&#x6216;&#x4EFB;&#x4F55;&#x5176;&#x4ED6;&#x7535;&#x5B50;&#x8BA1;&#x7B97;&#x673A;&#xFF0C;&#x73B0;&#x5728;&#x53EF;&#x4EE5;&#x5F88;&#x65B9;&#x4FBF;&#x5730;&#x901A;&#x8FC7;&#x4ECE;&#x79F0;&#x4E3A;S-expressions&#x7684;&#x8868;&#x8FBE;&#x5F0F;&#x7C7B;&#x578B;&#x548C;&#x79F0;&#x4E3A;S-functions&#x7684;&#x51FD;&#x6570;&#x7C7B;&#x578B;&#x6765;&#x9610;&#x8FF0;&#x7CFB;&#x7EDF;&#x3002;
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>&#x5728;&#x672C;&#x6587;&#x4E2D;&#xFF0C;&#x6211;&#x4EEC;&#x9996;&#x5148;&#x63CF;&#x8FF0;&#x4E00;&#x79CD;&#x7528;&#x4E8E;&#x5B9A;&#x4E49;&#x9012;&#x5F52;&#x51FD;&#x6570;&#x7684;&#x5F62;&#x5F0F;&#x8BED;&#x8A00;&#x3002;&#x6211;&#x4EEC;&#x8BA4;&#x4E3A;&#x8FD9;&#x79CD;&#x5F62;&#x5F0F;&#x8BED;&#x8A00;&#x672C;&#x8EAB;&#x6709;&#x4F5C;&#x4E3A;&#x7F16;&#x7A0B;&#x8BED;&#x8A00;&#x7684;&#x597D;&#x5904;&#xFF0C;&#x540C;&#x65F6;&#x4E5F;&#x662F;&#x7814;&#x7A76;&#x8BA1;&#x7B97;&#x7406;&#x8BBA;&#x7684;&#x8F7D;&#x4F53;&#x3002;&#x63A5;&#x4E0B;&#x6765;&#xFF0C;&#x6211;&#x4EEC;&#x63CF;&#x8FF0;S&#x8868;&#x8FBE;&#x5F0F;&#x548C;S&#x51FD;&#x6570;&#xFF0C;&#x7ED9;&#x51FA;&#x4E00;&#x4E9B;&#x793A;&#x4F8B;&#xFF0C;&#x7136;&#x540E;&#x63CF;&#x8FF0;&#x901A;&#x7528;S&#x51FD;&#x6570;&#x7684;&#x5E94;&#x7528;&#xFF0C;&#x5B83;&#x4EEC;&#x5728;&#x901A;&#x7528;&#x56FE;&#x7075;&#x673A;&#x7684;&#x7406;&#x8BBA;&#x4F5C;&#x7528;&#x548C;&#x89E3;&#x91CA;&#x5668;&#x7684;&#x5B9E;&#x9645;&#x4F5C;&#x7528;&#x4E2D;&#x53D1;&#x6325;&#x4F5C;&#x7528;&#x3002;&#x7136;&#x540E;&#xFF0C;&#x6211;&#x4EEC;&#x901A;&#x8FC7;&#x7C7B;&#x4F3C;&#x4E8E;Newell&#xFF0C;Shaw&#x548C;Simon
+      [2]&#x6240;&#x4F7F;&#x7528;&#x7684;&#x5217;&#x8868;&#x7ED3;&#x6784;&#xFF0C;&#x6765;&#x63CF;&#x8FF0;IBM
+      704&#x5185;&#x5B58;&#x4E2D;S&#x8868;&#x8FBE;&#x5F0F;&#x7684;&#x8868;&#x793A;&#xFF0C;&#x4EE5;&#x53CA;&#x901A;&#x8FC7;&#x7A0B;&#x5E8F;&#x8868;&#x793A;S&#x51FD;&#x6570;&#x3002;&#x4E4B;&#x540E;&#xFF0C;&#x6211;&#x4EEC;&#x4ECB;&#x7ECD;&#x7528;&#x4E8E;IBM
+      704&#x7684;LISP&#x7F16;&#x7A0B;&#x7CFB;&#x7EDF;&#x7684;&#x4E3B;&#x8981;&#x529F;&#x80FD;&#x3002;&#x63A5;&#x4E0B;&#x6765;&#x662F;&#x7528;&#x7B26;&#x53F7;&#x8868;&#x8FBE;&#x5F0F;&#x63CF;&#x8FF0;&#x8BA1;&#x7B97;&#x7684;&#x53E6;&#x4E00;&#x79CD;&#x65B9;&#x6CD5;&#xFF0C;&#x6700;&#x540E;&#x6211;&#x4EEC;&#x7ED9;&#x51FA;&#x4E86;&#x6D41;&#x7A0B;&#x56FE;&#x7684;&#x9012;&#x5F52;&#x51FD;&#x6570;&#x89E3;&#x91CA;&#x3002;
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>&#x6211;&#x4EEC;&#x5E0C;&#x671B;&#x5728;&#x53E6;&#x4E00;&#x7BC7;&#x8BBA;&#x6587;&#x4E2D;&#x63CF;&#x8FF0;&#x5DF2;&#x7ECF;&#x4F7F;&#x7528;LISP&#x5B9E;&#x73B0;&#x7684;&#x4E00;&#x4E9B;&#x7B26;&#x53F7;&#x8BA1;&#x7B97;&#x7A0B;&#x5E8F;&#xFF0C;&#x5E76;&#x5E0C;&#x671B;&#x5728;&#x5176;&#x4ED6;&#x5730;&#x65B9;&#x4E3A;&#x6570;&#x5B66;&#x903B;&#x8F91;&#x548C;&#x673A;&#x68B0;&#x5B9A;&#x7406;&#x8BC1;&#x660E;&#x95EE;&#x9898;&#x63D0;&#x4F9B;&#x9012;&#x5F52;&#x51FD;&#x6570;&#x5F62;&#x5F0F;&#x8BED;&#x8A00;&#x7684;&#x4E00;&#x4E9B;&#x5E94;&#x7528;&#x3002;
+    </p>
+    <h2 id="auto-2">2<span style="margin-left: 1em"></span>&#x51FD;&#x6570;&#x548C;&#x51FD;&#x6570;&#x5B9A;&#x4E49;<span
+    style="margin-left: 1em"></span></h2>
+    <p>
+      <span style="margin-left: 1em"></span>&#x6211;&#x4EEC;&#x5C06;&#x9700;&#x8981;&#x4E00;&#x4E9B;&#x6709;&#x5173;&#x51FD;&#x6570;&#x7684;&#x6570;&#x5B66;&#x601D;&#x60F3;&#x548C;&#x8868;&#x793A;&#x6CD5;&#x3002;&#x5927;&#x591A;&#x6570;&#x60F3;&#x6CD5;&#x662F;&#x4F17;&#x6240;&#x5468;&#x77E5;&#x7684;&#xFF0C;&#x4F46;&#x662F;&#x6761;&#x4EF6;&#x8868;&#x8FBE;&#x5F0F;&#x7684;&#x6982;&#x5FF5;&#x88AB;&#x8BA4;&#x4E3A;&#x662F;&#x65B0;&#x7684;&#xFF0C;&#x6761;&#x4EF6;&#x8868;&#x8FBE;&#x5F0F;&#x5141;&#x8BB8;&#x4EE5;&#x66F4;&#x7B80;&#x6D01;&#x7684;&#x65B9;&#x5F0F;&#x5B9A;&#x4E49;&#x9012;&#x5F52;&#x51FD;&#x6570;&#x3002;
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>a&#xFF0C;&#x5C40;&#x90E8;&#x51FD;&#x6570;&#x3002;&#x4E00;&#x4E2A;&#x5C40;&#x90E8;&#x51FD;&#x6570;&#x662F;&#x4EC5;&#x5728;&#x5176;&#x5C40;&#x90E8;&#x4F5C;&#x7528;&#x57DF;&#x4E2D;&#x5B9A;&#x4E49;&#x7684;&#x51FD;&#x6570;&#x3002;&#x5F53;&#x51FD;&#x6570;&#x7531;&#x8BA1;&#x7B97;&#x5B9A;&#x4E49;&#x65F6;&#xFF0C;&#x5C40;&#x90E8;&#x51FD;&#x6570;&#x5FC5;&#x5B9A;&#x4F1A;&#x51FA;&#x73B0;&#xFF0C;&#x56E0;&#x4E3A;&#x5BF9;&#x4E8E;&#x81EA;&#x53D8;&#x91CF;&#x7684;&#x67D0;&#x4E9B;&#x503C;&#xFF0C;&#x5B9A;&#x4E49;&#x51FD;&#x6570;&#x503C;&#x7684;&#x8BA1;&#x7B97;&#x53EF;&#x80FD;&#x4E0D;&#x4F1A;&#x7EC8;&#x6B62;&#x3002;&#x56E0;&#x6B64;&#xFF0C;&#x6211;&#x4EEC;&#x7684;&#x4E00;&#x4E9B;&#x57FA;&#x672C;&#x51FD;&#x6570;&#x5C06;&#x5B9A;&#x4E49;&#x4E3A;&#x5C40;&#x90E8;&#x51FD;&#x6570;&#x3002;
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>b&#xFF0C;&#x547D;&#x9898;&#x8868;&#x8FBE;&#x5F0F;&#x548C;&#x8C13;&#x8BCD;&#x3002;&#x547D;&#x9898;&#x8868;&#x8FBE;&#x5F0F;&#x662F;&#x5176;&#x53EF;&#x80FD;&#x503C;&#x4E3A;T&#xFF08;&#x4EE3;&#x8868;&#x771F;&#xFF09;&#x548C;F&#xFF08;&#x4EE3;&#x8868;&#x865A;&#x5047;&#xFF09;&#x7684;&#x8868;&#x8FBE;&#x5F0F;&#x3002;&#x6211;&#x4EEC;&#x5C06;&#x5047;&#x5B9A;&#x8BFB;&#x8005;&#x719F;&#x6089;&#x547D;&#x9898;&#x8FDE;&#x63A5;&#x8BCD;&and;&#xFF08;and&#xFF0C;&#x4E0E;&#xFF09;&#xFF0C;&or;&#xFF08;or&#xFF0C;&#x6216;&#xFF09;&#x548C;&not;&#xFF08;not&#xFF0C;&#x975E;&#xFF09;&#x3002;&#x5178;&#x578B;&#x7684;&#x547D;&#x9898;&#x8868;&#x8FBE;&#x5F0F;&#x662F;&#xFF1A;
+    </p>
+    <center>
+      <img src="递归-2.png" style="margin-left: -0.0248242424242424em; margin-bottom: 0.196412121212121em; margin-right: -0.0248242424242431em; margin-top: 0.180072727272727em; vertical-align: -1.79301818181818em; height: 3.67534545454545em"></img>
+    </center>
+    <p>
+      &#x8C13;&#x8BCD;&#x662F;&#x4E00;&#x4E2A;&#x51FD;&#x6570;&#xFF0C;&#x5176;&#x8303;&#x56F4;&#x7531;&#x771F;&#x503C;T&#x548C;F&#x7EC4;&#x6210;&#x3002;
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>c&#xFF0C;&#x6761;&#x4EF6;&#x8868;&#x8FBE;&#x5F0F;&#x3002;&#x771F;&#x503C;&#x5BF9;&#x5176;&#x4ED6;&#x79CD;&#x7C7B;&#x7684;&#x6570;&#x91CF;&#x503C;&#x7684;&#x4F9D;&#x8D56;&#x5173;&#x7CFB;&#x5728;&#x6570;&#x5B66;&#x4E2D;&#x901A;&#x8FC7;&#x8C13;&#x8BCD;&#x8868;&#x793A;&#xFF0C;&#x800C;&#x771F;&#x503C;&#x5BF9;&#x5176;&#x4ED6;&#x771F;&#x503C;&#x7684;&#x4F9D;&#x8D56;&#x5173;&#x7CFB;&#x5219;&#x901A;&#x8FC7;&#x903B;&#x8F91;&#x8FDE;&#x63A5;&#x8BCD;&#x8868;&#x8FBE;&#x3002;&#x7136;&#x800C;&#xFF0C;&#x7528;&#x4E8E;&#x8C61;&#x5F81;&#x6027;&#x5730;&#x8868;&#x8FBE;&#x5176;&#x4ED6;&#x79CD;&#x7C7B;&#x7684;&#x6570;&#x91CF;&#x5BF9;&#x771F;&#x503C;&#x7684;&#x4F9D;&#x8D56;&#x6027;&#x7684;&#x7B26;&#x53F7;&#x662F;&#x4E0D;&#x5145;&#x5206;&#x7684;&#xFF0C;&#x56E0;&#x6B64;&#x82F1;&#x8BED;&#x5355;&#x8BCD;&#x548C;&#x77ED;&#x8BED;&#x901A;&#x5E38;&#x7528;&#x4E8E;&#x5728;&#x8C61;&#x5F81;&#x6027;&#x5730;&#x63CF;&#x8FF0;&#x5176;&#x4ED6;&#x4F9D;&#x8D56;&#x6027;&#x7684;&#x6587;&#x672C;&#x4E2D;&#x8868;&#x8FBE;&#x8FD9;&#x4E9B;&#x4F9D;&#x8D56;&#x6027;&#x3002;&#x4F8B;&#x5982;&#xFF0C;&#x51FD;&#x6570;|
+      x |
+      &#x901A;&#x5E38;&#x7528;&#x6587;&#x5B57;&#x6765;&#x5B9A;&#x4E49;&#x3002;
+      &#x6761;&#x4EF6;&#x8868;&#x8FBE;&#x5F0F;&#x662F;&#x4E00;&#x79CD;&#x8868;&#x8FBE;&#x91CF;&#x5BF9;&#x547D;&#x9898;&#x91CF;&#x7684;&#x4F9D;&#x8D56;&#x6027;&#x7684;&#x8BBE;&#x5907;&#x3002;
+    </p>
+    <center>
+      <img src="递归-3.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0223030303030303em; margin-right: -0.0248242424242431em; margin-top: -0.0459636363636363em; vertical-align: -0.201115151515152em; height: 1.03020606060606em"></img>
+    </center>
+    <p>
+      &#x5176;&#x4E2D;p&#x662F;&#x547D;&#x9898;&#x8868;&#x8FBE;&#x5F0F;&#xFF0C;e&#x662F;&#x4EFB;&#x4F55;&#x5F62;&#x5F0F;&#x7684;&#x8868;&#x8FBE;&#x5F0F;&#x3002;&#x53EF;&#x4EE5;&#x88AB;&#x8BFB;&#x4F5C;&ldquo;&#x5982;&#x679C;<span
+      class="no-breaks"><img src="递归-4.png" style="margin-left: -0.0620606060606061em; margin-bottom: -0.0223030303030303em; margin-right: -0.0248242424242424em; margin-top: -0.038739393939394em; vertical-align: -0.201115151515152em; height: 0.707490909090909em"></img>&#x5219;&#x4E3A;</span><span class="no-breaks"><img
+      src="递归-5.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0248242424242424em; margin-right: -0.0248242424242424em; margin-top: -0.038739393939394em; vertical-align: -0.148363636363636em; height: 0.657260606060606em"></img>&#xFF0C;&#x5982;&#x679C;&#x4E3A;</span><span class="no-breaks"><img
+      src="递归-6.png" style="margin-left: -0.0620606060606061em; margin-bottom: -0.0223030303030303em; margin-right: -0.0248242424242424em; margin-top: -0.038739393939394em; vertical-align: -0.201115151515152em; height: 0.707490909090909em"></img>&#x5219;&#x4E3A;</span><span class="no-breaks"><img src="递归-7.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0248242424242424em; margin-right: -0.0248242424242424em; margin-top: -0.038739393939394em; vertical-align: -0.148363636363636em; height: 0.657260606060606em"></img>&#xFF0C;&hellip;&#xFF0C;&#x5426;&#x5219;&#xFF0C;&#x5982;&#x679C;</span><span
+      class="no-breaks"><img src="递归-8.png" style="margin-left: -0.0620606060606061em; margin-bottom: -0.0223030303030303em; margin-right: -0.0248242424242424em; margin-top: -0.038739393939394em; vertical-align: -0.201115151515152em; height: 0.707490909090909em"></img>&#x5219;&#x4E3A;</span><span class="no-breaks"><img
+      src="递归-9.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0372363636363636em; margin-right: -0.0248242424242424em; margin-top: -0.038739393939394em; vertical-align: -0.148363636363636em; height: 0.669672727272727em"></img>&rdquo;&#xFF0C;&#x6216;&ldquo;</span> <span class="no-breaks"><img
+      src="递归-4.png" style="margin-left: -0.0620606060606061em; margin-bottom: -0.0223030303030303em; margin-right: -0.0248242424242424em; margin-top: -0.038739393939394em; vertical-align: -0.201115151515152em; height: 0.707490909090909em"></img>&#x4EA7;&#x751F;</span><span class="no-breaks"><img src="递归-4.png" style="margin-left: -0.0620606060606061em; margin-bottom: -0.0223030303030303em; margin-right: -0.0248242424242424em; margin-top: -0.038739393939394em; vertical-align: -0.201115151515152em; height: 0.707490909090909em"></img>&#xFF0C;&hellip;&#xFF0C;</span><span
+      class="no-breaks"><img src="递归-8.png" style="margin-left: -0.0620606060606061em; margin-bottom: -0.0223030303030303em; margin-right: -0.0248242424242424em; margin-top: -0.038739393939394em; vertical-align: -0.201115151515152em; height: 0.707490909090909em"></img>&#x4EA7;&#x751F;</span><span class="no-breaks"><img
+      src="递归-9.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0372363636363636em; margin-right: -0.0248242424242424em; margin-top: -0.038739393939394em; vertical-align: -0.148363636363636em; height: 0.669672727272727em"></img>&rdquo;&#x3002;</span>
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>&#x73B0;&#x5728;&#x6211;&#x4EEC;&#x7ED9;&#x51FA;&#x786E;&#x5B9A;
+    </p>
+    <center>
+      <img src="递归-3.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0223030303030303em; margin-right: -0.0248242424242431em; margin-top: -0.0459636363636363em; vertical-align: -0.201115151515152em; height: 1.03020606060606em"></img>
+    </center>
+    <p>
+      &#x7684;&#x503C;&#x7684;&#x89C4;&#x5219;&#xFF0C;&#x5982;&#x679C;&#x6761;&#x4EF6;&#x4E3A;&#x771F;&#xFF0C;&#x5219;&#x786E;&#x5B9A;&#x5B83;&#x7684;&#x503C;&#x3002;&#x4ECE;&#x5DE6;&#x5230;&#x53F3;&#x68C0;&#x67E5;p&#x3002;&#x5982;&#x679C;&#x5728;&#x9047;&#x5230;&#x503C;&#x672A;&#x5B9A;&#x4E49;&#x7684;&#x4EFB;&#x4F55;p&#x4E4B;&#x524D;&#x9047;&#x5230;&#x4E86;&#x503C;&#x4E3A;T&#x7684;p&#xFF0C;&#x5219;&#x6761;&#x4EF6;&#x8868;&#x8FBE;&#x5F0F;&#x7684;&#x503C;&#x5C31;&#x662F;&#x76F8;&#x5E94;e&#x7684;&#x503C;&#xFF08;&#x5982;&#x679C;&#x5DF2;&#x5B9A;&#x4E49;&#xFF09;&#x3002;&#x5982;&#x679C;&#x5728;&#x771F;p&#x4E4B;&#x524D;&#x9047;&#x5230;&#x4EFB;&#x4F55;&#x672A;&#x5B9A;&#x4E49;&#x7684;p&#xFF0C;&#x6216;&#x8005;&#x6240;&#x6709;p&#x5747;&#x4E3A;&#x5047;&#xFF0C;&#x6216;&#x8005;&#x4E0E;&#x7B2C;&#x4E00;&#x4E2A;&#x771F;p&#x5BF9;&#x5E94;&#x7684;e&#x672A;&#x5B9A;&#x4E49;(e
+      is
+      undefined)&#xFF0C;&#x5219;&#x6761;&#x4EF6;&#x8868;&#x8FBE;&#x5F0F;&#x7684;&#x503C;&#x4E0D;&#x786E;&#x5B9A;&#x3002;&#x6211;&#x4EEC;&#x73B0;&#x5728;&#x4E3E;&#x4E00;&#x4E9B;&#x4F8B;&#x5B50;&#x3002;
+    </p>
+    <center>
+      <img src="递归-10.png" style="margin-left: -0.0248242424242424em; margin-bottom: 0.0350545454545461em; margin-right: -0.0248242424242413em; margin-top: -0.0309333333333335em; vertical-align: -10.7750303030303em; height: 22.0117333333333em"></img>
+    </center>
+    <p>
+      <span style="margin-left: 1em"></span>&#x6761;&#x4EF6;&#x8868;&#x8FBE;&#x5F0F;&#x7684;&#x4E00;&#x4E9B;&#x6700;&#x7B80;&#x5355;&#x7684;&#x5E94;&#x7528;&#x662F;&#x7ED9;&#x51FA;&#x5982;&#x4E0B;&#x5B9A;&#x4E49;&#xFF1A;
+    </p>
+    <center>
+      <img src="递归-11.png" style="margin-left: -0.0248242424242424em; margin-bottom: 0.0226424242424241em; margin-right: -0.0248242424242449em; margin-top: -0.0309333333333335em; vertical-align: -3.29905454545455em; height: 7.07219393939394em"></img>
+    </center>
+    <p>
+      <span style="margin-left: 1em"></span>d&#xFF0C;&#x9012;&#x5F52;&#x51FD;&#x6570;&#x5B9A;&#x4E49;&#x3002;&#x901A;&#x8FC7;&#x4F7F;&#x7528;&#x6761;&#x4EF6;&#x8868;&#x8FBE;&#x5F0F;&#xFF0C;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x5728;&#x6CA1;&#x6709;&#x5FAA;&#x73AF;&#x7684;&#x60C5;&#x51B5;&#x4E0B;&#x901A;&#x8FC7;&#x51FA;&#x73B0;&#x5DF2;&#x5B9A;&#x4E49;&#x51FD;&#x6570;&#x7684;&#x5F62;&#x5F0F;&#x6765;&#x5B9A;&#x4E49;&#x51FD;&#x6570;&#x3002;&#x4F8B;&#x5982;&#xFF0C;&#x6211;&#x4EEC;&#x8FD9;&#x4E48;&#x5199;
+    </p>
+    <class style="font-variant: small-caps"><center>
+      <img src="递归-12.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0223030303030303em; margin-right: -0.0248242424242431em; margin-top: -0.0459636363636363em; vertical-align: -0.201115151515152em; height: 1.03020606060606em"></img>
+    </center></class>
+    <p>
+      &#x5F53;&#x6211;&#x4EEC;&#x4F7F;&#x7528;&#x6B64;&#x516C;&#x5F0F;&#x6C42;&#x503C;
+      0!
+      &#x65F6;&#x6211;&#x4EEC;&#x5F97;&#x5230;&#x7B54;&#x6848;1&#xFF1B;&#x56E0;&#x4E3A;&#x5B9A;&#x4E49;&#x4E86;&#x6761;&#x4EF6;&#x8868;&#x8FBE;&#x5F0F;&#x7684;&#x6C42;&#x503C;&#x65B9;&#x5F0F;&#xFF0C;&#x8868;&#x8FBE;&#x5F0F;<span
+      class="no-breaks"><img src="递归-13.png" style="margin-left: -0.0248242424242424em; margin-bottom: 0.0365090909090909em; margin-right: -0.0248242424242422em; margin-top: -0.0459636363636363em; vertical-align: -0.0861575757575758em; height: 0.856436363636364em"></img>&#x4E0D;&#x4F1A;&#x51FA;&#x73B0;&#x3002;&#x6C42;&#x503C;</span>
+      2!
+      &#x65F6;&#x6839;&#x636E;&#x5B9A;&#x4E49;&#x5B83;&#x4F1A;&#x6267;&#x884C;&#x4EE5;&#x4E0B;&#x64CD;&#x4F5C;&#xFF1A;
+    </p>
+    <center>
+      <img src="递归-14.png" style="margin-left: -0.0248242424242424em; margin-bottom: 0.233648484848485em; margin-right: -0.0248242424242449em; margin-top: -0.0309333333333335em; vertical-align: -4.78346666666667em; height: 9.83001212121212em"></img>
+    </center>
+    <p>
+      <span style="margin-left: 1em"></span>&#x73B0;&#x5728;&#x6211;&#x4EEC;&#x7ED9;&#x51FA;&#x9012;&#x5F52;&#x51FD;&#x6570;&#x5B9A;&#x4E49;&#x7684;&#x53E6;&#x5916;&#x4E24;&#x4E2A;&#x5E94;&#x7528;&#x3002;&#x4E24;&#x4E2A;&#x6B63;&#x6574;&#x6570;m&#x548C;n&#x7684;&#x6700;&#x5927;&#x516C;&#x7EA6;&#x6570;gcd&#xFF08;m&#xFF0C;n&#xFF09;&#x901A;&#x8FC7;&#x6B27;&#x51E0;&#x91CC;&#x5F97;&#x7B97;&#x6CD5;&#x8BA1;&#x7B97;&#x3002;
+    </p>
+    <center>
+      <img src="递归-15.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0347151515151515em; margin-right: -0.0248242424242449em; margin-top: -0.0459636363636363em; vertical-align: -0.201115151515152em; height: 1.04261818181818em"></img>
+    </center>
+    <p>
+      &#x5176;&#x4E2D;rem(n,m)&#x8868;&#x793A;&#x5F53;n&#x9664;&#x4EE5;m&#x65F6;&#x5269;&#x4E0B;&#x7684;&#x4F59;&#x6570;&#x3002;
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>&#x725B;&#x987F;&#x8FED;&#x4EE3;&#x7B97;&#x6CD5;&#xFF0C;&#x7528;&#x4E8E;&#x83B7;&#x53D6;&#x6570;&#x5B57;a&#x7684;&#x8FD1;&#x4F3C;&#x5E73;&#x65B9;&#x6839;&#xFF0C;&#x8BE5;&#x7B97;&#x6CD5;&#x4ECE;&#x521D;&#x59CB;&#x8FD1;&#x4F3C;&#x503C;x&#x5F00;&#x59CB;&#xFF0C;&#x5E76;&#x8981;&#x6C42;&#x6EE1;&#x8DB3;<span
+      class="no-breaks"><img src="递归-16.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0347151515151515em; margin-right: -0.0248242424242422em; margin-top: -0.0423272727272728em; vertical-align: -0.201115151515152em; height: 1.11568484848485em"></img>&#x7684;&#x8FD1;&#x4F3C;&#x503C;y&#xFF0C;&#x53EF;&#x4EE5;&#x5199;&#x6210;</span>
+    </p>
+    <center>
+      <img src="递归-17.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0372363636363636em; margin-right: 0em; margin-top: -0.0577454545454545em; vertical-align: -0.672193939393939em; height: 2.12421818181818em"></img>
+    </center>
+    <p>
+      <span style="margin-left: 1em"></span>&#x591A;&#x4E2A;&#x51FD;&#x6570;&#x7684;&#x540C;&#x65F6;&#x9012;&#x5F52;&#x5B9A;&#x4E49;&#x4E5F;&#x662F;&#x53EF;&#x80FD;&#x7684;&#xFF0C;&#x5982;&#x679C;&#x9700;&#x8981;&#xFF0C;&#x6211;&#x4EEC;&#x5C06;&#x4F7F;&#x7528;&#x8FD9;&#x4E9B;&#x5B9A;&#x4E49;&#x3002;
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>&#x4E0D;&#x80FD;&#x4FDD;&#x8BC1;&#x7531;&#x9012;&#x5F52;&#x5B9A;&#x4E49;&#x786E;&#x5B9A;&#x7684;&#x8BA1;&#x7B97;&#x5C06;&#x6C38;&#x8FDC;&#x7EC8;&#x6B62;&#xFF0C;&#x4F8B;&#x5982;&#xFF0C;&#x5C1D;&#x8BD5;&#x8BA1;&#x7B97;
+      n!
+      &#x7684;&#x65F6;&#x5019;&#xFF0C;&#x4EC5;&#x5F53;n&#x4E3A;&#x975E;&#x8D1F;&#x6574;&#x6570;&#x65F6;&#xFF0C;&#x624D;&#x80FD;&#x6210;&#x529F;&#x3002;&#x5982;&#x679C;&#x8BA1;&#x7B97;&#x6CA1;&#x6709;&#x7EC8;&#x6B62;&#xFF0C;&#x5219;&#x5BF9;&#x4E8E;&#x7ED9;&#x5B9A;&#x7684;&#x53C2;&#x6570;&#xFF0C;&#x8BE5;&#x51FD;&#x6570;&#x7684;&#x6C42;&#x503C;&#x88AB;&#x89C6;&#x4E3A;&#x672A;&#x5B9A;&#x4E49;(undefined)&#x3002;
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>&#x547D;&#x9898;&#x8FDE;&#x63A5;&#x8BCD;&#x672C;&#x8EAB;&#x53EF;&#x4EE5;&#x7531;&#x6761;&#x4EF6;&#x8868;&#x8FBE;&#x5F0F;&#x5B9A;&#x4E49;&#x3002;&#x6211;&#x4EEC;&#x5199;&#x4E3A;
+    </p>
+    <center>
+      <img src="递归-18.png" style="margin-left: -0.0248242424242424em; margin-bottom: 0.0350545454545457em; margin-right: -0.0248242424242431em; margin-top: -0.0309333333333335em; vertical-align: -2.53386666666667em; height: 5.52940606060606em"></img>
+    </center>
+    <p>
+      <span style="margin-left: 1em"></span>&#x663E;&#x800C;&#x6613;&#x89C1;&#xFF0C;&#x7B49;&#x5F0F;&#x7684;&#x53F3;&#x8FB9;&#x5177;&#x6709;&#x6B63;&#x786E;&#x7684;&#x771F;&#x503C;&#x8868;&#x3002;&#x5982;&#x679C;&#x8003;&#x8651;p&#x6216;q&#x4E0D;&#x786E;&#x5B9A;&#x7684;&#x60C5;&#x51B5;&#xFF0C;&#x5219;&#x8FDE;&#x63A5;&#x8BCD;&and;&#x548C;&or;&#x88AB;&#x89C6;&#x4E3A;&#x4E0D;&#x53EF;&#x4EA4;&#x6362;&#x7684;&#x3002;&#x4F8B;&#x5982;&#xFF0C;&#x5982;&#x679C;p&#x4E3A;&#x5047;&#xFF0C;&#x800C;q&#x4E3A;&#x672A;&#x5B9A;&#x4E49;&#xFF0C;&#x5219;&#x6839;&#x636E;&#x4E0A;&#x9762;&#x7ED9;&#x51FA;&#x7684;&#x5B9A;&#x4E49;&#xFF0C;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x770B;&#x5230;p
+      &or; q&#x4E3A;&#x5047;&#xFF0C;&#x800C;q &and;
+      p&#x4E3A;&#x672A;&#x5B9A;&#x4E49;&#x3002;&#x5BF9;&#x4E8E;&#x6211;&#x4EEC;&#x7684;&#x5E94;&#x7528;&#xFF0C;&#x8FD9;&#x79CD;&#x4E0D;&#x53EF;&#x4EA4;&#x6362;&#x6027;&#x662F;&#x53EF;&#x53D6;&#x7684;&#xFF0C;&#x56E0;&#x4E3A;p
+      &and;
+      q&#x662F;&#x901A;&#x8FC7;&#x9996;&#x5148;&#x8BA1;&#x7B97;p&#x6765;&#x8BA1;&#x7B97;&#x7684;&#xFF0C;&#x5E76;&#x4E14;&#x5982;&#x679C;p&#x4E3A;&#x5047;&#xFF0C;&#x5219;&#x4E0D;&#x4F1A;&#x8BA1;&#x7B97;q&#x3002;&#x5982;&#x679C;p&#x7684;&#x8BA1;&#x7B97;&#x6CA1;&#x6709;&#x7EC8;&#x6B62;&#xFF0C;&#x6211;&#x4EEC;&#x5C06;&#x6C38;&#x8FDC;&#x4E0D;&#x4F1A;&#x7ED5;&#x5F00;&#x8BA1;&#x7B97;q&#x3002;&#x540E;&#x9762;&#x6211;&#x4EEC;&#x5C06;&#x5728;&#x8FD9;&#x5C42;&#x610F;&#x4E49;&#x4E0A;&#x4F7F;&#x7528;&#x547D;&#x9898;&#x8FDE;&#x63A5;&#x8BCD;&#x3002;
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>e&#xFF0C;&#x51FD;&#x6570;&#x548C;&#x5F62;&#x5F0F;&#x3002;&#x5728;&#x6570;&#x5B66;&#x4E2D;&#xFF0C;&#x9664;&#x6570;&#x5B66;&#x903B;&#x8F91;&#x5916;&#xFF0C;&#x901A;&#x5E38;&#x4E0D;&#x7CBE;&#x786E;&#x5730;&#x4F7F;&#x7528;&ldquo;&#x51FD;&#x6570;&rdquo;&#x4E00;&#x8BCD;&#x5E76;&#x5C06;&#x5176;&#x5E94;&#x7528;&#x4E8E;&#x8BF8;&#x5982;<span
+      class="no-breaks"><img src="递归-19.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0347151515151515em; margin-right: -0.0248242424242426em; margin-top: -0.0423272727272728em; vertical-align: -0.201115151515152em; height: 1.11568484848485em"></img>&#x7684;&#x5F62;&#x5F0F;&#x3002;&#x56E0;&#x4E3A;&#x7A0D;&#x540E;&#x6211;&#x4EEC;&#x5C06;&#x4F7F;&#x7528;&#x51FD;&#x6570;&#x7684;&#x8868;&#x8FBE;&#x5F0F;&#x8FDB;&#x884C;&#x8BA1;&#x7B97;&#xFF0C;&#x6240;&#x4EE5;&#x6211;&#x4EEC;&#x9700;&#x8981;&#x5728;&#x51FD;&#x6570;&#x548C;&#x5F62;&#x5F0F;&#x4E4B;&#x95F4;&#x8FDB;&#x884C;&#x533A;&#x5206;&#xFF0C;&#x5E76;&#x9700;&#x8981;&#x4F7F;&#x7528;&#x4E00;&#x79CD;&#x8868;&#x793A;&#x6CD5;&#x6765;&#x533A;&#x5206;&#x8FD9;&#x79CD;&#x533A;&#x522B;&#x3002;&#x8BF4;&#x4E00;&#x53E5;&#x9898;&#x5916;&#x8BDD;&#xFF0C;&#x90B1;&#x5947;[3]&#x7ED9;&#x51FA;&#x4E86;&#x8FD9;&#x79CD;&#x533A;&#x522B;&#x548C;&#x63CF;&#x8FF0;&#x5B83;&#x7684;&#x8BB0;&#x53F7;&#x3002;</span>
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>&#x4EE4;f&#x4E3A;&#x4EE3;&#x8868;&#x4E24;&#x4E2A;&#x6574;&#x6570;&#x53D8;&#x91CF;&#x7684;&#x51FD;&#x6570;&#x7684;&#x8868;&#x8FBE;&#x5F0F;&#x3002;&#x5199;&#x4E3A;
+      f(3,4)
+      &#x5177;&#x6709;&#x610F;&#x4E49;&#xFF0C;&#x5E76;&#x4E14;&#x8BE5;&#x8868;&#x8FBE;&#x5F0F;&#x7684;&#x503C;&#x5E94;&#x8BE5;&#x786E;&#x5B9A;&#x3002;&#x8868;&#x8FBE;&#x5F0F;
+      <img src="递归-19.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0347151515151515em; margin-right: -0.0248242424242426em; margin-top: -0.0423272727272728em; vertical-align: -0.201115151515152em; height: 1.11568484848485em"></img>
+      &#x5219;&#x4E0D;&#x6EE1;&#x8DB3;&#x6B64;&#x8981;&#x6C42;&#xFF1B;<span
+      class="no-breaks"><img src="递归-20.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0347151515151515em; margin-right: -0.0248242424242422em; margin-top: -0.0423272727272728em; vertical-align: -0.201115151515152em; height: 1.11568484848485em"></img>&#x4E0D;&#x662F;&#x4F20;&#x7EDF;&#x7684;&#x8868;&#x793A;&#x6CD5;&#xFF0C;&#x5982;&#x679C;&#x6211;&#x4EEC;&#x5C1D;&#x8BD5;&#x5BF9;&#x5176;&#x8FDB;&#x884C;&#x5B9A;&#x4E49;&#xFF0C;&#x6211;&#x4EEC;&#x5C06;&#x4E0D;&#x786E;&#x5B9A;&#x5176;&#x503C;&#x662F;&#x5426;&#x53D8;&#x4E3A;13&#x6216;19&#x3002;&#x90B1;&#x5947;&#x5C06;</span>
+      <img src="递归-19.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0347151515151515em; margin-right: -0.0248242424242426em; margin-top: -0.0423272727272728em; vertical-align: -0.201115151515152em; height: 1.11568484848485em"></img>
+      &#x8FD9;&#x6837;&#x7684;&#x8868;&#x8FBE;&#x5F0F;&#x79F0;&#x4E3A;&#x4E00;&#x4E2A;&#x7ED3;&#x6784;&#x3002;&#x5982;&#x679C;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x786E;&#x5B9A;&#x7ED3;&#x6784;&#x4E2D;&#x51FA;&#x73B0;&#x7684;&#x53D8;&#x91CF;&#x4E0E;&#x6240;&#x9700;&#x51FD;&#x6570;&#x7684;&#x53C2;&#x6570;&#x7684;&#x6709;&#x5E8F;&#x5217;&#x8868;&#x4E4B;&#x95F4;&#x7684;&#x5BF9;&#x5E94;&#x5173;&#x7CFB;&#xFF0C;&#x5219;&#x53EF;&#x4EE5;&#x5C06;&#x7ED3;&#x6784;&#x8F6C;&#x6362;&#x4E3A;&#x51FD;&#x6570;&#x3002;&#x8FD9;&#x662F;&#x7531;&#x90B1;&#x5947;&#x7684;&lambda;&#x7B26;&#x53F7;&#x5B8C;&#x6210;&#x7684;&#x3002;&#x5982;&#x679C;E&#x662F;&#x53D8;&#x91CF;
+      <img src="递归-21.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0223030303030303em; margin-right: -0.0248242424242422em; margin-top: -0.0243878787878788em; vertical-align: -0.201115151515152em; height: 0.707490909090909em"></img>
+      &#x7684;&#x4E00;&#x4E2A;&#x7ED3;&#x6784;&#xFF0C;&#x5219;&#x5C06;<span
+      class="no-breaks"><img src="递归-22.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0223030303030303em; margin-right: -0.0248242424242431em; margin-top: -0.0459636363636363em; vertical-align: -0.201115151515152em; height: 1.03020606060606em"></img>&#x89C6;&#x4E3A;n&#x4E2A;&#x53D8;&#x91CF;&#x7684;&#x51FD;&#x6570;&#xFF0C;&#x5176;&#x503C;&#x901A;&#x8FC7;&#x5C06;&#x53C2;&#x6570;&#x66FF;&#x6362;&#x4E3A;n&#x4E2A;&#x53D8;&#x91CF;</span>
+      <img src="递归-21.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0223030303030303em; margin-right: -0.0248242424242422em; margin-top: -0.0243878787878788em; vertical-align: -0.201115151515152em; height: 0.707490909090909em"></img>
+      &#x5728;E&#x4E2D;&#x6309;&#x6B64;&#x987A;&#x5E8F;&#x6392;&#x5217;&#x6C42;&#x503C;&#x5F97;&#x6765;&#x3002;
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>&#x51FA;&#x73B0;&#x5728;&lambda;&#x8868;&#x8FBE;&#x5F0F;&#x7684;&#x53D8;&#x91CF;&#x5217;&#x8868;&#x4E2D;&#x7684;&#x53D8;&#x91CF;&#x662F;&#x5047;&#x8BBE;&#x7684;&#x6216;&#x662F;&#x6709;&#x754C;&#x7684;&#xFF0C;&#x5C31;&#x50CF;&#x5FAE;&#x79EF;&#x5206;&#x4E2D;&#x7684;&#x79EF;&#x5206;&#x53D8;&#x91CF;&#x4E00;&#x6837;&#x3002;&#x90A3;&#x4E5F;&#x5C31;&#x662F;&#x8BF4;&#xFF0C;&#x6211;&#x4EEC;&#x66F4;&#x6539;&#x51FD;&#x6570;&#x8868;&#x8FBE;&#x5F0F;&#x4E2D;&#x7ED1;&#x5B9A;&#x53D8;&#x91CF;&#x7684;&#x540D;&#x79F0;&#x800C;&#x4E0D;&#x66F4;&#x6539;&#x8868;&#x8FBE;&#x5F0F;&#x7684;&#x503C;&#xFF0C;&#x53EA;&#x8981;&#x6211;&#x4EEC;&#x5BF9;&#x5BF9;&#x5E94;&#x53D8;&#x91CF;&#x7684;&#x6BCF;&#x6B21;&#x51FA;&#x73B0;&#x90FD;&#x8FDB;&#x884C;&#x76F8;&#x540C;&#x7684;&#x66F4;&#x6539;&#x5E76;&#x4E14;&#x4E0D;&#x8BA9;&#x4E24;&#x4E2A;&#x53D8;&#x91CF;&#x7684;&#x540D;&#x5B57;&#x76F8;&#x540C;&#x5C31;&#x53EF;&#x4EE5;&#x4E86;&#x3002;&#x56E0;&#x6B64;&#xFF0C;<span
+      class="no-breaks"><img src="递归-23.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0347151515151515em; margin-right: -0.0248242424242422em; margin-top: -0.0423272727272728em; vertical-align: -0.201115151515152em; height: 1.11568484848485em"></img>&#xFF0C;</span><img src="递归-24.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0223030303030303em; margin-right: -0.0248242424242422em; margin-top: -0.0423272727272728em; vertical-align: -0.201115151515152em; height: 1.10327272727273em"></img>
+      &#x548C; <img src="递归-25.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0347151515151515em; margin-right: -0.0248242424242422em; margin-top: -0.0423272727272728em; vertical-align: -0.201115151515152em; height: 1.11568484848485em"></img>
+      &#x8868;&#x793A;&#x76F8;&#x540C;&#x7684;&#x51FD;&#x6570;&#x3002;
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>&#x6211;&#x4EEC;&#x5C06;&#x7ECF;&#x5E38;&#x4F7F;&#x7528;&#x67D0;&#x4E9B;&#x53D8;&#x91CF;&#x53D7;&lambda;&#x7EA6;&#x675F;&#x800C;&#x53E6;&#x4E00;&#x4E9B;&#x4E0D;&#x53D7;&lambda;&#x7EA6;&#x675F;&#x7684;&#x8868;&#x8FBE;&#x5F0F;&#x3002;&#x8FD9;&#x6837;&#x7684;&#x8868;&#x8FBE;&#x5F0F;&#x53EF;&#x4EE5;&#x88AB;&#x8BA4;&#x4E3A;&#x662F;&#x7528;&#x53C2;&#x6570;&#x5B9A;&#x4E49;&#x51FD;&#x6570;&#x3002;&#x672A;&#x7ED1;&#x5B9A;&#x7684;&#x53D8;&#x91CF;&#x79F0;&#x4E3A;&#x81EA;&#x7531;&#x53D8;&#x91CF;&#x3002;
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>&#x5C06;&#x51FD;&#x6570;&#x4E0E;&#x7ED3;&#x6784;&#x533A;&#x5206;&#x5F00;&#x7684;&#x9002;&#x5F53;&#x7B26;&#x53F7;&#x53EF;&#x4EE5;&#x5BF9;&#x51FD;&#x6570;&#x7684;&#x610F;&#x4E49;&#x8FDB;&#x884C;&#x51C6;&#x786E;&#x7684;&#x5904;&#x7406;&#x3002;&#x5728;&#x8FD9;&#x91CC;&#x4E3E;&#x4E2A;&#x4F8B;&#x5B50;&#x53EF;&#x80FD;&#x4F1A;&#x6D89;&#x53CA;&#x5F88;&#x591A;&#x9898;&#x5916;&#x8BDD;&#xFF0C;&#x4F46;&#x662F;&#x5728;&#x672C;&#x62A5;&#x544A;&#x7684;&#x540E;&#x9762;&#xFF0C;&#x6211;&#x4EEC;&#x5C06;&#x4F7F;&#x7528;&#x5E26;&#x6709;&#x51FD;&#x6570;&#x4F5C;&#x4E3A;&#x53C2;&#x6570;&#x7684;&#x51FD;&#x6570;&#x3002;
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>&#x7EC4;&#x5408;&#x7531;&lambda;&#x8868;&#x8FBE;&#x5F0F;&#x6216;&#x4EFB;&#x4F55;&#x5176;&#x4ED6;&#x6D89;&#x53CA;&#x53D8;&#x91CF;&#x7684;&#x7B26;&#x53F7;&#x63CF;&#x8FF0;&#x7684;&#x51FD;&#x6570;&#x65F6;&#x4F1A;&#x9047;&#x5230;&#x56F0;&#x96BE;&#xFF0C;&#x56E0;&#x4E3A;&#x4E0D;&#x540C;&#x7684;&#x7ED1;&#x5B9A;&#x53D8;&#x91CF;&#x53EF;&#x80FD;&#x7528;&#x76F8;&#x540C;&#x7684;&#x7B26;&#x53F7;&#x8868;&#x793A;&#x3002;&#x8FD9;&#x79F0;&#x4E3A;&#x7ED1;&#x5B9A;&#x53D8;&#x91CF;&#x7684;&#x51B2;&#x7A81;&#x3002;&#x6709;&#x4E00;&#x79CD;&#x53EA;&#x6D89;&#x53CA;&#x8FD0;&#x7B97;&#x7B26;&#x7684;&#x7B26;&#x53F7;&#x7CFB;&#x7EDF;&#xFF0C;&#x79F0;&#x4E3A;&#x7EC4;&#x5408;&#x5B50;&#xFF0C;&#x7528;&#x4E8E;&#x5728;&#x4E0D;&#x4F7F;&#x7528;&#x53D8;&#x91CF;&#x7684;&#x60C5;&#x51B5;&#x4E0B;&#x7EC4;&#x5408;&#x51FD;&#x6570;&#x3002;&#x4E0D;&#x5E78;&#x7684;&#x662F;&#xFF0C;&#x6709;&#x610F;&#x4E49;&#x7684;&#x7EC4;&#x5408;&#x5B50;&#x7684;&#x7EC4;&#x5408;&#x8868;&#x8FBE;&#x5F0F;&#x5F80;&#x5F80;&#x5197;&#x957F;&#x4E14;&#x96BE;&#x4EE5;&#x7406;&#x89E3;&#x3002;
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>f&#xFF0C;&#x9012;&#x5F52;&#x51FD;&#x6570;&#x7684;&#x8868;&#x8FBE;&#x5F0F;&#x3002;&lambda;&#x8868;&#x793A;&#x6CD5;&#x4E0D;&#x8DB3;&#x4EE5;&#x7528;&#x9012;&#x5F52;&#x5B9A;&#x4E49;&#x51FD;&#x6570;&#x3002;&#x4F8B;&#x5982;&#xFF0C;&#x4F7F;&#x7528;&lambda;&#xFF0C;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x8F6C;&#x6362;&#x5B9A;&#x4E49;
+    </p>
+    <center>
+      <img src="递归-17.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0372363636363636em; margin-right: 0em; margin-top: -0.0577454545454545em; vertical-align: -0.672193939393939em; height: 2.12421818181818em"></img>
+    </center>
+    <p>
+      &#x4E3A;
+    </p>
+    <center>
+      <img src="递归-26.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0372363636363636em; margin-right: 0em; margin-top: -0.0577454545454545em; vertical-align: -0.672193939393939em; height: 2.12421818181818em"></img>
+    </center>
+    <p>
+      &#x4F46;&#x53F3;&#x4FA7;&#x4E0D;&#x80FD;&#x7528;&#x4F5C;&#x8BE5;&#x51FD;&#x6570;&#x7684;&#x8868;&#x8FBE;&#x5F0F;&#xFF0C;&#x56E0;&#x4E3A;&#x6CA1;&#x6709;&#x4EFB;&#x4F55;&#x8FF9;&#x8C61;&#x8868;&#x660E;&#x8BE5;&#x8868;&#x8FBE;&#x5F0F;&#x4E2D;&#x5BF9;sqrt&#x7684;&#x5F15;&#x7528;&#x4EE3;&#x8868;&#x6574;&#x4E2A;&#x8868;&#x8FBE;&#x5F0F;&#x3002;
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>&#x4E3A;&#x4E86;&#x80FD;&#x591F;&#x4E3A;&#x9012;&#x5F52;&#x51FD;&#x6570;&#x7F16;&#x5199;&#x8868;&#x8FBE;&#x5F0F;&#xFF0C;&#x6211;&#x4EEC;&#x5F15;&#x5165;&#x4E86;&#x53E6;&#x4E00;&#x79CD;&#x8868;&#x793A;&#x6CD5;&#x3002;label(a,E)
+      &#x8868;&#x793A;&#x8868;&#x8FBE;&#x5F0F;E&#xFF0C;&#x524D;&#x63D0;&#x662F;&#x5728;E&#x5185;&#x51FA;&#x73B0;&#x7684;a&#x88AB;&#x89E3;&#x91CA;&#x4E3A;&#x662F;&#x6307;&#x6574;&#x4E2A;&#x8868;&#x8FBE;&#x5F0F;&#xFF0C;&#x8FD9;&#x6837;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x5199;&#x4E0B;
+    </p>
+    <center>
+      <img src="递归-27.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0372363636363636em; margin-right: -0.0248242424242449em; margin-top: -0.0577454545454545em; vertical-align: -0.672193939393939em; height: 2.12421818181818em"></img>
+    </center>
+    <p>
+      &#x4F5C;&#x4E3A;&#x6211;&#x4EEC;sqrt&#x51FD;&#x6570;&#x7684;&#x540D;&#x79F0;&#x3002;
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>label(a,E)&#x4E2D;&#x7684;&#x7B26;&#x53F7;a&#x4E5F;&#x5DF2;&#x7ED1;&#x5B9A;&#xFF0C;&#x4E5F;&#x5C31;&#x662F;&#x8BF4;&#xFF0C;&#x53EF;&#x4EE5;&#x5728;&#x4E0D;&#x66F4;&#x6539;&#x8868;&#x8FBE;&#x5F0F;&#x542B;&#x4E49;&#x7684;&#x60C5;&#x51B5;&#x4E0B;&#x8FDB;&#x884C;&#x7CFB;&#x7EDF;&#x4FEE;&#x6539;&#x3002;&#x4F46;&#x662F;&#xFF0C;&#x5B83;&#x7684;&#x884C;&#x4E3A;&#x4E0D;&#x540C;&#x4E8E;&#x4EE5;&lambda;&#x4E3A;&#x754C;&#x7684;&#x53D8;&#x91CF;&#x3002;
+    </p>
+    <h2 id="auto-3">3<span style="margin-left: 1em"></span>&#x7B26;&#x53F7;&#x8868;&#x8FBE;&#x5F0F;&#x7684;&#x9012;&#x5F52;&#x51FD;&#x6570;<span
+    style="margin-left: 1em"></span></h2>
+    <p>
+      <span style="margin-left: 1em"></span>&#x6211;&#x4EEC;&#x5C06;&#x9996;&#x5148;&#x6839;&#x636E;&#x6709;&#x5E8F;&#x5BF9;&#x548C;&#x5217;&#x8868;&#x5B9A;&#x4E49;&#x4E00;&#x7C7B;&#x7B26;&#x53F7;&#x8868;&#x8FBE;&#x5F0F;&#x3002;&#x7136;&#x540E;&#xFF0C;&#x6211;&#x4EEC;&#x5C06;&#x5B9A;&#x4E49;&#x4E94;&#x4E2A;&#x57FA;&#x672C;&#x51FD;&#x6570;&#x548C;&#x8C13;&#x8BCD;&#xFF0C;&#x5E76;&#x6839;&#x636E;&#x5B83;&#x4EEC;&#x7684;&#x6784;&#x6210;&#xFF0C;&#x6761;&#x4EF6;&#x8868;&#x8FBE;&#x5F0F;&#x548C;&#x9012;&#x5F52;&#x5B9A;&#x4E49;&#xFF0C;&#x5229;&#x7528;&#x5B83;&#x4EEC;&#x6784;&#x5EFA;&#x5E7F;&#x6CDB;&#x7684;&#x51FD;&#x6570;&#x7C7B;&#xFF0C;&#x6211;&#x4EEC;&#x5C06;&#x7ED9;&#x51FA;&#x8BB8;&#x591A;&#x793A;&#x4F8B;&#x3002;&#x7136;&#x540E;&#xFF0C;&#x6211;&#x4EEC;&#x5C06;&#x5C55;&#x793A;&#x5982;&#x4F55;&#x5C06;&#x8FD9;&#x4E9B;&#x51FD;&#x6570;&#x672C;&#x8EAB;&#x8868;&#x8FBE;&#x4E3A;&#x7B26;&#x53F7;&#x8868;&#x8FBE;&#x5F0F;&#xFF0C;&#x5E76;&#x5B9A;&#x4E49;&#x4E00;&#x4E2A;&#x901A;&#x7528;&#x51FD;&#x6570;&#x5E94;&#x7528;&#xFF0C;&#x8BE5;&#x51FD;&#x6570;&#x5141;&#x8BB8;&#x6211;&#x4EEC;&#x4ECE;&#x8868;&#x8FBE;&#x5F0F;&#x4E2D;&#x8BA1;&#x7B97;&#x51FA;&#x7ED9;&#x5B9A;&#x51FD;&#x6570;&#x7684;&#x503C;&#xFF0C;&#x4EE5;&#x5F97;&#x51FA;&#x7ED9;&#x5B9A;&#x53C2;&#x6570;&#x3002;&#x6700;&#x540E;&#xFF0C;&#x6211;&#x4EEC;&#x5C06;&#x5B9A;&#x4E49;&#x4E00;&#x4E9B;&#x4EE5;&#x51FD;&#x6570;&#x4E3A;&#x53C2;&#x6570;&#x7684;&#x51FD;&#x6570;&#xFF0C;&#x5E76;&#x7ED9;&#x51FA;&#x4E00;&#x4E9B;&#x6709;&#x7528;&#x7684;&#x793A;&#x4F8B;&#x3002;
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>a&#xFF0C;&#x4E00;&#x7C7B;&#x7B26;&#x53F7;&#x8868;&#x8FBE;&#x5F0F;&#x3002;&#x73B0;&#x5728;&#x6211;&#x4EEC;&#x5C06;&#x5B9A;&#x4E49;S&#x8868;&#x8FBE;&#x5F0F;&#xFF08;S&#x4EE3;&#x8868;&#x7B26;&#x53F7;
+      <img src="递归-28.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0347151515151515em; margin-right: -0.0248242424242422em; margin-top: -0.0264727272727273em; vertical-align: -0.201115151515152em; height: 0.980557575757576em"></img>
+      &#xFF09;&#x3002;&#x5B83;&#x4EEC;&#x662F;&#x901A;&#x8FC7;&#x4F7F;&#x7528;&#x7279;&#x6B8A;&#x5B57;&#x7B26;&#x5F62;&#x6210;&#x7684;
+    </p>
+    <center>
+      <img src="递归-29.png" style="margin-left: -0.0248242424242424em; margin-bottom: 0.233648484848485em; margin-right: -0.0248242424242422em; margin-top: 0.305842424242424em; vertical-align: -1.784em; height: 3.49430303030303em"></img>
+    </center>
+    <p>
+      &#x4EE5;&#x53CA;&#x65E0;&#x9650;&#x7EC4;&#x53EF;&#x533A;&#x5206;&#x7684;&#x539F;&#x5B50;&#x7B26;&#x53F7;&#x3002;&#x5BF9;&#x4E8E;&#x539F;&#x5B50;&#x7B26;&#x53F7;&#xFF0C;&#x6211;&#x4EEC;&#x5C06;&#x4F7F;&#x7528;&#x5927;&#x5199;&#x62C9;&#x4E01;&#x5B57;&#x6BCD;&#x548C;&#x6570;&#x5B57;&#x5B57;&#x7B26;&#x4E32;&#x4EE5;&#x53CA;&#x5355;&#x4E2A;&#x5D4C;&#x5165;&#x7A7A;&#x683C;&#x3002;&#x539F;&#x5B50;&#x7B26;&#x53F7;&#x53EF;&#x4EE5;&#x5199;&#x4F5C;
+    </p>
+    <center>
+      <img src="递归-30.png" style="margin-left: -0.0248242424242424em; margin-bottom: 0.208824242424242em; margin-right: -0.0248242424242413em; margin-top: 0.00630303030303025em; vertical-align: -1.784em; height: 3.81866666666667em"></img>
+    </center>
+    <p>
+      &#x6709;&#x4E24;&#x4E2A;&#x539F;&#x56E0;&#x4EE4;&#x4EBA;&#x653E;&#x5F03;&#x4E86;&#x5C06;&#x5355;&#x4E2A;&#x5B57;&#x6BCD;&#x7528;&#x4E8E;&#x539F;&#x5B50;&#x7B26;&#x53F7;&#x7684;&#x901A;&#x5E38;&#x6570;&#x5B66;&#x5B9E;&#x8DF5;&#x3002;&#x9996;&#x5148;&#xFF0C;&#x8BA1;&#x7B97;&#x673A;&#x7A0B;&#x5E8F;&#x7ECF;&#x5E38;&#x9700;&#x8981;&#x6570;&#x767E;&#x4E2A;&#x53EF;&#x533A;&#x5206;&#x7684;&#x7B26;&#x53F7;&#xFF0C;&#x8FD9;&#x4E9B;&#x7B26;&#x53F7;&#x5FC5;&#x987B;&#x7531;IBM
+      704&#x8BA1;&#x7B97;&#x673A;&#x53EF;&#x6253;&#x5370;&#x7684;47&#x4E2A;&#x5B57;&#x7B26;&#x7EC4;&#x6210;&#x3002;&#x5176;&#x6B21;&#xFF0C;&#x51FA;&#x4E8E;&#x52A9;&#x8BB0;&#x7B26;&#x7684;&#x539F;&#x56E0;&#xFF0C;&#x5141;&#x8BB8;&#x82F1;&#x8BED;&#x5355;&#x8BCD;&#x548C;&#x77ED;&#x8BED;&#x4EE3;&#x8868;&#x539F;&#x5B50;&#x5B9E;&#x4F53;&#x5F88;&#x65B9;&#x4FBF;&#x3002;&#x8FD9;&#x4E9B;&#x7B26;&#x53F7;&#x662F;&#x539F;&#x5B50;&#x6027;&#x7684;&#xFF0C;&#x56E0;&#x4E3A;&#x5B83;&#x4EEC;&#x53EF;&#x80FD;&#x4F1A;&#x5FFD;&#x7565;&#x5B57;&#x7B26;&#x5E8F;&#x5217;&#x4E2D;&#x53EF;&#x80FD;&#x5305;&#x542B;&#x7684;&#x4EFB;&#x4F55;&#x5B50;&#x7ED3;&#x6784;&#x3002;&#x6211;&#x4EEC;&#x5047;&#x8BBE;&#x53EA;&#x80FD;&#x533A;&#x5206;&#x4E0D;&#x540C;&#x7684;&#x7B26;&#x53F7;&#x3002;&#x7136;&#x540E;&#xFF0C;S&#x8868;&#x8FBE;&#x5F0F;&#x5B9A;&#x4E49;&#x5982;&#x4E0B;&#xFF1A;
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>1.
+      &#x539F;&#x5B50;&#x7B26;&#x53F7;&#x662F;S-expressions.
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>2.
+      &#x5982;&#x679C;e1&#x548C;e2&#x662F;S-expressions,&#x90A3;&#x4E48; (e1
+      <img src="递归-1.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0248242424242424em; margin-right: -0.0248242424242424em; margin-top: -0.0103272727272727em; vertical-align: 0em; height: 0.494836363636364em"></img> e2)&#x4E5F;&#x662F;.
+    </p>
+    <p>
+      &#x5B9E;&#x4F8B;&#x5982;&#x4E0B;&#xFF1A;
+    </p>
+    <center>
+      <img src="递归-31.png" style="margin-left: -0.0248242424242424em; margin-bottom: 0.208824242424242em; margin-right: -0.0248242424242413em; margin-top: 0.00630303030303025em; vertical-align: -1.784em; height: 3.81866666666667em"></img>
+    </center>
+    <p>
+      &#x90A3;&#x4E48;&#xFF0C;&#x4E00;&#x4E2A;S&#x8868;&#x8FBE;&#x5F0F;&#x5C31;&#x662F;&#x4E00;&#x4E2A;&#x6709;&#x5E8F;&#x5BF9;&#xFF0C;&#x5176;&#x5BF9;&#x53EF;&#x4EE5;&#x662F;&#x539F;&#x5B50;&#x7B26;&#x53F7;&#x6216;&#x66F4;&#x7B80;&#x5355;&#x7684;S&#x8868;&#x8FBE;&#x5F0F;&#x3002;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x7528;S&#x8868;&#x8FBE;&#x5F0F;&#x6765;&#x8868;&#x793A;&#x4EFB;&#x610F;&#x957F;&#x5EA6;&#x7684;&#x5217;&#x8868;&#xFF0C;&#x5982;&#x4E0B;&#x6240;&#x793A;&#x3002;&#x8FD9;&#x4E2A;&#x5217;&#x8868;
+    </p>
+    <center>
+      <img src="递归-32.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0223030303030303em; margin-right: -0.0248242424242422em; margin-top: -0.0459636363636363em; vertical-align: -0.201115151515152em; height: 1.03020606060606em"></img>
+    </center>
+    <p>
+      &#x4EE3;&#x8868;&#x8FD9;&#x4E2A;S-expression
+    </p>
+    <center>
+      <img src="递归-33.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0372363636363636em; margin-right: -0.0248242424242431em; margin-top: -0.0459636363636363em; vertical-align: -0.148363636363636em; height: 0.992387878787879em"></img>
+    </center>
+    <p>
+      NIL&#x662F;&#x7528;&#x4E8E;&#x7EC8;&#x6B62;&#x5217;&#x8868;&#x7684;&#x539F;&#x5B50;&#x7B26;&#x53F7;&#x3002;&#x7531;&#x4E8E;&#x6211;&#x4EEC;&#x5904;&#x7406;&#x7684;&#x8BB8;&#x591A;&#x7B26;&#x53F7;&#x8868;&#x8FBE;&#x5F0F;&#x90FD;&#x53EF;&#x4EE5;&#x65B9;&#x4FBF;&#x5730;&#x8868;&#x793A;&#x4E3A;&#x5217;&#x8868;&#xFF0C;&#x6211;&#x4EEC;&#x53EA;&#x5F15;&#x5165;&#x4E00;&#x4E2A;&#x5217;&#x8868;&#x7B26;&#x53F7;&#x6765;&#x7F29;&#x5199;&#x67D0;&#x4E9B;S&#x8868;&#x8FBE;&#x5F0F;&#x3002;&#x6211;&#x4EEC;&#x6709;
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>1.<span class="no-breaks"><img src="递归-34.png" style="margin-left: -0.0248242424242424em; margin-bottom: 0.0288484848484848em; margin-right: -0.0248242424242424em; margin-top: -0.0459636363636363em; vertical-align: -0.0660848484848485em; height: 0.844024242424242em"></img>&#x4EE3;&#x8868;</span><span
+      class="no-breaks"><img src="递归-35.png" style="margin-left: -0.0248242424242424em; margin-bottom: 0.0288484848484848em; margin-right: -0.0248242424242431em; margin-top: -0.0459636363636363em; vertical-align: -0.0660848484848485em; height: 0.844024242424242em"></img>.</span>
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>2.<span class="no-breaks"><img src="递归-36.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0223030303030303em; margin-right: -0.0248242424242422em; margin-top: -0.0459636363636363em; vertical-align: -0.201115151515152em; height: 1.03020606060606em"></img>&#x4EE3;&#x8868;</span><span
+      class="no-breaks"><img src="递归-37.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0372363636363636em; margin-right: -0.0248242424242431em; margin-top: -0.0459636363636363em; vertical-align: -0.148363636363636em; height: 0.992387878787879em"></img>.</span>
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>3.<span class="no-breaks"><img src="递归-38.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0206060606060606em; margin-right: -0.0248242424242422em; margin-top: -0.0459636363636363em; vertical-align: -0.289115151515152em; height: 1.11650909090909em"></img>&#x4EE3;&#x8868;</span><img
+      src="递归-39.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0372363636363636em; margin-right: -0.0248242424242431em; margin-top: -0.0459636363636363em; vertical-align: -0.148363636363636em; height: 0.992387878787879em"></img>
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>&#x5B50;&#x8868;&#x8FBE;&#x5F0F;&#x53EF;&#x4EE5;&#x7C7B;&#x4F3C;&#x5730;&#x7F29;&#x5199;&#x3002;&#x8FD9;&#x4E9B;&#x7F29;&#x5199;&#x7684;&#x4E00;&#x4E9B;&#x793A;&#x4F8B;&#x662F;
+    </p>
+    <center>
+      <img src="递归-40.png" style="margin-left: -0.0248242424242424em; margin-bottom: 0.0226424242424241em; margin-right: -0.0248242424242449em; margin-top: -0.0309333333333335em; vertical-align: -1.03413333333333em; height: 2.54235151515152em"></img>
+    </center>
+    <p>
+      <span style="margin-left: 1em"></span>&#x56E0;&#x4E3A;&#x6211;&#x4EEC;&#x5C06;&#x9017;&#x53F7;&#x8868;&#x793A;&#x4F5C;&#x4E3A;&#x4E0D;&#x6D89;&#x53CA;&#x9017;&#x53F7;&#x7684;&#x7F29;&#x5199;&#xFF0C;&#x6240;&#x4EE5;&#x6211;&#x4EEC;&#x5C06;&#x5B83;&#x4EEC;&#x5168;&#x90E8;&#x79F0;&#x4E3A;S&#x8868;&#x8FBE;&#x5F0F;&#x3002;
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>b&#xFF0C;S&#x8868;&#x8FBE;&#x5F0F;&#x7684;&#x51FD;&#x6570;&#x548C;&#x8868;&#x793A;&#x5B83;&#x4EEC;&#x7684;&#x8868;&#x8FBE;&#x5F0F;&#x3002;&#x73B0;&#x5728;&#xFF0C;&#x6211;&#x4EEC;&#x5B9A;&#x4E49;&#x4E00;&#x7C7B;S-expressions&#x7684;&#x529F;&#x80FD;&#x3002;&#x4EE3;&#x8868;&#x8FD9;&#x4E9B;&#x529F;&#x80FD;&#x7684;&#x8868;&#x8FBE;&#x5F0F;&#x4EE5;&#x5E38;&#x89C4;&#x529F;&#x80FD;&#x7B26;&#x53F7;&#x7F16;&#x5199;&#x3002;&#x4F46;&#x662F;&#xFF0C;&#x4E3A;&#x4E86;&#x6E05;&#x695A;&#x5730;&#x5C06;&#x4EE3;&#x8868;&#x51FD;&#x6570;&#x7684;&#x8868;&#x8FBE;&#x5F0F;&#x4E0E;S-expressions&#x533A;&#x522B;&#x5F00;&#x6765;&#xFF0C;&#x5BF9;&#x4E8E;&#x51FD;&#x6570;&#x540D;&#x79F0;&#x548C;&#x6574;&#x4E2A;S&#x8868;&#x8FBE;&#x5F0F;&#x96C6;&#x5185;&#x7684;&#x53D8;&#x91CF;&#xFF0C;&#x6211;&#x4EEC;&#x5C06;&#x4F7F;&#x7528;&#x5C0F;&#x5199;&#x5B57;&#x6BCD;&#x5E8F;&#x5217;&#x3002;&#x6211;&#x4EEC;&#x8FD8;&#x4F7F;&#x7528;&#x62EC;&#x53F7;&#x548C;&#x5206;&#x53F7;&#xFF08;&#x800C;&#x4E0D;&#x662F;&#x62EC;&#x53F7;&#x548C;&#x9017;&#x53F7;&#xFF09;&#x6765;&#x8868;&#x793A;&#x51FD;&#x6570;&#x5728;&#x5176;&#x53C2;&#x6570;&#x4E0A;&#x7684;&#x5E94;&#x7528;&#x3002;&#x56E0;&#x6B64;&#x6211;&#x4EEC;&#x5199;&#x4E3A;
+    </p>
+    <center>
+      <img src="递归-41.png" style="margin-left: -0.0248242424242424em; margin-bottom: 0.0350545454545454em; margin-right: -0.0248242424242431em; margin-top: -0.0309333333333335em; vertical-align: -1.03413333333333em; height: 2.52993939393939em"></img>
+    </center>
+    <p>
+      &#x5728;&#x8FD9;&#x4E9B;M&#x8868;&#x8FBE;&#x5F0F;&#xFF08;meta-expressions&#xFF0C;&#x5143;&#x8868;&#x8FBE;&#x5F0F;&#xFF09;&#x4E2D;&#xFF0C;&#x4EFB;&#x4F55;&#x51FA;&#x73B0;&#x7684;S&#x8868;&#x8FBE;&#x5F0F;&#x90FD;&#x4EE3;&#x8868;&#x81EA;&#x5DF1;&#x3002;
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>c&#xFF0C;&#x57FA;&#x672C;S&#x51FD;&#x6570;&#x548C;&#x8C13;&#x8BCD;&#x3002;&#x6211;&#x4EEC;&#x4ECB;&#x7ECD;&#x4EE5;&#x4E0B;&#x51FD;&#x6570;&#x548C;&#x8C13;&#x8BCD;&#xFF1A;
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>1.atom.
+      &#x6839;&#x636E;x&#x662F;&#x5426;&#x4E3A;&#x539F;&#x5B50;&#x7B26;&#x53F7;,atom
+      [x]&#x7684;&#x503C;&#x4E3A;T&#x6216;F.&#x56E0;&#x6B64;
+    </p>
+    <center>
+      <img src="递归-42.png" style="margin-left: -0.0248242424242424em; margin-bottom: 0.221236363636364em; margin-right: -0.0248242424242431em; margin-top: -0.0309333333333335em; vertical-align: -1.03413333333333em; height: 2.34375757575758em"></img>
+    </center>
+    <p>
+      <span style="margin-left: 1em"></span>2.eq.&#x5F53;&#x4E14;&#x4EC5;&#x5F53;x&#x548C;y&#x5747;&#x4E3A;&#x539F;&#x5B50;&#x65F6;,&#x624D;&#x5B9A;&#x4E49;
+      eq[x; y]. eq[x;y]
+      &#x4E2D;&#x5982;&#x679C;x&#x548C;y&#x662F;&#x76F8;&#x540C;&#x7684;&#x7B26;&#x53F7;,&#x5219;
+      eq[x;y] = T ,&#x5426;&#x5219; eq[x; y] = F .&#x56E0;&#x6B64;
+    </p>
+    <center>
+      <img src="递归-43.png" style="margin-left: -0.0248242424242424em; margin-bottom: 0.0350545454545454em; margin-right: -0.0248242424242431em; margin-top: -0.0309333333333335em; vertical-align: -1.784em; height: 4.02967272727273em"></img>
+    </center>
+    <p>
+      <span style="margin-left: 1em"></span>3.car.&#x5F53;x&#x4E0D;&#x662F;&#x539F;&#x5B50;&#x7684;&#x65F6;&#x5019;car[x]&#x624D;&#x6709;&#x6548;.<span
+      class="no-breaks"><img src="递归-44.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0248242424242424em; margin-right: -0.0248242424242422em; margin-top: -0.0459636363636363em; vertical-align: -0.148363636363636em; height: 0.979975757575758em"></img>.&#x56E0;&#x6B64;</span>
+    </p>
+    <center>
+      <img src="递归-45.png" style="margin-left: -0.0248242424242424em; margin-bottom: 0.221236363636364em; margin-right: -0.0248242424242413em; margin-top: -0.0309333333333335em; vertical-align: -1.784em; height: 3.84349090909091em"></img>
+    </center>
+    <p>
+      <span style="margin-left: 1em"></span>4.cdr.&#x5F53;x&#x4E0D;&#x662F;&#x539F;&#x5B50;&#x7684;&#x65F6;&#x5019;cdr[x]&#x624D;&#x6709;&#x6548;.&#x6211;&#x4EEC;&#x6709;<span
+      class="no-breaks"><img src="递归-46.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0248242424242424em; margin-right: -0.0248242424242422em; margin-top: -0.0459636363636363em; vertical-align: -0.148363636363636em; height: 0.979975757575758em"></img>.&#x56E0;&#x6B64;</span>
+    </p>
+    <center>
+      <img src="递归-47.png" style="margin-left: -0.0248242424242424em; margin-bottom: 0.221236363636364em; margin-right: -0.0248242424242413em; margin-top: -0.0309333333333335em; vertical-align: -1.784em; height: 3.84349090909091em"></img>
+    </center>
+    <p>
+      <span style="margin-left: 1em"></span>5.cons.cons[x;y]&#x53EF;&#x4EE5;&#x4E3A;&#x4EFB;&#x610F;x&#x548C;y&#x5B9A;&#x4E49;.&#x6211;&#x4EEC;&#x6709;<span
+      class="no-breaks"><img src="递归-48.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0223030303030303em; margin-right: -0.0248242424242431em; margin-top: -0.0459636363636363em; vertical-align: -0.201115151515152em; height: 1.03020606060606em"></img>.&#x56E0;&#x6B64;</span>
+    </p>
+    <center>
+      <img src="递归-49.png" style="margin-left: -0.0248242424242424em; margin-bottom: 0.0350545454545454em; margin-right: -0.0248242424242449em; margin-top: -0.0309333333333335em; vertical-align: -1.03413333333333em; height: 2.52993939393939em"></img>
+    </center>
+    <p>
+      car,cdr&#x548C;cons&#x5F88;&#x5BB9;&#x6613;&#x6EE1;&#x8DB3;&#x4E0B;&#x5217;&#x5173;&#x7CFB;
+    </p>
+    <center>
+      <img src="递归-50.png" style="margin-left: -0.0248242424242424em; margin-bottom: 0.0350545454545454em; margin-right: -0.0248242424242413em; margin-top: -0.0309333333333335em; vertical-align: -1.78749090909091em; height: 4.03665454545455em"></img>
+    </center>
+    <p>
+      <span style="margin-left: 1em"></span>&#x4EC5;&#x5F53;&#x6211;&#x4EEC;&#x8BA8;&#x8BBA;&#x8BA1;&#x7B97;&#x673A;&#x4E2D;&#x7CFB;&#x7EDF;&#x7684;&#x8868;&#x793A;&#x5F62;&#x5F0F;&#x65F6;&#xFF0C;&#x540D;&#x79F0;&ldquo;
+      car&rdquo;&#x548C;&ldquo;
+      cons&rdquo;&#x624D;&#x5177;&#x6709;&#x52A9;&#x8BB0;&#x7B26;&#x7684;&#x542B;&#x4E49;&#x3002;car&#x548C;cdr&#x5728;&#x76F8;&#x5E94;&#x4F4D;&#x7F6E;&#x7ED9;&#x51FA;&#x56FA;&#x5B9A;&#x8868;&#x8FBE;&#x5F0F;&#x7684;&#x5B50;&#x8868;&#x8FBE;&#x5F0F;&#x3002;cons&#x7684;&#x7EC4;&#x6210;&#x90E8;&#x5206;&#x7EC4;&#x6210;&#x4E86;&#x7ED9;&#x5B9A;&#x7ED3;&#x6784;&#x7684;&#x8868;&#x8FBE;&#x5F0F;&#x3002;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x8FD9;&#x79CD;&#x65B9;&#x5F0F;&#x5F62;&#x6210;&#x7684;&#x51FD;&#x6570;&#x7C7B;&#x522B;&#x975E;&#x5E38;&#x6709;&#x9650;&#xFF0C;&#x800C;&#x4E14;&#x4E0D;&#x662F;&#x5F88;&#x6709;&#x610F;&#x4E49;&#x3002;
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>d&#xFF0C;&#x9012;&#x5F52;S&#x51FD;&#x6570;&#x3002;&#x5F53;&#x6211;&#x4EEC;&#x5141;&#x8BB8;&#x81EA;&#x5DF1;&#x901A;&#x8FC7;&#x6761;&#x4EF6;&#x8868;&#x8FBE;&#x5F0F;&#x548C;&#x9012;&#x5F52;&#x5B9A;&#x4E49;&#x5F62;&#x6210;S&#x8868;&#x8FBE;&#x5F0F;&#x7684;&#x65B0;&#x51FD;&#x6570;&#x65F6;&#xFF0C;&#x6211;&#x4EEC;&#x5F97;&#x5230;&#x7684;&#x51FD;&#x6570;&#x7C7B;&#x66F4;&#x591A;&#xFF08;&#x5B9E;&#x9645;&#x4E0A;&#x662F;&#x6240;&#x6709;&#x53EF;&#x8BA1;&#x7B97;&#x7684;&#x51FD;&#x6570;&#xFF09;&#x3002;&#x73B0;&#x5728;&#xFF0C;&#x6211;&#x4EEC;&#x7ED9;&#x51FA;&#x4E00;&#x4E9B;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x8FD9;&#x79CD;&#x65B9;&#x5F0F;&#x5B9A;&#x4E49;&#x7684;&#x529F;&#x80FD;&#x7684;&#x793A;&#x4F8B;&#x3002;
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>1. ff[x].ff
+      [x]&#x7684;&#x503C;&#x662F;S&#x8868;&#x8FBE;&#x5F0F;x&#x7684;&#x7B2C;&#x4E00;&#x4E2A;&#x539F;&#x5B50;&#x7B26;&#x53F7;,&#x62EC;&#x53F7;&#x88AB;&#x5FFD;&#x7565;.&#x56E0;&#x6B64;
+    </p>
+    <center>
+      <img src="递归-51.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0347151515151515em; margin-right: -0.0248242424242431em; margin-top: -0.0459636363636363em; vertical-align: -0.201115151515152em; height: 1.04261818181818em"></img>
+    </center>
+    <p>
+      <span style="margin-left: 1em"></span>&#x6211;&#x4EEC;&#x6709;
+    </p>
+    <center>
+      <img src="递归-52.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0347151515151515em; margin-right: -0.0248242424242413em; margin-top: -0.0459636363636363em; vertical-align: -0.201115151515152em; height: 1.04261818181818em"></img>
+    </center>
+    <p>
+      <span style="margin-left: 1em"></span>&#x73B0;&#x5728;&#xFF0C;&#x6211;&#x4EEC;&#x8BE6;&#x7EC6;&#x8DDF;&#x8E2A;&#x6C42;&#x503C;&#x7684;&#x6B65;&#x9AA4;<img
+      src="递归-53.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0347151515151515em; margin-right: -0.0248242424242431em; margin-top: -0.0459636363636363em; vertical-align: -0.201115151515152em; height: 1.04261818181818em"></img>
+    </p>
+    <center>
+      <img src="递归-54.png" style="margin-left: -0.0248242424242424em; margin-bottom: 0.233648484848485em; margin-right: -0.0248242424242449em; margin-top: -0.0309333333333335em; vertical-align: -9.28266666666667em; height: 18.8284121212121em"></img>
+    </center>
+    <p>
+      <span style="margin-left: 1em"></span>2.subst[x;y;z].&#x8BE5;&#x51FD;&#x6570;&#x7ED9;&#x51FA;&#x7528;S-expression
+      x&#x66FF;&#x6362;S&#x8868;&#x8FBE;&#x5F0F;z&#x4E2D;&#x6240;&#x6709;&#x51FA;&#x73B0;&#x7684;&#x539F;&#x5B50;&#x7B26;&#x53F7;y&#x7684;&#x7ED3;&#x679C;,&#x5176;&#x5B9A;&#x4E49;&#x4E3A;
+    </p>
+    <center>
+      <img src="递归-55.png" style="margin-left: -0.0248242424242424em; margin-bottom: 0.0226424242424241em; margin-right: -0.0248242424242449em; margin-top: -0.0309333333333335em; vertical-align: -1.03413333333333em; height: 2.54235151515152em"></img>
+    </center>
+    <p>
+      <span style="margin-left: 1em"></span>&#x4E00;&#x4E2A;&#x4F8B;&#x5B50;&#x5982;&#x4E0B;
+    </p>
+    <center>
+      <img src="递归-56.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0223030303030303em; margin-right: -0.0248242424242449em; margin-top: -0.0459636363636363em; vertical-align: -0.201115151515152em; height: 1.03020606060606em"></img>
+    </center>
+    <p>
+      <span style="margin-left: 1em"></span>3. equal [x; y].
+      &#x5982;&#x679C;x&#x548C;y&#x662F;&#x76F8;&#x540C;&#x7684;S&#x8868;&#x8FBE;&#x5F0F;,&#x5219;&#x8BE5;&#x8C13;&#x8BCD;&#x7684;&#x503C;&#x4E3A;T,&#x5426;&#x5219;&#x4E3A;F.&#x6211;&#x4EEC;&#x6709;
+    </p>
+    <center>
+      <img src="递归-57.png" style="margin-left: -0.0248242424242424em; margin-bottom: 0.0226424242424246em; margin-right: -0.0248242424242413em; margin-top: -0.0309333333333335em; vertical-align: -2.53386666666667em; height: 5.54181818181818em"></img>
+    </center>
+    <p>
+      <span style="margin-left: 1em"></span>&#x53EF;&#x4EE5;&#x5F88;&#x65B9;&#x4FBF;&#x5730;&#x770B;&#x5230;&#x57FA;&#x672C;&#x51FD;&#x6570;&#x5728;&#x7F29;&#x5199;&#x5217;&#x8868;&#x7B26;&#x53F7;&#x4E2D;&#x7684;&#x5916;&#x89C2;,&#x8BFB;&#x8005;&#x53EF;&#x4EE5;&#x8F7B;&#x677E;&#x9A8C;&#x8BC1;
+    </p>
+    <center>
+      <img src="递归-58.png" style="margin-left: -0.0248242424242424em; margin-bottom: 0.0350545454545457em; margin-right: -0.0248242424242449em; margin-top: -0.0309333333333335em; vertical-align: -3.28373333333333em; height: 7.02913939393939em"></img>
+    </center>
+    <p>
+      <span style="margin-left: 1em"></span>&#x6211;&#x4EEC;&#x5B9A;&#x4E49;
+    </p>
+    <center>
+      <img src="递归-59.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0223030303030303em; margin-right: -0.0248242424242431em; margin-top: -0.0459636363636363em; vertical-align: -0.201115151515152em; height: 1.03020606060606em"></img>
+    </center>
+    <p>
+      <span style="margin-left: 1em"></span>&#x8BE5;&#x8C13;&#x8BCD;&#x5728;&#x5904;&#x7406;&#x5217;&#x8868;&#x65F6;&#x5F88;&#x6709;&#x7528;&#x3002;
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>car&#x548C;cdr&#x7684;&#x7EC4;&#x5408;&#x51FA;&#x73B0;&#x7684;&#x9891;&#x7387;&#x5F88;&#x9AD8;,&#x5982;&#x679C;&#x6211;&#x4EEC;&#x7F29;&#x5199;,&#x53EF;&#x4EE5;&#x66F4;&#x7B80;&#x6D01;&#x5730;&#x7F16;&#x5199;&#x8BB8;&#x591A;&#x8868;&#x8FBE;&#x5F0F;,cadr[x]
+      &#x8868;&#x793A; car[cdr[x]], caddr[x] &#x8868;&#x793A;
+      car[cdr[cdr[x]]], &#x7B49;&#x7B49;.
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>&#x53E6;&#x4E00;&#x4E2A;&#x6709;&#x7528;&#x7684;&#x7F29;&#x5199;&#x662F;&#x4E66;&#x5199;&#x5217;&#x8868;[e1;
+      e2; <span style="margin-left: 0.16665em"></span>.<span style="margin-left: 0.16665em"></span>.<span style="margin-left: 0.16665em"></span>.<span
+      style="margin-left: 0.16665em"></span> ; en] &#x4EE3;&#x8868; cons[e1; cons[e2; <span style="margin-left: 0.16665em"></span>.<span
+      style="margin-left: 0.16665em"></span>.<span style="margin-left: 0.16665em"></span>.<span style="margin-left: 0.16665em"></span> ; cons[en; NIL]
+      <span style="margin-left: 0.16665em"></span>.<span style="margin-left: 0.16665em"></span>.<span style="margin-left: 0.16665em"></span>.<span
+      style="margin-left: 0.16665em"></span>]].
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>&#x8BE5;&#x51FD;&#x6570;&#x6839;&#x636E;&#x5176;&#x5143;&#x7D20;&#x7ED9;&#x51FA;&#x5217;&#x8868;(e1,<span
+      style="margin-left: 0.16665em"></span>.<span style="margin-left: 0.16665em"></span>.<span style="margin-left: 0.16665em"></span>.<span style="margin-left: 0.16665em"></span>,en).&#x5C06;S&#x8868;&#x8FBE;&#x5F0F;&#x89C6;&#x4E3A;&#x5217;&#x8868;&#x65F6;,&#x4EE5;&#x4E0B;&#x51FD;&#x6570;&#x5F88;&#x6709;&#x7528;.
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>1. append [x;y].
+    </p>
+    <center>
+      <img src="递归-60.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0347151515151515em; margin-right: -0.0248242424242378em; margin-top: -0.0459636363636363em; vertical-align: -0.201115151515152em; height: 1.04261818181818em"></img>
+    </center>
+    <p>
+      <span style="margin-left: 1em"></span>&#x4E00;&#x4E2A;&#x4F8B;&#x5B50;&#x662F;
+    </p>
+    <class style="font-variant: small-caps"><center>
+      <img src="递归-61.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0223030303030303em; margin-right: -0.0248242424242413em; margin-top: -0.0459636363636363em; vertical-align: -0.201115151515152em; height: 1.03020606060606em"></img>
+    </center></class>
+    <p>
+      <span style="margin-left: 1em"></span>2. among
+      [x;y].&#x5982;&#x679C;S&#x8868;&#x8FBE;&#x5F0F;x&#x51FA;&#x73B0;&#x5728;&#x5217;&#x8868;y&#x7684;&#x5143;&#x7D20;&#x4E4B;&#x95F4;,&#x5219;&#x8BE5;&#x8C13;&#x8BCD;&#x4E3A;true.&#x6211;&#x4EEC;&#x6709;
+    </p>
+    <center>
+      <img src="递归-62.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0347151515151515em; margin-right: -0.0248242424242449em; margin-top: -0.0459636363636363em; vertical-align: -0.201115151515152em; height: 1.04261818181818em"></img>
+    </center>
+    <p>
+      <span style="margin-left: 1em"></span>3. pair
+      [x;y].&#x6B64;&#x51FD;&#x6570;&#x63D0;&#x4F9B;&#x5217;&#x8868;x&#x548C;y&#x7684;&#x5BF9;&#x5E94;&#x5143;&#x7D20;&#x5BF9;&#x7684;&#x5217;&#x8868;.&#x6211;&#x4EEC;&#x6709;
+    </p>
+    <center>
+      <img src="递归-63.png" style="margin-left: -0.0248242424242424em; margin-bottom: 0.0226424242424241em; margin-right: -0.0248242424242413em; margin-top: -0.0309333333333335em; vertical-align: -1.784em; height: 4.04208484848485em"></img>
+    </center>
+    <p>
+      <span style="margin-left: 1em"></span>&#x4F8B;&#x5B50;&#x5982;&#x4E0B;
+    </p>
+    <center>
+      <img src="递归-64.png" style="margin-left: -0.0620606060606061em; margin-bottom: -0.0223030303030303em; margin-right: -0.0248242424242413em; margin-top: -0.0459636363636363em; vertical-align: -0.201115151515152em; height: 1.03020606060606em"></img>
+    </center>
+    <p>
+      <span style="margin-left: 1em"></span>4. assoc
+      [x;y].&#x5982;&#x679C;y&#x662F;&#x5F62;&#x5F0F;&#x4E3A;<span class="no-breaks"><img
+      src="递归-65.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0223030303030303em; margin-right: -0.0248242424242431em; margin-top: -0.0459636363636363em; vertical-align: -0.201115151515152em; height: 1.03020606060606em"></img>&#x7684;&#x5217;&#x8868;,&#x5E76;&#x4E14;x&#x662F;u&#x4E2D;&#x7684;&#x7B26;&#x53F7;,&#x5219;assoc</span>
+      [x; y]&#x662F;&#x5BF9;&#x5E94;&#x7684;v.&#x6211;&#x4EEC;&#x6709;
+    </p>
+    <center>
+      <img src="递归-66.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0347151515151515em; margin-right: -0.0248242424242449em; margin-top: -0.0459636363636363em; vertical-align: -0.201115151515152em; height: 1.04261818181818em"></img>
+    </center>
+    <p>
+      <span style="margin-left: 1em"></span>&#x4E00;&#x4E2A;&#x4F8B;&#x5B50;&#x662F;
+    </p>
+    <center>
+      <img src="递归-67.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0223030303030303em; margin-right: -0.0248242424242413em; margin-top: -0.0459636363636363em; vertical-align: -0.201115151515152em; height: 1.03020606060606em"></img>
+    </center>
+    <p>
+      <span style="margin-left: 1em"></span>5. sublis[x;
+      y].&#x8FD9;&#x91CC;&#x5047;&#x8BBE;x&#x5177;&#x6709;&#x6210;&#x5BF9;&#x5217;&#x8868;&#x7684;&#x5F62;&#x5F0F;,<span
+      class="no-breaks"><img src="递归-68.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0223030303030303em; margin-right: -0.0248242424242413em; margin-top: -0.0459636363636363em; vertical-align: -0.201115151515152em; height: 1.03020606060606em"></img>,&#x5176;&#x4E2D;u&#x662F;&#x539F;&#x5B50;,y&#x53EF;&#x4EE5;&#x662F;&#x4EFB;&#x4F55;S&#x8868;&#x8FBE;&#x5F0F;.sublis[x;</span>
+      y]&#x662F;&#x5C06;&#x6BCF;&#x4E2A;v&#x66FF;&#x6362;&#x4E3A;y&#x4E2D;&#x5BF9;&#x5E94;&#x7684;u&#x7684;&#x7ED3;&#x679C;.&#x4E3A;&#x4E86;&#x5B9A;&#x4E49;sublis,&#x6211;&#x4EEC;&#x9996;&#x5148;&#x5B9A;&#x4E49;&#x4E00;&#x4E2A;&#x8F85;&#x52A9;&#x51FD;&#x6570;.&#x6211;&#x4EEC;&#x6709;
+    </p>
+    <center>
+      <img src="递归-69.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0223030303030303em; margin-right: -0.0248242424242449em; margin-top: -0.0459636363636363em; vertical-align: -0.201115151515152em; height: 1.03020606060606em"></img>
+    </center>
+    <p>
+      &#x7136;&#x540E;
+    </p>
+    <center>
+      <img src="递归-70.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0347151515151515em; margin-right: -0.0248242424242449em; margin-top: -0.0459636363636363em; vertical-align: -0.201115151515152em; height: 1.04261818181818em"></img>
+    </center>
+    <p>
+      &#x4F8B;
+    </p>
+    <center>
+      <img src="递归-71.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0223030303030303em; margin-right: -0.0248242424242413em; margin-top: -0.0459636363636363em; vertical-align: -0.201115151515152em; height: 1.03020606060606em"></img>
+    </center>
+    <p>
+      <span style="margin-left: 1em"></span>e&#xFF0C;&#x901A;&#x8FC7;S&#x8868;&#x8FBE;&#x5F0F;&#x8868;&#x793A;S&#x51FD;&#x6570;&#x3002;S&#x51FD;&#x6570;&#x5DF2;&#x7531;M&#x8868;&#x8FBE;&#x5F0F;&#x63CF;&#x8FF0;&#x3002;&#x73B0;&#x5728;&#xFF0C;&#x6211;&#x4EEC;&#x7ED9;&#x51FA;&#x4E86;&#x4E00;&#x4E2A;&#x5C06;M&#x8868;&#x8FBE;&#x5F0F;&#x8F6C;&#x6362;&#x4E3A;S&#x8868;&#x8FBE;&#x5F0F;&#x7684;&#x89C4;&#x5219;&#xFF0C;&#x4EE5;&#x4FBF;&#x80FD;&#x591F;&#x4F7F;&#x7528;S&#x51FD;&#x6570;&#x6765;&#x4F7F;&#x7528;S&#x51FD;&#x6570;&#x8FDB;&#x884C;&#x67D0;&#x4E9B;&#x8BA1;&#x7B97;&#x5E76;&#x56DE;&#x7B54;&#x6709;&#x5173;S&#x51FD;&#x6570;&#x7684;&#x67D0;&#x4E9B;&#x95EE;&#x9898;&#x3002;&#x7FFB;&#x8BD1;&#x7531;&#x4EE5;&#x4E0B;&#x4E30;&#x5BCC;&#x7684;&#x89C4;&#x5219;&#x786E;&#x5B9A;&#xFF0C;&#x6211;&#x4EEC;&#x7528;<span
+      class="no-breaks"><img src="递归-72.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0496484848484848em; margin-right: -0.0248242424242424em; margin-top: -0.0493575757575758em; vertical-align: 0em; height: 0.806787878787879em"></img>&#x8868;&#x793A;M&#x8868;&#x8FBE;&#x5F0F;</span><span
+      class="no-breaks"><img src="递归-73.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0496484848484848em; margin-right: -0.0623030303030303em; margin-top: -0.0503757575757576em; vertical-align: 0em; height: 0.806787878787879em"></img>&#x7684;&#x7FFB;&#x8BD1;&#x3002;</span>
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>1.&#x5982;&#x679C;<span class="no-breaks"><img src="递归-73.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0496484848484848em; margin-right: -0.0623030303030303em; margin-top: -0.0503757575757576em; vertical-align: 0em; height: 0.806787878787879em"></img>&#x662F;S&#x8868;&#x8FBE;&#x5F0F;</span><span
+      class="no-breaks"><img src="递归-72.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0496484848484848em; margin-right: -0.0248242424242424em; margin-top: -0.0493575757575758em; vertical-align: 0em; height: 0.806787878787879em"></img>&#x662F;(QUOTE,</span><span class="no-breaks"><img
+      src="递归-73.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0496484848484848em; margin-right: -0.0623030303030303em; margin-top: -0.0503757575757576em; vertical-align: 0em; height: 0.806787878787879em"></img>).</span>
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>2.&#x7528;&#x5C0F;&#x5199;&#x5B57;&#x6BCD;&#x7684;&#x5B57;&#x7B26;&#x4E32;&#x8868;&#x793A;&#x7684;&#x53D8;&#x91CF;&#x548C;&#x51FD;&#x6570;&#x540D;&#x79F0;&#x5C06;&#x8F6C;&#x6362;&#x4E3A;&#x76F8;&#x5E94;&#x5927;&#x5199;&#x5B57;&#x6BCD;&#x7684;&#x76F8;&#x5E94;&#x5B57;&#x7B26;&#x4E32;.&#x56E0;&#x6B64;<span
+      class="no-breaks"><img src="递归-74.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0372363636363636em; margin-right: -0.0248242424242426em; margin-top: -0.035539393939394em; vertical-align: 0em; height: 0.780557575757576em"></img>&#x662F;CAR&#xFF0C;</span><span class="no-breaks"><img
+      src="递归-75.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0372363636363636em; margin-right: -0.0248242424242426em; margin-top: -0.0264727272727273em; vertical-align: 0em; height: 0.781963636363636em"></img>&#x662F;SUBST.</span>
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>3.&#x7ED3;&#x6784;<span class="no-breaks"><img src="递归-76.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0347151515151515em; margin-right: -0.0248242424242422em; margin-top: -0.0459636363636363em; vertical-align: -0.201115151515152em; height: 1.04261818181818em"></img>&#x88AB;&#x7FFB;&#x8BD1;&#x4E3A;</span><span
+      class="no-breaks"><img src="递归-77.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0347151515151515em; margin-right: -0.0248242424242422em; margin-top: -0.0459636363636363em; vertical-align: -0.201115151515152em; height: 1.04261818181818em"></img>.&#x56E0;&#x6B64;</span><span class="no-breaks"><img
+      src="递归-78.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0223030303030303em; margin-right: -0.0248242424242413em; margin-top: -0.0459636363636363em; vertical-align: -0.201115151515152em; height: 1.03020606060606em"></img>&#x662F;</span> <span class="no-breaks"><img src="递归-79.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0223030303030303em; margin-right: -0.0248242424242413em; margin-top: -0.0459636363636363em; vertical-align: -0.201115151515152em; height: 1.03020606060606em"></img>.</span>
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>4.<span class="no-breaks"><img src="递归-80.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0223030303030303em; margin-right: -0.0248242424242431em; margin-top: -0.0459636363636363em; vertical-align: -0.201115151515152em; height: 1.03020606060606em"></img>&#x662F;</span><span
+      class="no-breaks"><img src="递归-81.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0223030303030303em; margin-right: -0.0248242424242413em; margin-top: -0.0459636363636363em; vertical-align: -0.201115151515152em; height: 1.03020606060606em"></img>.</span>
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>5.<span class="no-breaks"><img src="递归-82.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0223030303030303em; margin-right: -0.0248242424242431em; margin-top: -0.0459636363636363em; vertical-align: -0.201115151515152em; height: 1.03020606060606em"></img>&#x662F;</span><span
+      class="no-breaks"><img src="递归-83.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0223030303030303em; margin-right: -0.0248242424242431em; margin-top: -0.0459636363636363em; vertical-align: -0.201115151515152em; height: 1.03020606060606em"></img>.</span>
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>6.<span class="no-breaks"><img src="递归-84.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0223030303030303em; margin-right: -0.0248242424242422em; margin-top: -0.0459636363636363em; vertical-align: -0.201115151515152em; height: 1.03020606060606em"></img>&#x662F;</span><span
+      class="no-breaks"><img src="递归-85.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0223030303030303em; margin-right: -0.0248242424242422em; margin-top: -0.0459636363636363em; vertical-align: -0.201115151515152em; height: 1.03020606060606em"></img>.</span>
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>&#x4F7F;&#x7528;&#x8FD9;&#x4E9B;&#x7F6E;&#x6362;&#x51FD;&#x6570;&#x7684;&#x7EA6;&#x5B9A;&#xFF0C;M&#x8868;&#x8FBE;&#x5F0F;
+    </p>
+    <center>
+      <img src="递归-86.png" style="margin-left: -0.0248242424242424em; margin-bottom: 0.0226424242424241em; margin-right: -0.0248242424242413em; margin-top: -0.0309333333333335em; vertical-align: -1.784em; height: 4.04208484848485em"></img>
+    </center>
+    <p>
+      <span style="margin-left: 1em"></span>&#x6709;&#x5BF9;&#x5E94;&#x7684;S&#x8868;&#x8FBE;&#x5F0F;
+    </p>
+    <center>
+      <img src="递归-87.png" style="margin-left: -0.0248242424242424em; margin-bottom: 0.0350545454545454em; margin-right: -0.0248242424242449em; margin-top: -0.0309333333333335em; vertical-align: -1.784em; height: 4.02967272727273em"></img>
+    </center>
+    <p>
+      <span style="margin-left: 1em"></span>&#x8BE5;&#x8868;&#x793A;&#x6CD5;&#x662F;&#x53EF;&#x5199;&#x7684;&#xFF0C;&#x90E8;&#x5206;&#x53EF;&#x8BFB;&#x3002;&#x53EF;&#x4EE5;&#x4F7F;&#x5176;&#x7ED3;&#x6784;&#x66F4;&#x4E0D;&#x89C4;&#x5219;&#xFF0C;&#x4EE5;&#x4F7F;&#x5176;&#x66F4;&#x6613;&#x4E8E;&#x8BFB;&#x5199;&#x3002;&#x5982;&#x679C;&#x8BA1;&#x7B97;&#x673A;&#x4E0A;&#x6709;&#x66F4;&#x591A;&#x5B57;&#x7B26;&#x53EF;&#x7528;&#xFF0C;&#x5219;&#x53EF;&#x4EE5;&#x5927;&#x5927;&#x6539;&#x5584;&#x3002;
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>f&#xFF0C;&#x901A;&#x7528;S&#x51FD;&#x6570;apply&#x3002;&#x6709;&#x4E00;&#x4E2A;S&#x51FD;&#x6570;&#xFF0C;&#x5176;&#x5C5E;&#x6027;&#x4E3A;&#xFF1A;&#x5982;&#x679C;<span
+      class="no-breaks"><img src="递归-88.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0347151515151515em; margin-right: -0.0894060606060606em; margin-top: -0.0388848484848485em; vertical-align: -0.201115151515152em; height: 0.992969696969697em"></img>&#x662F;S&#x51FD;&#x6570;</span><span
+      class="no-breaks"><img src="递归-89.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0347151515151515em; margin-right: -0.0248242424242424em; margin-top: 0.00130909090909093em; vertical-align: -0.201115151515152em; height: 1.17672727272727em"></img>&#x7684;S&#x8868;&#x8FBE;&#x5F0F;&#xFF0C;&#x800C;args&#x662F;&#x5F62;&#x5F0F;&#x4E3A;</span><span
+      class="no-breaks"><img src="递归-90.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0347151515151515em; margin-right: -0.0248242424242431em; margin-top: -0.0459636363636363em; vertical-align: -0.201115151515152em; height: 1.04261818181818em"></img>&#x7684;&#x53C2;&#x6570;&#x5217;&#x8868;&#xFF0C;&#x5176;&#x4E2D;</span><span
+      class="no-breaks"><img src="递归-91.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0347151515151515em; margin-right: -0.0248242424242422em; margin-top: -0.0243878787878788em; vertical-align: -0.201115151515152em; height: 0.71990303030303em"></img>&#x662F;&#x4EFB;&#x610F;S&#x8868;&#x8FBE;&#x5F0F;&#xFF0C;&#x7136;&#x540E;</span><span
+      class="no-breaks"><img src="递归-92.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0347151515151515em; margin-right: -0.0248242424242422em; margin-top: -0.0459636363636363em; vertical-align: -0.201115151515152em; height: 1.04261818181818em"></img>&#x548C;</span><span class="no-breaks"><img src="递归-93.png"
+      style="margin-left: -0.0248242424242424em; margin-bottom: -0.0347151515151515em; margin-right: -0.0248242424242431em; margin-top: 0.00130909090909093em; vertical-align: -0.201115151515152em; height: 1.17672727272727em"></img>&#x662F;&#x7ED9;&#x76F8;&#x540C;&#x7684;</span><span class="no-breaks"><img
+      src="递归-94.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0347151515151515em; margin-right: -0.0248242424242422em; margin-top: -0.0243878787878788em; vertical-align: -0.201115151515152em; height: 0.71990303030303em"></img>&#x7684;&#x503C;&#x6240;&#x5B9A;&#x4E49;&#xFF0C;&#x5B83;&#x4EEC;&#x5B9A;&#x4E49;&#x7684;&#x65F6;&#x5019;&#x662F;&#x76F8;&#x7B49;&#x7684;&#x3002;&#x4F8B;&#x5982;</span>
+    </p>
+    <center>
+      <img src="递归-95.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0347151515151515em; margin-right: -0.0248242424242413em; margin-top: -0.0459636363636363em; vertical-align: -0.201115151515152em; height: 1.04261818181818em"></img>
+    </center>
+    <center>
+      <img src="递归-96.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0347151515151515em; margin-right: -0.0248242424242378em; margin-top: -0.0459636363636363em; vertical-align: -0.201115151515152em; height: 1.04261818181818em"></img>
+    </center>
+    <p>
+      S&#x51FD;&#x6570;apply&#x88AB;&#x5B9A;&#x4E49;&#x4E3A;
+    </p>
+    <center>
+      <img src="递归-97.png" style="margin-left: -0.0248242424242424em; margin-bottom: 0.0350545454545461em; margin-right: -0.0248242424242449em; margin-top: -0.0309333333333335em; vertical-align: -16.7848242424242em; height: 34.0313212121212em"></img>
+    </center>
+    <p>
+      <span style="margin-left: 1em"></span>&#x73B0;&#x5728;&#xFF0C;&#x6211;&#x4EEC;&#x89E3;&#x91CA;&#x6709;&#x5173;&#x8FD9;&#x4E9B;&#x5B9A;&#x4E49;&#x7684;&#x4E00;&#x4E9B;&#x8981;&#x70B9;&#x3002;
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>1.apply&#x672C;&#x8EAB;&#x5F62;&#x6210;&#x4E00;&#x4E2A;&#x8868;&#x8FBE;&#x5F0F;,&#x8BE5;&#x8868;&#x8FBE;&#x5F0F;&#x8868;&#x793A;&#x5E94;&#x7528;&#x4E8E;&#x53C2;&#x6570;&#x7684;&#x51FD;&#x6570;&#x7684;&#x503C;,&#x5E76;&#x5C06;&#x5BF9;&#x8BE5;&#x8868;&#x8FBE;&#x5F0F;&#x6C42;&#x503C;&#x7684;&#x7ED3;&#x679C;&#x653E;&#x5230;&#x51FD;&#x6570;eval&#x4E0A;.&#x5B83;&#x4F7F;&#x7528;appq&#x5728;&#x6BCF;&#x4E2A;&#x53C2;&#x6570;&#x5468;&#x56F4;&#x52A0;&#x4E0A;&#x5F15;&#x53F7;,&#x4EE5;&#x4FBF;eval&#x5C06;&#x5176;&#x89C6;&#x4E3A;&#x5BF9;&#x81EA;&#x8EAB;&#x7684;&#x5F15;&#x7528;.
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>2.eval[e;a]
+      &#x6709;&#x4E24;&#x4E2A;&#x53C2;&#x6570;,&#x4E00;&#x4E2A;&#x8981;&#x6C42;&#x503C;&#x7684;&#x8868;&#x8FBE;&#x5F0F;e,&#x548C;&#x4E00;&#x4E2A;&#x6210;&#x5BF9;&#x7684;&#x5217;&#x8868;a.&#x6BCF;&#x5BF9;&#x7684;&#x7B2C;&#x4E00;&#x9879;&#x662F;&#x539F;&#x5B50;&#x7B26;&#x53F7;,&#x7B2C;&#x4E8C;&#x9879;&#x662F;&#x8BE5;&#x7B26;&#x53F7;&#x6240;&#x4EE3;&#x8868;&#x7684;&#x8868;&#x8FBE;&#x5F0F;.
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>3.&#x5982;&#x679C;&#x8981;&#x6C42;&#x503C;&#x7684;&#x8868;&#x8FBE;&#x5F0F;&#x662F;&#x539F;&#x5B50;&#x8868;&#x8FBE;&#x5F0F;,&#x5219;eval&#x9996;&#x5148;&#x5728;&#x5217;&#x8868;a&#x4E0A;&#x6C42;&#x503C;&#x4E0E;&#x5176;&#x5339;&#x914D;&#x7684;&#x503C;.
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>4.&#x5982;&#x679C;e&#x4E0D;&#x662F;&#x539F;&#x5B50;&#x7684;,&#x800C;car[e]&#x662F;&#x539F;&#x5B50;&#x7684;,&#x5219;&#x8868;&#x8FBE;&#x5F0F;&#x5177;&#x6709;&#x4EE5;&#x4E0B;&#x5F62;&#x5F0F;&#x4E4B;&#x4E00;:(QUOTE,e)&#x6216;(ATOM,e)&#x6216;(EQ,<span
+      class="no-breaks"><img src="递归-5.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0248242424242424em; margin-right: -0.0248242424242424em; margin-top: -0.038739393939394em; vertical-align: -0.148363636363636em; height: 0.657260606060606em"></img>,</span><span class="no-breaks"><img src="递归-7.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0248242424242424em; margin-right: -0.0248242424242424em; margin-top: -0.038739393939394em; vertical-align: -0.148363636363636em; height: 0.657260606060606em"></img>)&#x6216;(COND,(</span><span
+      class="no-breaks"><img src="递归-4.png" style="margin-left: -0.0620606060606061em; margin-bottom: -0.0223030303030303em; margin-right: -0.0248242424242424em; margin-top: -0.038739393939394em; vertical-align: -0.201115151515152em; height: 0.707490909090909em"></img>,</span><span class="no-breaks"><img src="递归-5.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0248242424242424em; margin-right: -0.0248242424242424em; margin-top: -0.038739393939394em; vertical-align: -0.148363636363636em; height: 0.657260606060606em"></img>),</span><span
+      class="no-breaks"><img src="递归-98.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0248242424242424em; margin-right: -0.0248242424242424em; margin-top: -0.0103272727272727em; vertical-align: 0em; height: 0.494836363636364em"></img>,(</span><span class="no-breaks"><img src="递归-8.png" style="margin-left: -0.0620606060606061em; margin-bottom: -0.0223030303030303em; margin-right: -0.0248242424242424em; margin-top: -0.038739393939394em; vertical-align: -0.201115151515152em; height: 0.707490909090909em"></img>,</span><span
+      class="no-breaks"><img src="递归-9.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0372363636363636em; margin-right: -0.0248242424242424em; margin-top: -0.038739393939394em; vertical-align: -0.148363636363636em; height: 0.669672727272727em"></img>))&#x6216;(CAR,e)&#x6216;(CDR,e)&#x6216;(CONS,</span><span
+      class="no-breaks"><img src="递归-5.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0248242424242424em; margin-right: -0.0248242424242424em; margin-top: -0.038739393939394em; vertical-align: -0.148363636363636em; height: 0.657260606060606em"></img>,</span><span class="no-breaks"><img src="递归-7.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0248242424242424em; margin-right: -0.0248242424242424em; margin-top: -0.038739393939394em; vertical-align: -0.148363636363636em; height: 0.657260606060606em"></img>&#xFF09;&#x6216;(f,</span><span
+      class="no-breaks"><img src="递归-5.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0248242424242424em; margin-right: -0.0248242424242424em; margin-top: -0.038739393939394em; vertical-align: -0.148363636363636em; height: 0.657260606060606em"></img>,</span><span class="no-breaks"><img src="递归-98.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0248242424242424em; margin-right: -0.0248242424242424em; margin-top: -0.0103272727272727em; vertical-align: 0em; height: 0.494836363636364em"></img>,</span><span
+      class="no-breaks"><img src="递归-9.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0372363636363636em; margin-right: -0.0248242424242424em; margin-top: -0.038739393939394em; vertical-align: -0.148363636363636em; height: 0.669672727272727em"></img>),&#x5176;&#x4E2D;f&#x662F;&#x539F;&#x5B50;&#x7B26;&#x53F7;.</span>
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>&#x5728;(QUOTE,e)&#x7684;&#x60C5;&#x51B5;&#x4E0B;,&#x91C7;&#x7528;&#x8868;&#x8FBE;&#x5F0F;e&#x672C;&#x8EAB;.&#x5728;(ATOM,e)&#x6216;(CAR,e)&#x6216;(CDR,e)&#x7684;&#x60C5;&#x51B5;&#x4E0B;,&#x6C42;&#x503C;&#x8868;&#x8FBE;&#x5F0F;e&#x5E76;&#x6267;&#x884C;&#x9002;&#x5F53;&#x7684;&#x51FD;&#x6570;.&#x5728;(EQ,<span
+      class="no-breaks"><img src="递归-5.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0248242424242424em; margin-right: -0.0248242424242424em; margin-top: -0.038739393939394em; vertical-align: -0.148363636363636em; height: 0.657260606060606em"></img>,</span><span class="no-breaks"><img src="递归-7.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0248242424242424em; margin-right: -0.0248242424242424em; margin-top: -0.038739393939394em; vertical-align: -0.148363636363636em; height: 0.657260606060606em"></img>)&#x6216;(CONS,</span><span
+      class="no-breaks"><img src="递归-5.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0248242424242424em; margin-right: -0.0248242424242424em; margin-top: -0.038739393939394em; vertical-align: -0.148363636363636em; height: 0.657260606060606em"></img>,</span><span class="no-breaks"><img src="递归-7.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0248242424242424em; margin-right: -0.0248242424242424em; margin-top: -0.038739393939394em; vertical-align: -0.148363636363636em; height: 0.657260606060606em"></img>)&#x7684;&#x60C5;&#x51B5;&#x4E0B;,&#x5FC5;&#x987B;&#x6C42;&#x503C;&#x4E24;&#x4E2A;&#x5B50;&#x8868;&#x8FBE;&#x5F0F;.&#x5728;(COND,(</span><span
+      class="no-breaks"><img src="递归-4.png" style="margin-left: -0.0620606060606061em; margin-bottom: -0.0223030303030303em; margin-right: -0.0248242424242424em; margin-top: -0.038739393939394em; vertical-align: -0.201115151515152em; height: 0.707490909090909em"></img>,</span><span class="no-breaks"><img src="递归-5.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0248242424242424em; margin-right: -0.0248242424242424em; margin-top: -0.038739393939394em; vertical-align: -0.148363636363636em; height: 0.657260606060606em"></img>),</span><span
+      class="no-breaks"><img src="递归-98.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0248242424242424em; margin-right: -0.0248242424242424em; margin-top: -0.0103272727272727em; vertical-align: 0em; height: 0.494836363636364em"></img>(</span><span class="no-breaks"><img src="递归-99.png" style="margin-left: -0.0620606060606061em; margin-bottom: -0.0223030303030303em; margin-right: -0.0248242424242426em; margin-top: -0.038739393939394em; vertical-align: -0.201115151515152em; height: 0.707490909090909em"></img>))&#x7684;&#x60C5;&#x51B5;&#x4E0B;,&#x5FC5;&#x987B;&#x5BF9;p&#x8FDB;&#x884C;&#x6C42;&#x503C;,&#x76F4;&#x5230;&#x627E;&#x5230;&#x771F;p,&#x7136;&#x540E;&#x5FC5;&#x987B;&#x6C42;&#x503C;&#x76F8;&#x5E94;&#x7684;e.&#x8FD9;&#x662F;&#x7531;evcon&#x5B8C;&#x6210;&#x7684;.&#x6700;&#x540E;,&#x5728;</span><span
+      class="no-breaks"><img src="递归-100.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0347151515151515em; margin-right: -0.0248242424242422em; margin-top: -0.0459636363636363em; vertical-align: -0.201115151515152em; height: 1.04261818181818em"></img>&#x7684;&#x60C5;&#x51B5;&#x4E0B;,&#x6211;&#x4EEC;&#x6C42;&#x503C;&#x5C06;&#x8868;&#x8FBE;&#x5F0F;f&#x66FF;&#x6362;&#x4E3A;&#x5217;&#x8868;a&#x4E2D;&#x4E0E;&#x4E4B;&#x5339;&#x914D;&#x7684;&#x8868;&#x8FBE;&#x5F0F;&#x7684;&#x7ED3;&#x679C;.</span>
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>5.<span class="no-breaks"><img src="递归-101.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0347151515151515em; margin-right: -0.0248242424242431em; margin-top: -0.0459636363636363em; vertical-align: -0.201115151515152em; height: 1.04261818181818em"></img>&#x7684;&#x6C42;&#x503C;&#x662F;&#x901A;&#x8FC7;&#x5BF9;</span><span
+      class="no-breaks"><img src="递归-102.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0223030303030303em; margin-right: -0.0248242424242422em; margin-top: -0.0459636363636363em; vertical-align: -0.201115151515152em; height: 1.03020606060606em"></img>&#x8FDB;&#x884C;&#x914D;&#x5BF9;,&#x5E76;&#x5C06;&#x914D;&#x5BF9;</span><span
+      class="no-breaks"><img src="递归-103.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0347151515151515em; margin-right: -0.0248242424242413em; margin-top: -0.0459636363636363em; vertical-align: -0.201115151515152em; height: 1.04261818181818em"></img>&#x653E;&#x5728;&#x5BF9;&#x5E94;&#x7684;&#x524D;&#x4E00;&#x4E2A;&#x5217;&#x8868;a&#x7684;&#x524D;&#x9762;.</span>
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>6.&#x6700;&#x540E;,<span class="no-breaks"><img src="递归-104.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0223030303030303em; margin-right: -0.0248242424242413em; margin-top: -0.0459636363636363em; vertical-align: -0.201115151515152em; height: 1.03020606060606em"></img>&#x7684;&#x503C;,&#x901A;&#x8FC7;&#x5BF9;</span><span
+      class="no-breaks"><img src="递归-73.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0496484848484848em; margin-right: -0.0623030303030303em; margin-top: -0.0503757575757576em; vertical-align: 0em; height: 0.806787878787879em"></img>&#x8FDB;&#x884C;&#x6C42;&#x503C;,&#x5C06;</span><span
+      class="no-breaks"><img src="递归-73.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0496484848484848em; margin-right: -0.0623030303030303em; margin-top: -0.0503757575757576em; vertical-align: 0em; height: 0.806787878787879em"></img>&#x4E0E;&#x5217;&#x8868;&#x5BF9;</span><span
+      class="no-breaks"><img src="递归-105.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0223030303030303em; margin-right: -0.0248242424242431em; margin-top: -0.0459636363636363em; vertical-align: -0.201115151515152em; height: 1.03020606060606em"></img>&#x653E;&#x5728;&#x4E0A;&#x4E00;&#x4E2A;&#x5217;&#x8868;a&#x7684;&#x524D;&#x9762;.</span>
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>&#x53EF;&#x4EE5;&#x5220;&#x9664;&#x5217;&#x8868;a&#xFF0C;&#x5E76;&#x901A;&#x8FC7;&#x7528;&#x53C2;&#x6570;<span
+      class="no-breaks"><img src="递归-73.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0496484848484848em; margin-right: -0.0623030303030303em; margin-top: -0.0503757575757576em; vertical-align: 0em; height: 0.806787878787879em"></img>&#x66FF;&#x6362;&#x8868;&#x8FBE;&#x5F0F;</span><span
+      class="no-breaks"><img src="递归-73.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0496484848484848em; margin-right: -0.0623030303030303em; margin-top: -0.0503757575757576em; vertical-align: 0em; height: 0.806787878787879em"></img>&#x4E2D;&#x7684;&#x53D8;&#x91CF;&#x6765;&#x8BC4;&#x4F30;LAMBDA&#x548C;LABEL&#x8868;&#x8FBE;&#x5F0F;.&#x4E0D;&#x5E78;&#x7684;&#x662F;,&#x51FA;&#x73B0;&#x4E86;&#x6D89;&#x53CA;&#x7ED1;&#x5B9A;&#x53D8;&#x91CF;&#x51B2;&#x7A81;&#x7684;&#x56F0;&#x96BE;,&#x4F46;&#x662F;&#x901A;&#x8FC7;&#x4F7F;&#x7528;&#x5217;&#x8868;a&#x53EF;&#x4EE5;&#x907F;&#x514D;&#x8FD9;&#x4E9B;&#x56F0;&#x96BE;.</span>
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>&#x901A;&#x8FC7;&#x4F7F;&#x7528;apply&#x8BA1;&#x7B97;&#x51FD;&#x6570;&#x7684;&#x503C;&#x662F;&#x6BD4;&#x7535;&#x5B50;&#x8BA1;&#x7B97;&#x673A;&#x66F4;&#x9002;&#x5408;&#x8BA1;&#x7B97;&#x7684;&#x6D3B;&#x52A8;.
+      &#x4F46;&#x662F;,&#x4F5C;&#x4E3A;&#x8BF4;&#x660E;,&#x6211;&#x4EEC;&#x73B0;&#x5728;&#x7ED9;&#x51FA;&#x4E00;&#x4E9B;&#x8BA1;&#x7B97;&#x5E94;&#x7528;<span
+      class="no-breaks"><img src="递归-106.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0347151515151515em; margin-right: -0.0248242424242378em; margin-top: -0.0459636363636363em; vertical-align: -0.201115151515152em; height: 1.04261818181818em"></img>&#x7684;&#x6B65;&#x9AA4;.&#x7B2C;&#x4E00;&#x4E2A;&#x53C2;&#x6570;&#x662F;S&#x8868;&#x8FBE;&#x5F0F;,&#x5B83;&#x8868;&#x793A;&#x7B2C;&#x4E09;&#x8282;&#x4E2D;&#x5B9A;&#x4E49;&#x7684;&#x51FD;&#x6570;ff.&#x6211;&#x4EEC;&#x5C06;&#x4F7F;&#x7528;&#x5B57;&#x6BCD;</span><span
+      class="no-breaks"><img src="递归-107.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0347151515151515em; margin-right: -0.0248242424242424em; margin-top: -0.0264727272727273em; vertical-align: -0.201115151515152em; height: 0.980557575757576em"></img>&#x8FDB;&#x884C;&#x7F29;&#x5199;.&#x6211;&#x4EEC;&#x6709;</span>
+    </p>
+    <center>
+      <img src="递归-108.png" style="margin-left: -0.0248242424242424em; margin-bottom: 0.233648484848485em; margin-right: -0.0248242424242449em; margin-top: -0.0309333333333335em; vertical-align: -10.0630787878788em; height: 20.3892363636364em"></img>
+    </center>
+    <p>
+      <span style="margin-left: 1em"></span>&#x6211;&#x4EEC;&#x7684;&#x4E3B;&#x8981;&#x8BA1;&#x7B97;&#x7EE7;&#x7EED;&#x5982;&#x4E0B;
+    </p>
+    <center>
+      <img src="递归-109.png" style="margin-left: -0.0248242424242424em; margin-bottom: 0.0350545454545454em; margin-right: -0.0248242424242449em; margin-top: -0.0309333333333333em; vertical-align: -1.03762424242424em; height: 2.53692121212121em"></img>
+    </center>
+    <p>
+      <span style="margin-left: 1em"></span>&#x6211;&#x4EEC;&#x7684;&#x4E3B;&#x8981;&#x8BA1;&#x7B97;&#x518D;&#x6B21;&#x7EE7;&#x7EED;
+    </p>
+    <center>
+      <img src="递归-110.png" style="margin-left: -0.0248242424242424em; margin-bottom: 0.0226424242424237em; margin-right: -0.0248242424242378em; margin-top: -0.0309333333333335em; vertical-align: -7.80242424242424em; height: 16.0789333333333em"></img>
+    </center>
+    <p>
+      <span style="margin-left: 1em"></span>&#x6309;&#x7167;&#x8BA1;&#x7B97;&#x5F00;&#x59CB;&#x7684;&#x6B65;&#x9AA4;&#x8FDB;&#x884C;&#x540E;&#x7EED;&#x6B65;&#x9AA4;.LABEL&#x548C;LAMBDA&#x5BFC;&#x81F4;&#x5C06;&#x65B0;&#x7684;&#x5BF9;&#x6DFB;&#x52A0;&#x5230;a,&#x4ECE;&#x800C;&#x7ED9;&#x51FA;&#x65B0;&#x7684;&#x5E8F;&#x5BF9;&#x5217;&#x8868;a1.&#x6709;&#x6761;&#x4EF6;&#x7684;<span
+      class="no-breaks"><img src="递归-111.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0223030303030303em; margin-right: -0.0248242424242413em; margin-top: -0.0459636363636363em; vertical-align: -0.201115151515152em; height: 1.03020606060606em"></img>&#x7684;</span><span class="no-breaks"><img src="递归-112.png"
+      style="margin-left: -0.0248242424242424em; margin-bottom: -0.0248242424242424em; margin-right: -0.0248242424242426em; margin-top: -0.0263272727272728em; vertical-align: -0.148363636363636em; height: 0.644848484848485em"></img>&#x7ED3;&#x6784;&#x6709;T&#x503C;,&#x56E0;&#x4E3A;X&#x662F;</span><span
+      class="no-breaks"><img src="递归-113.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0248242424242424em; margin-right: -0.0248242424242424em; margin-top: -0.038739393939394em; vertical-align: -0.148363636363636em; height: 0.657260606060606em"></img>&#x91CC;&#x9762;(QUOTE,A)&#x7684;&#x7B2C;&#x4E00;&#x9879;,&#x800C;&#x4E0D;&#x662F;&#x50CF;a&#x90A3;&#x6837;&#x662F;</span><span
+      class="no-breaks"><img src="递归-114.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0223030303030303em; margin-right: -0.0248242424242431em; margin-top: -0.0459636363636363em; vertical-align: -0.201115151515152em; height: 1.03020606060606em"></img>.</span>
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>&#x56E0;&#x6B64;,&#x6211;&#x4EEC;&#x6700;&#x7EC8;&#x5F97;&#x5230;<span
+      class="no-breaks"><img src="递归-115.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0223030303030303em; margin-right: -0.0248242424242431em; margin-top: -0.0459636363636363em; vertical-align: -0.201115151515152em; height: 1.03020606060606em"></img>,&#x8FD9;&#x53EA;&#x662F;A.</span>
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>g&#xFF0C;&#x4EE5;&#x51FD;&#x6570;&#x4F5C;&#x4E3A;&#x53C2;&#x6570;&#x7684;&#x51FD;&#x6570;&#x3002;&#x6709;&#x8BB8;&#x591A;&#x6709;&#x7528;&#x7684;&#x51FD;&#x6570;&#xFF0C;&#x5176;&#x4E2D;&#x4E00;&#x4E9B;&#x53C2;&#x6570;&#x662F;&#x51FD;&#x6570;&#x3002;&#x5B83;&#x4EEC;&#x5728;&#x5B9A;&#x4E49;&#x5176;&#x4ED6;&#x51FD;&#x6570;&#x65F6;&#x7279;&#x522B;&#x6709;&#x7528;&#x3002;&#x8FD9;&#x6837;&#x7684;&#x51FD;&#x6570;&#x4E4B;&#x4E00;&#x5C31;&#x662F;maplist
+      [x;
+      f]&#xFF0C;&#x5E26;&#x6709;S&#x8868;&#x8FBE;&#x5F0F;&#x53C2;&#x6570;x&#x548C;&#x53C2;&#x6570;f&#xFF0C;&#x8BE5;&#x53C2;&#x6570;f&#x662F;&#x4ECE;S&#x8868;&#x8FBE;&#x5F0F;&#x5230;S&#x8868;&#x8FBE;&#x5F0F;&#x7684;&#x51FD;&#x6570;&#x3002;&#x6211;&#x4EEC;&#x5B9A;&#x4E49;
+    </p>
+    <center>
+      <img src="递归-116.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0347151515151515em; margin-right: -0.0248242424242449em; margin-top: -0.0459636363636363em; vertical-align: -0.201115151515152em; height: 1.04261818181818em"></img>
+    </center>
+    <p>
+      maplist&#x7684;&#x6709;&#x7528;&#x6027;&#x7531;&#x6D89;&#x53CA;x&#x7684;&#x548C;&#x4E0E;&#x4E58;&#x79EF;&#x4EE5;&#x53CA;&#x5176;&#x4ED6;&#x53D8;&#x91CF;&#x7684;&#x8868;&#x8FBE;&#x5F0F;&#x7684;x&#x7684;&#x504F;&#x5BFC;&#x6570;&#x7684;&#x516C;&#x5F0F;&#x8BF4;&#x660E;&#x3002;&#x6211;&#x4EEC;&#x5C06;&#x8981;&#x533A;&#x5206;&#x7684;S&#x8868;&#x8FBE;&#x5F0F;&#x5F62;&#x6210;&#x5982;&#x4E0B;&#x3002;
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>1.&#x539F;&#x5B50;&#x7B26;&#x53F7;&#x662F;&#x5141;&#x8BB8;&#x7684;&#x8868;&#x8FBE;&#x5F0F;.
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>2.&#x5982;&#x679C;<span class="no-breaks"><img src="递归-117.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0223030303030303em; margin-right: -0.0248242424242422em; margin-top: -0.0243878787878788em; vertical-align: -0.201115151515152em; height: 0.707490909090909em"></img>&#x662F;&#x5141;&#x8BB8;&#x7684;&#x8868;&#x8FBE;&#x5F0F;,</span><span
+      class="no-breaks"><img src="递归-118.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0223030303030303em; margin-right: -0.0248242424242431em; margin-top: -0.0459636363636363em; vertical-align: -0.201115151515152em; height: 1.03020606060606em"></img>&#x548C;</span><span class="no-breaks"><img src="递归-119.png"
+      style="margin-left: -0.0248242424242424em; margin-bottom: -0.0223030303030303em; margin-right: -0.0248242424242431em; margin-top: -0.0459636363636363em; vertical-align: -0.201115151515152em; height: 1.03020606060606em"></img>&#x4E5F;&#x662F;,&#x4EE3;&#x8868;&#x4E86;&#x603B;&#x548C;&#x4E0E;&#x4E58;&#x79EF;,&#x5206;&#x522B;&#x662F;</span><span
+      class="no-breaks"><img src="递归-120.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0223030303030303em; margin-right: -0.0248242424242422em; margin-top: -0.0243878787878788em; vertical-align: -0.201115151515152em; height: 0.707490909090909em"></img>.</span>
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>&#x672C;&#x8D28;&#x4E0A;&#xFF0C;&#x8FD9;&#x662F;&#x6CE2;&#x5170;&#x8868;&#x8FBE;&#x5F0F;&#x7684;&#x51FD;&#x6570;&#x8868;&#x793A;&#x6CD5;(the
+      Polish notation for
+      functions)&#xFF0C;&#x4E0D;&#x540C;&#x4E4B;&#x5904;&#x5728;&#x4E8E;&#xFF0C;&#x62EC;&#x53F7;&#x548C;&#x9017;&#x53F7;&#x5141;&#x8BB8;&#x5305;&#x542B;&#x53EF;&#x53D8;&#x6570;&#x91CF;&#x7684;&#x53C2;&#x6570;&#x7684;&#x51FD;&#x6570;&#x3002;&#x5141;&#x8BB8;&#x7684;&#x8868;&#x8FBE;&#x5F0F;&#x7684;&#x4E00;&#x4E2A;&#x793A;&#x4F8B;&#x662F;(TIMES,X,(PLUS,X,A),Y)&#xFF0C;&#x5176;&#x5E38;&#x89C4;&#x4EE3;&#x6570;&#x7B26;&#x53F7;&#x4E3A;X(X
+      + A)Y&#x3002;
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>&#x6211;&#x4EEC;&#x7684;&#x5FAE;&#x5206;&#x516C;&#x5F0F;&#xFF0C;&#x7ED9;&#x51FA;y&#x76F8;&#x5BF9;&#x4E8E;x&#x7684;&#x5BFC;&#x6570;&#x662F;
+    </p>
+    <center>
+      <img src="递归-121.png" style="margin-left: -0.0248242424242424em; margin-bottom: 0.0226424242424237em; margin-right: -0.0248242424242449em; margin-top: -0.0309333333333335em; vertical-align: -4.0336em; height: 8.54128484848485em"></img>
+    </center>
+    <p>
+      <span style="margin-left: 1em"></span>&#x7531;&#x8BE5;&#x516C;&#x5F0F;&#x8BA1;&#x7B97;&#x8868;&#x8FBE;&#x5F0F;(TIMES,X,(PLUS,X,A),Y)&#x7684;&#x5BFC;&#x6570;&#x662F;
+    </p>
+    <center>
+      <img src="递归-122.png" style="margin-left: -0.0248242424242424em; margin-bottom: 0.0350545454545454em; margin-right: -0.0248242424242413em; margin-top: -0.0309333333333335em; vertical-align: -1.784em; height: 4.02967272727273em"></img>
+    </center>
+    <p>
+      <span style="margin-left: 1em"></span>&#x9664;&#x4E86;maplist&#x4E4B;&#x5916;&#xFF0C;&#x5177;&#x6709;&#x51FD;&#x6570;&#x53C2;&#x6570;&#x7684;&#x53E6;&#x4E00;&#x4E2A;&#x6709;&#x7528;&#x51FD;&#x6570;&#x662F;search&#xFF0C;&#x5176;&#x5B9A;&#x4E49;&#x4E3A;
+    </p>
+    <center>
+      <img src="递归-123.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0347151515151515em; margin-right: -0.0248242424242449em; margin-top: -0.0459636363636363em; vertical-align: -0.201115151515152em; height: 1.04261818181818em"></img>
+    </center>
+    <p>
+      <span style="margin-left: 1em"></span>&#x51FD;&#x6570;&#x641C;&#x7D22;&#x7528;&#x4E8E;&#x5728;&#x5217;&#x8868;&#x4E2D;&#x641C;&#x7D22;&#x5177;&#x6709;&#x5C5E;&#x6027;p&#x7684;&#x5143;&#x7D20;&#xFF0C;&#x5982;&#x679C;&#x627E;&#x5230;&#x4E86;&#x8FD9;&#x6837;&#x7684;&#x5143;&#x7D20;&#xFF0C;&#x8BE5;&#x5143;&#x7D20;&#x7684;f&#x88AB;&#x6355;&#x83B7;&#x3002;&#x5982;&#x679C;&#x6CA1;&#x6709;&#x8FD9;&#x6837;&#x7684;&#x5143;&#x7D20;&#xFF0C;&#x5219;&#x4E0D;&#x8BA1;&#x7B97;&#x53C2;&#x6570;&#x7684;&#x51FD;&#x6570;u&#x3002;
+    </p>
+    <h2 id="auto-4">4<span style="margin-left: 1em"></span>LISP&#x7F16;&#x7A0B;&#x7CFB;&#x7EDF;<span
+    style="margin-left: 1em"></span></h2>
+    <p>
+      <span style="margin-left: 1em"></span>LISP&#x7F16;&#x7A0B;&#x7CFB;&#x7EDF;&#x662F;&#x7528;&#x4E8E;&#x4F7F;&#x7528;IBM
+      704&#x8BA1;&#x7B97;&#x673A;&#x6267;&#x884C;&#x4EE5;&#x4E0B;&#x64CD;&#x4F5C;&#x7684;&#x7CFB;&#x7EDF;&#xFF1A;&#x4F7F;&#x7528;S&#x8868;&#x8FBE;&#x5F0F;&#x5F62;&#x5F0F;&#x7684;&#x7B26;&#x53F7;&#x4FE1;&#x606F;&#x8FDB;&#x884C;&#x8BA1;&#x7B97;&#x3002;&#x5B83;&#x5DF2;&#x7ECF;&#x6216;&#x5C06;&#x7528;&#x4E8E;&#x4EE5;&#x4E0B;&#x76EE;&#x7684;&#xFF1A;
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>1.&#x7F16;&#x5199;&#x7F16;&#x8BD1;&#x5668;&#x4EE5;&#x5C06;LISP&#x7A0B;&#x5E8F;&#x7F16;&#x8BD1;&#x4E3A;&#x673A;&#x5668;&#x8BED;&#x8A00;.
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>2.&#x7F16;&#x5199;&#x7A0B;&#x5E8F;&#x4EE5;&#x68C0;&#x67E5;&#x5F62;&#x5F0F;&#x903B;&#x8F91;&#x7CFB;&#x7EDF;&#x4E2D;&#x7684;&#x8BC1;&#x660E;.
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>3.&#x7F16;&#x5199;&#x7A0B;&#x5E8F;&#x4EE5;&#x8FDB;&#x884C;&#x5F62;&#x5F0F;&#x5316;&#x7684;&#x5FAE;&#x5206;&#x548C;&#x79EF;&#x5206;.
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>4.&#x7F16;&#x5199;&#x7A0B;&#x5E8F;&#x4EE5;&#x5B9E;&#x73B0;&#x7528;&#x4E8E;&#x5728;&#x8C13;&#x8BCD;&#x6F14;&#x7B97;&#x4E2D;&#x751F;&#x6210;&#x8BC1;&#x660E;&#x7684;&#x5404;&#x79CD;&#x7B97;&#x6CD5;.
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>5.&#x8FDB;&#x884C;&#x67D0;&#x4E9B;&#x5DE5;&#x7A0B;&#x8BA1;&#x7B97;,&#x5176;&#x7ED3;&#x679C;&#x662F;&#x516C;&#x5F0F;&#x800C;&#x4E0D;&#x662F;&#x6570;&#x5B57;.
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>6.&#x7F16;&#x5199; the Advice Taker
+      &#x7CFB;&#x7EDF;.
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>&#x8BE5;&#x7CFB;&#x7EDF;&#x7684;&#x57FA;&#x7840;&#x662F;&#x4E00;&#x79CD;&#x7F16;&#x5199;&#x8BA1;&#x7B97;&#x673A;&#x7A0B;&#x5E8F;&#x4EE5;&#x6C42;&#x503C;S&#x51FD;&#x6570;&#x7684;&#x65B9;&#x6CD5;&#xFF0C;&#x4EE5;&#x4E0B;&#x5404;&#x8282;&#x5C06;&#x5BF9;&#x6B64;&#x8FDB;&#x884C;&#x63CF;&#x8FF0;&#x3002;
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>&#x9664;&#x4E86;&#x63CF;&#x8FF0;S&#x51FD;&#x6570;&#x7684;&#x529F;&#x80FD;&#x5916;&#xFF0C;&#x8FD8;&#x6709;&#x5728;FORTRAN&#xFF08;4&#xFF09;&#x6216;ALGOL&#xFF08;5&#xFF09;&#x7684;&#x8BED;&#x53E5;&#x5E8F;&#x5217;&#x7F16;&#x5199;&#x7684;&#x7A0B;&#x5E8F;&#x4E2D;&#x6CBF;&#x7528;S&#x51FD;&#x6570;&#x7684;&#x4E00;&#x4E9B;&#x529F;&#x80FD;&#x3002;&#x8FD9;&#x4E9B;&#x7279;&#x6027;&#x5C06;&#x4E0D;&#x5728;&#x672C;&#x6587;&#x4E2D;&#x63CF;&#x8FF0;&#x3002;
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>a&#xFF0C;&#x901A;&#x8FC7;&#x5217;&#x8868;&#x7ED3;&#x6784;&#x8868;&#x793A;S&#x8868;&#x8FBE;&#x5F0F;&#x3002;&#x5217;&#x8868;&#x7ED3;&#x6784;&#x662F;&#x6309;&#x56FE;1a&#x6216;1b&#x6392;&#x5217;&#x7684;&#x8BA1;&#x7B97;&#x673A;&#x5355;&#x8BCD;&#x7684;&#x96C6;&#x5408;&#x3002;&#x5217;&#x8868;&#x7ED3;&#x6784;&#x7684;&#x6BCF;&#x4E2A;&#x5355;&#x8BCD;&#x7531;&#x56FE;&#x4E2D;&#x7EC6;&#x5206;&#x7684;&#x77E9;&#x5F62;&#x4E4B;&#x4E00;&#x8868;&#x793A;&#x3002;&#x77E9;&#x5F62;&#x7684;&#x5DE6;&#x6846;&#x8868;&#x793A;&#x5355;&#x8BCD;&#x7684;&#x5730;&#x5740;(address)&#x5B57;&#x6BB5;&#xFF0C;&#x53F3;&#x6846;&#x8868;&#x793A;&#x51CF;&#x91CF;(decrement)&#x5B57;&#x6BB5;&#x3002;&#x4ECE;&#x4E00;&#x4E2A;&#x6846;&#x5230;&#x53E6;&#x4E00;&#x4E2A;&#x77E9;&#x5F62;&#x7684;&#x7BAD;&#x5934;&#x8868;&#x793A;&#x4E0E;&#x8BE5;&#x6846;&#x76F8;&#x5BF9;&#x5E94;&#x7684;&#x5B57;&#x6BB5;&#x5305;&#x542B;&#x4E0E;&#x53E6;&#x4E00;&#x4E2A;&#x77E9;&#x5F62;&#x76F8;&#x5BF9;&#x5E94;&#x7684;&#x5355;&#x8BCD;&#x7684;&#x4F4D;&#x7F6E;&#x3002;
+    </p>
+    <p>
+      <img src="递归-124.png" style="margin-left: -0.0248242424242424em; margin-bottom: 0em; margin-right: -0.0248242424242449em; margin-top: 0em; vertical-align: -13.1939878787879em; height: 26.3879757575758em"></img>
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>&#x5141;&#x8BB8;&#x5B50;&#x7ED3;&#x6784;&#x51FA;&#x73B0;&#x5728;&#x5217;&#x8868;&#x7ED3;&#x6784;&#x7684;&#x591A;&#x4E2A;&#x4F4D;&#x7F6E;&#xFF0C;&#x5982;&#x56FE;1b&#x6240;&#x793A;&#xFF0C;&#x4F46;&#x4E0D;&#x5141;&#x8BB8;&#x7ED3;&#x6784;&#x5177;&#x6709;&#x5FAA;&#x73AF;&#xFF0C;&#x5982;&#x56FE;1c&#x6240;&#x793A;&#x3002;&#x539F;&#x5B50;&#x7B26;&#x53F7;&#x5728;&#x8BA1;&#x7B97;&#x673A;&#x4E2D;&#x7528;&#x7279;&#x6B8A;&#x5F62;&#x5F0F;&#x7684;&#x5217;&#x8868;&#x7ED3;&#x6784;&#x8868;&#x793A;&#xFF0C;&#x8BE5;&#x5217;&#x8868;&#x7ED3;&#x6784;&#x79F0;&#x4E3A;&#x7B26;&#x53F7;&#x7684;&#x5173;&#x8054;&#x5217;&#x8868;&#x3002;&#x7B2C;&#x4E00;&#x4E2A;&#x5355;&#x8BCD;&#x7684;&#x5730;&#x5740;&#x5B57;&#x6BB5;&#x5305;&#x542B;&#x4E00;&#x4E2A;&#x7279;&#x6B8A;&#x7684;&#x5E38;&#x91CF;&#xFF0C;&#x8BE5;&#x5E38;&#x91CF;&#x4F7F;&#x7A0B;&#x5E8F;&#x80FD;&#x591F;&#x77E5;&#x9053;&#x8BE5;&#x5355;&#x8BCD;&#x4EE3;&#x8868;&#x4E00;&#x4E2A;&#x539F;&#x5B50;&#x7B26;&#x53F7;&#x3002;&#x6211;&#x4EEC;&#x5C06;&#x5728;&#x7B2C;4b&#x8282;&#x4E2D;&#x63CF;&#x8FF0;&#x5173;&#x8054;&#x5217;&#x8868;&#x3002;
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>&#x975E;&#x539F;&#x5B50;&#x7684;S&#x8868;&#x8FBE;&#x5F0F;x&#x7531;&#x4E00;&#x4E2A;&#x5355;&#x8BCD;&#x8868;&#x793A;&#xFF0C;&#x5176;&#x5730;&#x5740;&#x548C;&#x51CF;&#x91CF;&#x90E8;&#x5206;&#x5206;&#x522B;&#x5305;&#x542B;&#x5B50;&#x8868;&#x8FBE;&#x5F0F;car[x]&#x548C;cdr[x]&#x7684;&#x4F4D;&#x7F6E;&#x3002;&#x5982;&#x679C;&#x6211;&#x4EEC;&#x4F7F;&#x7528;&#x7B26;&#x53F7;A&#xFF0C;B<span
+      style="margin-left: 0.16665em"></span>.<span style="margin-left: 0.16665em"></span>.<span style="margin-left: 0.16665em"></span>.<span style="margin-left: 0.16665em"></span>&#xFF0C;&#x4E3A;&#x4E86;&#x8868;&#x793A;&#x8FD9;&#x4E9B;&#x7B26;&#x53F7;&#x7684;&#x5173;&#x8054;&#x5217;&#x8868;&#x7684;&#x4F4D;&#x7F6E;&#xFF0C;&#x5219;S&#x8868;&#x8FBE;&#x5F0F;<span
+      class="no-breaks"><img src="递归-125.png" style="margin-left: -0.0248242424242424em; margin-bottom: 0.0164363636363636em; margin-right: -0.0248242424242431em; margin-top: -0.0459636363636363em; vertical-align: -0.0660848484848485em; height: 0.856436363636364em"></img>&#x7531;&#x56FE;2&#x7684;&#x5217;&#x8868;&#x7ED3;&#x6784;a&#x8868;&#x793A;&#x3002;&#x8F6C;&#x5230;S&#x8868;&#x8FBE;&#x5F0F;&#x7684;&#x5217;&#x8868;&#x5F62;&#x5F0F;&#xFF0C;&#x6211;&#x4EEC;&#x770B;&#x5230;S&#x8868;&#x8FBE;&#x5F0F;(A,(B,C),D)&#xFF0C;&#x5B83;&#x662F;</span><span
+      class="no-breaks"><img src="递归-126.png" style="margin-left: -0.0248242424242424em; margin-bottom: 0.0164363636363636em; margin-right: -0.0248242424242431em; margin-top: -0.0459636363636363em; vertical-align: -0.0660848484848485em; height: 0.856436363636364em"></img>&#xFF0C;&#x7531;&#x56FE;2b&#x7684;&#x5217;&#x8868;&#x7ED3;&#x6784;&#x8868;&#x793A;&#x3002;</span>
+    </p>
+    <p>
+      <img src="递归-127.png" style="margin-left: -0.0248242424242424em; margin-bottom: 0em; margin-right: -0.0248242424242449em; margin-top: -0.0248242424242424em; vertical-align: -10.4002909090909em; height: 10.870303030303em"></img>
+    </p>
+    <p>
+      &#x5F53;&#x5217;&#x8868;&#x7ED3;&#x6784;&#x88AB;&#x89C6;&#x4E3A;&#x4EE3;&#x8868;&#x4E00;&#x4E2A;&#x5217;&#x8868;&#x65F6;&#xFF0C;&#x6211;&#x4EEC;&#x770B;&#x5230;&#x5217;&#x8868;&#x7684;&#x6BCF;&#x4E2A;&#x5143;&#x7D20;&#x90FD;&#x5360;&#x636E;&#x4E00;&#x4E2A;&#x5355;&#x8BCD;&#x7684;&#x5730;&#x5740;&#x90E8;&#x5206;&#xFF0C;&#x5176;&#x9012;&#x51CF;&#x90E8;&#x5206;&#x6307;&#x5411;&#x5305;&#x542B;&#x4E0B;&#x4E00;&#x4E2A;&#x5143;&#x7D20;&#x7684;&#x5355;&#x8BCD;&#xFF0C;&#x800C;&#x6700;&#x540E;&#x4E00;&#x4E2A;&#x5355;&#x8BCD;&#x7684;&#x5C3E;&#x90E8;4&#x5F62;&#x5F0F;&#x4E3A;NIL&#x3002;&#x5177;&#x6709;&#x7ED9;&#x5B9A;&#x5B50;&#x8868;&#x8FBE;&#x5F0F;&#x591A;&#x6B21;&#x51FA;&#x73B0;&#x7684;&#x8868;&#x8FBE;&#x5F0F;&#x53EF;&#x4EE5;&#x7528;&#x4E00;&#x79CD;&#x4EE5;&#x4E0A;&#x7684;&#x65B9;&#x5F0F;&#x8868;&#x793A;&#x3002;&#x5B50;&#x8868;&#x8FBE;&#x5F0F;&#x7684;&#x5217;&#x8868;&#x7ED3;&#x6784;&#x662F;&#x5426;&#x91CD;&#x590D;&#x53D6;&#x51B3;&#x4E8E;&#x7A0B;&#x5E8F;&#x7684;&#x5386;&#x53F2;&#x8BB0;&#x5F55;&#x3002;&#x5C3D;&#x7BA1;&#x91CD;&#x590D;&#x5B50;&#x8868;&#x8FBE;&#x5F0F;&#x662F;&#x5426;&#x51FA;&#x73B0;&#x5728;&#x673A;&#x5668;&#x5916;&#x90E8;&#xFF0C;&#x4F46;&#x5BF9;&#x7A0B;&#x5E8F;&#x7ED3;&#x679C;&#x7684;&#x5F71;&#x54CD;&#x4E0D;&#x4F1A;&#x6539;&#x53D8;&#xFF0C;&#x5C3D;&#x7BA1;&#x8FD9;&#x4F1A;&#x5F71;&#x54CD;&#x65F6;&#x95F4;&#x548C;&#x5B58;&#x50A8;&#x8981;&#x6C42;&#x3002;&#x4F8B;&#x5982;&#xFF0C;S&#x8868;&#x8FBE;&#x5F0F;<span
+      class="no-breaks"><img src="递归-128.png" style="margin-left: -0.0248242424242424em; margin-bottom: 0.0412606060606061em; margin-right: -0.0248242424242422em; margin-top: -0.0459636363636363em; vertical-align: -0.0660848484848485em; height: 0.831612121212121em"></img>&#x53EF;&#x4EE5;&#x7531;&#x56FE;3a&#x6216;3b&#x7684;&#x5217;&#x8868;&#x7ED3;&#x6784;&#x8868;&#x793A;&#x3002;</span>
+    </p>
+    <p>
+      <img src="递归-129.png" style="margin-left: -0.0248242424242424em; margin-bottom: 0em; margin-right: -0.0248242424242413em; margin-top: -0.0248242424242424em; vertical-align: -10.5492848484848em; height: 11.019296969697em"></img>
+    </p>
+    <p>
+      &#x7981;&#x6B62;&#x5FAA;&#x73AF;&#x5217;&#x8868;&#x7ED3;&#x6784;&#x672C;&#x8D28;&#x4E0A;&#x662F;&#x7981;&#x6B62;&#x5C06;&#x8868;&#x8FBE;&#x5F0F;&#x8868;&#x793A;&#x4E3A;&#x5176;&#x81EA;&#x8EAB;&#x7684;&#x5B50;&#x8868;&#x8FBE;&#x5F0F;&#x3002;&#x5728;&#x5177;&#x6709;&#x6211;&#x4EEC;&#x7684;&#x62D3;&#x6251;&#x7ED3;&#x6784;&#x7684;&#x4E16;&#x754C;&#x4E2D;&#xFF0C;&#x8FD9;&#x6837;&#x7684;&#x8868;&#x8FBE;&#x4E0D;&#x53EF;&#x80FD;&#x5728;&#x7EB8;&#x4E0A;&#x5B58;&#x5728;&#x3002;&#x5FAA;&#x73AF;&#x5217;&#x8868;&#x7ED3;&#x6784;&#x5728;&#x673A;&#x5668;&#x4E2D;&#x5C06;&#x5177;&#x6709;&#x4E00;&#x4E9B;&#x4F18;&#x52BF;&#xFF0C;&#x4F8B;&#x5982;&#xFF0C;&#x7528;&#x4E8E;&#x8868;&#x793A;&#x9012;&#x5F52;&#x51FD;&#x6570;,&#x4F46;&#x662F;&#x5728;&#x6253;&#x5370;&#x5B83;&#x4EEC;&#x65F6;&#x4EE5;&#x53CA;&#x5728;&#x67D0;&#x4E9B;&#x5176;&#x4ED6;&#x64CD;&#x4F5C;&#x4E2D;&#x5B58;&#x5728;&#x56F0;&#x96BE;&#xFF0C;&#x5EFA;&#x8BAE;&#x76EE;&#x524D;&#x4E0D;&#x4F7F;&#x7528;&#x5B83;&#x4EEC;&#x3002;
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>&#x5217;&#x8868;&#x7ED3;&#x6784;&#x7528;&#x4E8E;&#x5B58;&#x50A8;&#x7B26;&#x53F7;&#x8868;&#x8FBE;&#x5F0F;&#x7684;&#x4F18;&#x70B9;&#x662F;&#xFF1A;
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>1.&#x65E0;&#x6CD5;&#x9884;&#x5148;&#x9884;&#x6D4B;&#x7A0B;&#x5E8F;&#x5FC5;&#x987B;&#x5904;&#x7406;&#x7684;&#x8868;&#x8FBE;&#x5F0F;&#x7684;&#x5927;&#x5C0F;,&#x751A;&#x81F3;&#x6570;&#x76EE;.&#x56E0;&#x6B64;,&#x96BE;&#x4EE5;&#x5E03;&#x7F6E;&#x56FA;&#x5B9A;&#x957F;&#x5EA6;&#x7684;&#x5B58;&#x50A8;&#x5757;&#x4EE5;&#x5BB9;&#x7EB3;&#x5B83;&#x4EEC;.
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>2.&#x4E0D;&#x518D;&#x9700;&#x8981;&#x5BC4;&#x5B58;&#x5668;&#x65F6;,&#x53EF;&#x4EE5;&#x5C06;&#x5B83;&#x4EEC;&#x653E;&#x56DE;&#x7A7A;&#x95F2;&#x5B58;&#x50A8;&#x5217;&#x8868;&#x4E2D;.&#x5373;&#x4F7F;&#x8FD4;&#x56DE;&#x5230;&#x5217;&#x8868;&#x4E2D;&#x7684;&#x4E00;&#x4E2A;&#x5BC4;&#x5B58;&#x5668;&#x4E5F;&#x5F88;&#x6709;&#x4EF7;&#x503C;,&#x4F46;&#x662F;&#x5982;&#x679C;&#x5C06;&#x8868;&#x8FBE;&#x5F0F;&#x7EBF;&#x6027;&#x5B58;&#x50A8;,&#x5219;&#x5F88;&#x96BE;&#x5229;&#x7528;&#x53EF;&#x80FD;&#x5177;&#x6709;&#x5947;&#x6570;&#x5927;&#x5C0F;&#x7684;&#x5BC4;&#x5B58;&#x5668;&#x5757;.
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>3.&#x4F5C;&#x4E3A;&#x591A;&#x4E2A;&#x8868;&#x8FBE;&#x5F0F;&#x7684;&#x5B50;&#x8868;&#x8FBE;&#x5F0F;&#x51FA;&#x73B0;&#x7684;&#x8868;&#x8FBE;&#x5F0F;&#x53EA;&#x9700;&#x8981;&#x5728;&#x5B58;&#x50A8;&#x4E2D;&#x8868;&#x793A;&#x4E00;&#x6B21;.
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>b&#xFF0C;&#x5173;&#x8054;&#x5217;&#x8868;&#x3002;&#x5728;LISP&#x7F16;&#x7A0B;&#x7CFB;&#x7EDF;&#x4E2D;&#xFF0C;&#x6211;&#x4EEC;&#x5728;&#x7B26;&#x53F7;&#x7684;&#x5173;&#x8054;&#x5217;&#x8868;&#x4E2D;&#x653E;&#x7F6E;&#x7684;&#x5185;&#x5BB9;&#x8D85;&#x8FC7;&#x4E86;&#x524D;&#x9762;&#x5404;&#x8282;&#x4E2D;&#x63CF;&#x8FF0;&#x7684;&#x6570;&#x5B66;&#x7CFB;&#x7EDF;&#x6240;&#x9700;&#x7684;&#x6570;&#x91CF;&#xFF0C;&#x5B9E;&#x9645;&#x4E0A;&#xFF0C;&#x6211;&#x4EEC;&#x5E0C;&#x671B;&#x4E0E;&#x8BE5;&#x7B26;&#x53F7;&#x5173;&#x8054;&#x7684;&#x4EFB;&#x4F55;&#x4FE1;&#x606F;&#x90FD;&#x53EF;&#x4EE5;&#x653E;&#x5728;&#x5173;&#x8054;&#x5217;&#x8868;&#x4E2D;&#x3002;&#x8BE5;&#x4FE1;&#x606F;&#x53EF;&#x80FD;&#x5305;&#x62EC;&#xFF1A;&#x6253;&#x5370;&#x540D;&#x79F0;&#xFF0C;&#x5373;&#x4EE3;&#x8868;&#x673A;&#x5668;&#x5916;&#x90E8;&#x7B26;&#x53F7;&#x7684;&#x5B57;&#x6BCD;&#x548C;&#x6570;&#x5B57;&#x5B57;&#x7B26;&#x4E32;&#xFF1B;&#x5982;&#x679C;&#x7B26;&#x53F7;&#x4EE3;&#x8868;&#x6570;&#x5B57;&#xFF0C;&#x5219;&#x4E3A;&#x6570;&#x503C;&#xFF1B;&#x5982;&#x679C;&#x7B26;&#x53F7;&#x4EE5;&#x67D0;&#x79CD;&#x65B9;&#x5F0F;&#x5145;&#x5F53;&#x5176;&#x540D;&#x79F0;&#xFF0C;&#x5219;&#x4E3A;&#x53E6;&#x4E00;&#x4E2A;S&#x8868;&#x8FBE;&#x5F0F;&#xFF1B;&#x6216;&#x4F8B;&#x7A0B;&#x7684;&#x4F4D;&#x7F6E;&#xFF08;&#x5982;&#x679C;&#x8BE5;&#x7B26;&#x53F7;&#x8868;&#x793A;&#x4E00;&#x4E2A;&#x5177;&#x6709;&#x673A;&#x5668;&#x8BED;&#x8A00;&#x5B50;&#x4F8B;&#x7A0B;&#x7684;&#x51FD;&#x6570;&#xFF09;&#x3002;&#x6240;&#x6709;&#x8FD9;&#x4E9B;&#x6697;&#x793A;&#x7740;&#xFF0C;&#x5728;&#x673A;&#x5668;&#x7CFB;&#x7EDF;&#x4E2D;&#xFF0C;&#x6BD4;&#x5728;&#x6570;&#x5B66;&#x7CFB;&#x7EDF;&#x7684;&#x5404;&#x8282;&#x4E2D;&#x63CF;&#x8FF0;&#x7684;&#x539F;&#x59CB;&#x5B9E;&#x4F53;&#x66F4;&#x591A;&#x3002;
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>&#x5C31;&#x76EE;&#x524D;&#x800C;&#x8A00;&#xFF0C;&#x6211;&#x4EEC;&#x5C06;&#x4EC5;&#x63CF;&#x8FF0;&#x5982;&#x4F55;&#x5728;&#x5173;&#x8054;&#x5217;&#x8868;&#x4E0A;&#x8868;&#x793A;&#x6253;&#x5370;&#x540D;&#x79F0;&#xFF0C;&#x4EE5;&#x4FBF;&#x5728;&#x8BFB;&#x53D6;&#x6216;&#x6253;&#x5370;&#x7A0B;&#x5E8F;&#x65F6;&#x53EF;&#x4EE5;&#x5728;&#x6253;&#x5B54;&#x5361;&#xFF0C;&#x78C1;&#x5E26;&#x6216;&#x6253;&#x5370;&#x9875;&#x9762;&#x4E0A;&#x7684;&#x4FE1;&#x606F;&#x4E0E;&#x673A;&#x5668;&#x5185;&#x90E8;&#x7684;&#x5217;&#x8868;&#x7ED3;&#x6784;&#x4E4B;&#x95F4;&#x5EFA;&#x7ACB;&#x5BF9;&#x5E94;&#x5173;&#x7CFB;&#x3002;&#x7B26;&#x53F7;DIFFER&#xFF0C;ENTIATE&#x7684;&#x5173;&#x8054;&#x5217;&#x8868;&#x5177;&#x6709;&#x56FE;4&#x6240;&#x793A;&#x5F62;&#x5F0F;&#x7684;&#x4E00;&#x6BB5;&#x3002;&#x8FD9;&#x91CC;&#x7684;pname&#x662F;&#x4E00;&#x4E2A;&#x7B26;&#x53F7;&#xFF0C;&#x6307;&#x793A;&#x8BE5;&#x7B26;&#x53F7;&#x7684;&#x6253;&#x5370;&#x540D;&#x79F0;&#x7684;&#x7ED3;&#x6784;&#xFF0C;&#x8BE5;&#x7B26;&#x53F7;&#x7684;&#x5173;&#x8054;&#x5217;&#x8868;&#x6302;&#x5728;&#x5173;&#x8054;&#x5217;&#x8868;&#x7684;&#x4E0B;&#x4E00;&#x4E2A;&#x5355;&#x8BCD;&#x4E0A;&#x3002;&#x5728;&#x56FE;&#x7684;&#x7B2C;&#x4E8C;&#x884C;&#xFF0C;&#x6211;&#x4EEC;&#x5217;&#x51FA;&#x4E86;&#x4E09;&#x4E2A;&#x5355;&#x8BCD;&#x3002;&#x8FD9;&#x4E9B;&#x5355;&#x8BCD;&#x4E2D;&#x6BCF;&#x4E2A;&#x5355;&#x8BCD;&#x7684;&#x5730;&#x5740;&#x90E8;&#x5206;&#x90FD;&#x6307;&#x5411;&#x4E00;&#x4E2A;&#x5305;&#x542B;&#x516D;&#x4E2A;6&#x4F4D;&#x5B57;&#x7B26;&#x7684;&#x5355;&#x8BCD;&#x3002;&#x6700;&#x540E;&#x4E00;&#x4E2A;&#x5B57;&#x7528;6&#x4F4D;&#x7EC4;&#x5408;&#x586B;&#x5145;&#xFF0C;&#x8BE5;&#x7EC4;&#x5408;&#x4E0D;&#x4EE3;&#x8868;&#x8BA1;&#x7B97;&#x673A;&#x53EF;&#x6253;&#x5370;&#x7684;&#x5B57;&#x7B26;&#x3002;&#xFF08;&#x56DE;&#x60F3;&#x4E00;&#x4E0B;&#xFF0C;IBM
+      7O4&#x6709;&#x4E00;&#x4E2A;36&#x4F4D;&#x7684;&#x5355;&#x8BCD;&#xFF0C;&#x6BCF;&#x4E2A;&#x53EF;&#x6253;&#x5370;&#x7684;&#x5B57;&#x7B26;&#x90FD;&#x7531;6&#x4F4D;&#x8868;&#x793A;&#x3002;&#xFF09;&#x5E26;&#x6709;&#x5B57;&#x7B26;&#x4FE1;&#x606F;&#x7684;&#x5355;&#x8BCD;&#x7684;&#x5B58;&#x5728;&#x610F;&#x5473;&#x7740;&#x5173;&#x8054;&#x5217;&#x8868;&#x672C;&#x8EAB;&#x5E76;&#x4E0D;&#x4EE3;&#x8868;S&#x8868;&#x8FBE;&#x5F0F;&#xFF0C;&#x5E76;&#x4E14;&#x5728;&#x5173;&#x8054;&#x5217;&#x8868;&#x4E2D;&#x53EA;&#x6709;&#x4E00;&#x4E9B;&#x7528;&#x4E8E;&#x5904;&#x7406;S&#x8868;&#x8FBE;&#x5F0F;&#x7684;&#x529F;&#x80FD;&#x624D;&#x6709;&#x610F;&#x4E49;
+    </p>
+    <p>
+      <img src="递归-130.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0248242424242424em; margin-right: -0.0248242424242413em; margin-top: 0em; vertical-align: 0em; height: 12.1232484848485em"></img>
+    </p>
+    <p>
+      c&#xFF0C;&#x81EA;&#x7531;&#x5B58;&#x50A8;&#x5217;&#x8868;&#x3002;&#x5728;&#x4EFB;&#x4F55;&#x7ED9;&#x5B9A;&#x65F6;&#x95F4;&#xFF0C;&#x4EC5;&#x4FDD;&#x7559;&#x7528;&#x4E8E;&#x5217;&#x8868;&#x7ED3;&#x6784;&#x7684;&#x4E00;&#x90E8;&#x5206;&#x5185;&#x5B58;&#x5B9E;&#x9645;&#x4E0A;&#x5C06;&#x7528;&#x4E8E;&#x5B58;&#x50A8;S&#x8868;&#x8FBE;&#x5F0F;&#x3002;&#x5176;&#x4F59;&#x7684;&#x5BC4;&#x5B58;&#x5668;&#xFF08;&#x5728;&#x6211;&#x4EEC;&#x7684;&#x7CFB;&#x7EDF;&#x4E2D;&#xFF0C;&#x6700;&#x521D;&#x7684;&#x6570;&#x91CF;&#x5927;&#x7EA6;&#x4E3A;15,000&#xFF09;&#x6392;&#x5217;&#x5728;&#x4E00;&#x4E2A;&#x79F0;&#x4E3A;&#x81EA;&#x7531;&#x5B58;&#x50A8;&#x5217;&#x8868;&#x7684;&#x5217;&#x8868;&#x4E2D;&#x3002;&#x7A0B;&#x5E8F;&#x4E2D;&#x7684;&#x67D0;&#x4E2A;&#x7279;&#x5B9A;&#x5BC4;&#x5B58;&#x5668;FREE&#x5305;&#x542B;&#x6B64;&#x5217;&#x8868;&#x4E2D;&#x7B2C;&#x4E00;&#x4E2A;&#x5BC4;&#x5B58;&#x5668;&#x7684;&#x4F4D;&#x7F6E;&#x3002;&#x65E0;&#x9700;&#x4E3A;&#x7528;&#x6237;&#x7F16;&#x5199;&#x5C06;&#x5BC4;&#x5B58;&#x5668;&#x8FD4;&#x56DE;&#x5230;&#x7A7A;&#x95F2;&#x5B58;&#x50A8;&#x5217;&#x8868;&#x7684;&#x7A0B;&#x5E8F;&#x3002;&#x6B64;&#x8FD4;&#x56DE;&#x81EA;&#x52A8;&#x53D1;&#x751F;&#xFF0C;&#x5927;&#x81F4;&#x5982;&#x4E0B;&#xFF08;&#x9700;&#x8981;&#x5728;&#x6B64;&#x62A5;&#x544A;&#x4E2D;&#x5BF9;&#x6B64;&#x8FC7;&#x7A0B;&#x8FDB;&#x884C;&#x7B80;&#x5316;&#x7684;&#x63CF;&#x8FF0;&#xFF09;&#xFF1A;&#x7A0B;&#x5E8F;&#x4E2D;&#x6709;&#x4E00;&#x7EC4;&#x56FA;&#x5B9A;&#x7684;&#x57FA;&#x5740;&#x5BC4;&#x5B58;&#x5668;&#xFF0C;&#x5176;&#x4E2D;&#x5305;&#x542B;&#x7A0B;&#x5E8F;&#x53EF;&#x8BBF;&#x95EE;&#x7684;&#x5217;&#x8868;&#x7ED3;&#x6784;&#x7684;&#x4F4D;&#x7F6E;&#x3002;&#x5F53;&#x7136;&#xFF0C;&#x7531;&#x4E8E;&#x5217;&#x8868;&#x7ED3;&#x6784;&#x5206;&#x652F;&#xFF0C;&#x56E0;&#x6B64;&#x53EF;&#x80FD;&#x6D89;&#x53CA;&#x4EFB;&#x610F;&#x6570;&#x91CF;&#x7684;&#x5BC4;&#x5B58;&#x5668;&#x3002;&#x8BE5;&#x7A0B;&#x5E8F;&#x53EF;&#x8BBF;&#x95EE;&#x7684;&#x6BCF;&#x4E2A;&#x5BC4;&#x5B58;&#x5668;&#x90FD;&#x662F;&#x53EF;&#x8BBF;&#x95EE;&#x7684;&#xFF0C;&#x56E0;&#x4E3A;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x4E00;&#x8FDE;&#x4E32;&#x7684;car&#x548C;cdr&#x64CD;&#x4F5C;&#x4ECE;&#x4E00;&#x4E2A;&#x6216;&#x591A;&#x4E2A;&#x57FA;&#x672C;&#x5BC4;&#x5B58;&#x5668;&#x8BBF;&#x95EE;&#x5B83;&#x4EEC;&#x3002;&#x5F53;&#x57FA;&#x5740;&#x5BC4;&#x5B58;&#x5668;&#x7684;&#x5185;&#x5BB9;&#x66F4;&#x6539;&#x65F6;&#xFF0C;&#x53EF;&#x80FD;&#x4F1A;&#x53D1;&#x751F;car-cdr&#x94FE;&#x65E0;&#x6CD5;&#x4ECE;&#x4EFB;&#x4F55;&#x57FA;&#x5740;&#x5BC4;&#x5B58;&#x5668;&#x8BBF;&#x95EE;&#x57FA;&#x5740;&#x5BC4;&#x5B58;&#x5668;&#x5148;&#x524D;&#x6307;&#x5411;&#x7684;&#x5BC4;&#x5B58;&#x5668;&#x7684;&#x60C5;&#x51B5;&#x3002;&#x6B64;&#x7C7B;&#x5BC4;&#x5B58;&#x5668;&#x53EF;&#x80FD;&#x88AB;&#x7A0B;&#x5E8F;&#x4E22;&#x5F03;&#xFF0C;&#x56E0;&#x4E3A;&#x4EFB;&#x4F55;&#x53EF;&#x80FD;&#x7684;&#x7A0B;&#x5E8F;&#x90FD;&#x65E0;&#x6CD5;&#x627E;&#x5230;&#x5176;&#x5185;&#x5BB9;&#xFF1B;&#x56E0;&#x6B64;&#xFF0C;&#x4E0D;&#x518D;&#x9700;&#x8981;&#x5176;&#x5185;&#x5BB9;&#xFF0C;&#x56E0;&#x6B64;&#x6211;&#x4EEC;&#x5E0C;&#x671B;&#x5C06;&#x5176;&#x91CD;&#x65B0;&#x5217;&#x5165;&#x81EA;&#x7531;&#x5B58;&#x50A8;&#x5217;&#x8868;&#x3002;&#x8FD9;&#x662F;&#x901A;&#x8FC7;&#x4EE5;&#x4E0B;&#x65B9;&#x5F0F;&#x5B9E;&#x73B0;&#x7684;&#x3002;
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>&#x5728;&#x7A0B;&#x5E8F;&#x8017;&#x5C3D;&#x53EF;&#x7528;&#x5B58;&#x50A8;&#x7A7A;&#x95F4;&#x4E4B;&#x524D;&#xFF0C;&#x4EC0;&#x4E48;&#x4E5F;&#x4E0D;&#x4F1A;&#x53D1;&#x751F;&#x3002;&#x5F53;&#x9700;&#x8981;&#x4E00;&#x4E2A;&#x7A7A;&#x95F2;&#x5BC4;&#x5B58;&#x5668;&#xFF0C;&#x5E76;&#x4E14;&#x7A7A;&#x95F2;&#x5B58;&#x50A8;&#x5217;&#x8868;&#x4E2D;&#x6CA1;&#x6709;&#x5269;&#x4F59;&#x5BC4;&#x5B58;&#x5668;&#x65F6;&#xFF0C;&#x5C06;&#x5F00;&#x59CB;&#x4E00;&#x4E2A;&#x56DE;&#x6536;&#x5468;&#x671F;&#x3002;
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>&#x9996;&#x5148;&#xFF0C;&#x7A0B;&#x5E8F;&#x627E;&#x5230;&#x53EF;&#x4ECE;&#x57FA;&#x5740;&#x5BC4;&#x5B58;&#x5668;&#x8BBF;&#x95EE;&#x7684;&#x6240;&#x6709;&#x5BC4;&#x5B58;&#x5668;&#xFF0C;&#x5E76;&#x4F7F;&#x5B83;&#x4EEC;&#x7684;&#x7B26;&#x53F7;&#x4E3A;&#x8D1F;&#x3002;&#x8FD9;&#x662F;&#x901A;&#x8FC7;&#x4ECE;&#x6BCF;&#x4E2A;&#x57FA;&#x5740;&#x5BC4;&#x5B58;&#x5668;&#x5F00;&#x59CB;&#x5E76;&#x66F4;&#x6539;car-cdr&#x94FE;&#x53EF;&#x4EE5;&#x4ECE;&#x4E2D;&#x8BBF;&#x95EE;&#x7684;&#x6BCF;&#x4E2A;&#x5BC4;&#x5B58;&#x5668;&#x7684;&#x7B26;&#x53F7;&#x6765;&#x5B9E;&#x73B0;&#x7684;&#x3002;&#x5982;&#x679C;&#x7A0B;&#x5E8F;&#x5728;&#x6B64;&#x8FC7;&#x7A0B;&#x4E2D;&#x9047;&#x5230;&#x4E00;&#x4E2A;&#x5DF2;&#x7ECF;&#x5E26;&#x6709;&#x8D1F;&#x53F7;&#x7684;&#x5BC4;&#x5B58;&#x5668;&#xFF0C;&#x5219;&#x8BA4;&#x4E3A;&#x8BE5;&#x5BC4;&#x5B58;&#x5668;&#x5DF2;&#x7ECF;&#x5230;&#x8FBE;&#x3002;&#x5728;&#x6240;&#x6709;&#x53EF;&#x8BBF;&#x95EE;&#x7684;&#x5BC4;&#x5B58;&#x5668;&#x7684;&#x7B26;&#x53F7;&#x90FD;&#x66F4;&#x6539;&#x4E4B;&#x540E;&#xFF0C;&#x7A0B;&#x5E8F;&#x5C06;&#x904D;&#x5386;&#x4E3A;&#x5B58;&#x50A8;&#x5217;&#x8868;&#x7ED3;&#x6784;&#x800C;&#x4FDD;&#x7559;&#x7684;&#x5185;&#x5B58;&#x533A;&#x57DF;&#xFF0C;&#x5E76;&#x5C06;&#x5728;&#x4E0A;&#x4E00;&#x6B65;&#x4E2D;&#x672A;&#x66F4;&#x6539;&#x7B26;&#x53F7;&#x7684;&#x6240;&#x6709;&#x5BC4;&#x5B58;&#x5668;&#x653E;&#x56DE;&#x81EA;&#x7531;&#x5B58;&#x50A8;&#x5217;&#x8868;&#xFF0C;&#x7136;&#x540E;
+      &#x4F7F;&#x53EF;&#x8BBF;&#x95EE;&#x5BC4;&#x5B58;&#x5668;&#x7684;&#x7B26;&#x53F7;&#x518D;&#x6B21;&#x4E3A;&#x6B63;&#x3002;
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>&#x7531;&#x4E8E;&#x8BE5;&#x8FC7;&#x7A0B;&#x662F;&#x5B8C;&#x5168;&#x81EA;&#x52A8;&#x7684;&#xFF0C;&#x56E0;&#x6B64;&#x5BF9;&#x4E8E;&#x7A0B;&#x5E8F;&#x5458;&#x800C;&#x8A00;&#xFF0C;&#x6BD4;&#x5FC5;&#x987B;&#x8DDF;&#x8E2A;&#x5E76;&#x6E05;&#x9664;&#x4E0D;&#x9700;&#x8981;&#x7684;&#x5217;&#x8868;&#x7684;&#x7CFB;&#x7EDF;&#x66F4;&#x65B9;&#x4FBF;&#x3002;&#x5B83;&#x7684;&#x6548;&#x7387;&#x53D6;&#x51B3;&#x4E8E;&#x662F;&#x5426;&#x63A5;&#x8FD1;&#x7528;&#x53EF;&#x7528;&#x5217;&#x8868;&#x8017;&#x5C3D;&#x53EF;&#x7528;&#x5185;&#x5B58;&#x3002;&#x8FD9;&#x662F;&#x56E0;&#x4E3A;&#x56DE;&#x6536;&#x8FC7;&#x7A0B;&#x9700;&#x8981;&#x51E0;&#x79D2;&#x949F;&#x7684;&#x65F6;&#x95F4;&#x6765;&#x6267;&#x884C;&#xFF0C;&#x56E0;&#x6B64;&#x5982;&#x679C;&#x7A0B;&#x5E8F;&#x4E0D;&#x6253;&#x7B97;&#x5C06;&#x5176;&#x5927;&#x90E8;&#x5206;&#x65F6;&#x95F4;&#x7528;&#x4E8E;&#x56DE;&#x6536;&#xFF0C;&#x5219;&#x5FC5;&#x987B;&#x5728;&#x7A7A;&#x95F2;&#x5B58;&#x50A8;&#x5217;&#x8868;&#x4E2D;&#x6DFB;&#x52A0;&#x81F3;&#x5C11;&#x6570;&#x5343;&#x4E2A;&#x5BC4;&#x5B58;&#x5668;&#x3002;
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>d&#xFF0C;&#x8BA1;&#x7B97;&#x673A;&#x4E2D;&#x7684;&#x57FA;&#x672C;S&#x51FD;&#x6570;&#x3002;&#x73B0;&#x5728;&#x6211;&#x4EEC;&#x5C06;&#x63CF;&#x8FF0;atom&#xFF0C;=&#xFF0C;car&#xFF0C;cdr&#x548C;cons&#x7684;&#x8BA1;&#x7B97;&#x673A;&#x8868;&#x793A;&#x3002;&#x5C06;S&#x8868;&#x8FBE;&#x5F0F;&#x4F20;&#x8FBE;&#x7ED9;&#x7A0B;&#x5E8F;&#xFF0C;&#x8BE5;&#x7A0B;&#x5E8F;&#x5C06;&#x8868;&#x793A;&#x529F;&#x80FD;&#x7684;&#x4F4D;&#x7F6E;&#x8868;&#x793A;&#x4E3A;&#x4EE3;&#x8868;&#x5355;&#x8BCD;&#x7684;&#x4F4D;&#x7F6E;&#xFF0C;&#x5E76;&#x4E14;&#x7A0B;&#x5E8F;&#x4EE5;&#x76F8;&#x540C;&#x7684;&#x5F62;&#x5F0F;&#x7ED9;&#x51FA;S&#x8868;&#x8FBE;&#x5F0F;&#x7684;&#x7B54;&#x6848;&#x3002;
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span><span class="no-breaks"><img src="递归-131.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0372363636363636em; margin-right: -0.0248242424242426em; margin-top: -0.0340848484848485em; vertical-align: 0em; height: 0.707490909090909em"></img>&#xFF0C;&#x5982;&#x4E0A;&#x6240;&#x8FF0;&#xFF0C;&#x8868;&#x793A;&#x539F;&#x5B50;&#x7B26;&#x53F7;&#x7684;&#x5355;&#x8BCD;&#x5728;&#x5176;&#x5730;&#x5740;&#x90E8;&#x5206;&#x5177;&#x6709;&#x4E00;&#x4E2A;&#x7279;&#x6B8A;&#x7684;&#x5E38;&#x6570;&#xFF1A;&#x539F;&#x5B50;&#x88AB;&#x7F16;&#x7A0B;&#x4E3A;&#x6D4B;&#x8BD5;&#x8BE5;&#x96F6;&#x4EF6;&#x7684;&#x5F00;&#x653E;&#x5B50;&#x7A0B;&#x5E8F;&#x3002;&#x9664;&#x975E;&#x5728;&#x6761;&#x4EF6;&#x8868;&#x8FBE;&#x5F0F;&#x4E2D;&#x4F5C;&#x4E3A;&#x6761;&#x4EF6;&#x51FA;&#x73B0;M&#x8868;&#x793A;&#x539F;&#x5B50;[e]&#xFF0C;&#x5426;&#x5219;&#x5C06;&#x6839;&#x636E;&#x6D4B;&#x8BD5;&#x7ED3;&#x679C;&#x751F;&#x6210;&#x7B26;&#x53F7;T&#x6216;F&#x3002;&#x5728;&#x6761;&#x4EF6;&#x8868;&#x8FBE;&#x5F0F;&#x7684;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;&#x5C06;&#x4F7F;&#x7528;&#x6761;&#x4EF6;&#x8F6C;&#x5316;&#xFF0C;&#x5E76;&#x4E14;&#x4E0D;&#x4F1A;&#x751F;&#x6210;&#x7B26;&#x53F7;T&#x6216;F&#x3002;</span>
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span><span class="no-breaks"><img src="递归-132.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0223030303030303em; margin-right: -0.0347636363636363em; margin-top: -0.038739393939394em; vertical-align: -0.201115151515152em; height: 0.707490909090909em"></img>&#xFF0C;eq</span>
+      [e;f]&#x7A0B;&#x5E8F;&#x6D89;&#x53CA;&#x6D4B;&#x8BD5;&#x5355;&#x8BCD;&#x4F4D;&#x7F6E;&#x7684;&#x6570;&#x5B57;&#x76F8;&#x7B49;&#x6027;&#x3002;&#x4E4B;&#x6240;&#x4EE5;&#x53EF;&#x884C;&#xFF0C;&#x662F;&#x56E0;&#x4E3A;&#x6BCF;&#x4E2A;&#x539F;&#x5B50;&#x7B26;&#x53F7;&#x53EA;&#x6709;&#x4E00;&#x4E2A;&#x5173;&#x8054;&#x5217;&#x8868;&#x3002;&#x4E0E;&#x539F;&#x5B50;&#x4E00;&#x6837;&#xFF0C;&#x7ED3;&#x679C;&#x662F;&#x6761;&#x4EF6;&#x8F6C;&#x5316;&#x7B26;&#x53F7;T&#x6216;F&#x4E4B;&#x4E00;&#x3002;
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span><span class="no-breaks"><img src="递归-133.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0372363636363636em; margin-right: -0.0248242424242424em; margin-top: -0.038739393939394em; vertical-align: 0em; height: 0.521309090909091em"></img>&#xFF0C;&#x8BA1;&#x7B97;car[x]&#x6D89;&#x53CA;&#x83B7;&#x53D6;&#x5BC4;&#x5B58;&#x5668;x&#x7684;&#x5730;&#x5740;&#x90E8;&#x5206;&#x7684;&#x5185;&#x5BB9;&#xFF0C;&#x8FD9;&#x672C;&#x8D28;&#x4E0A;&#x662F;&#x901A;&#x8FC7;&#x5355;&#x6761;&#x6307;&#x4EE4;CLA</span>
+      0&#xFF08;&#x5373;&#x53C2;&#x6570;&#x4F4D;&#x4E8E;&#x7D22;&#x5F15;&#x5BC4;&#x5B58;&#x5668;&#x4E2D;&#xFF0C;&#x5E76;&#x4E14;&#x7ED3;&#x679C;&#x663E;&#x793A;&#x5728;&#x7D2F;&#x52A0;&#x5668;&#x7684;&#x5730;&#x5740;&#x90E8;&#x5206;&#x4E2D;&#xFF09;&#x6765;&#x5B8C;&#x6210;&#x7684;&#x3002;&#xFF08;&#x6211;&#x4EEC;&#x8BA4;&#x4E3A;&#xFF0C;&#x51FD;&#x6570;&#x7684;&#x5B9A;&#x4E49;&#x4E2D;&#x89C4;&#x5B9A;&#x4E86;&#x51FD;&#x6570;&#x53D6;&#x81EA;&#x53D8;&#x91CF;&#x4EE5;&#x53CA;&#x5C06;&#x7ED3;&#x679C;&#x653E;&#x5165;&#x7684;&#x4F4D;&#x7F6E;&#xFF0C;&#x7A0B;&#x5E8F;&#x5458;&#x6216;&#x7F16;&#x8BD1;&#x5668;&#x6709;&#x8D23;&#x4EFB;&#x63D2;&#x5165;&#x6240;&#x9700;&#x7684;&#x6570;&#x636E;&#x79FB;&#x52A8;&#x6307;&#x4EE4;&#x4EE5;&#x83B7;&#x53D6;&#x51FD;&#x6570;&#x7684;&#x4F4D;&#x7F6E;&#x3002;&#x4E00;&#x4E2A;&#x8BA1;&#x7B97;&#x7684;&#x7ED3;&#x679C;&#x5728;&#x4E0B;&#x4E00;&#x4E2A;&#x4F4D;&#x7F6E;&#x3002;&#xFF09;&#xFF08;&ldquo;car&rdquo;&#x662F;&ldquo;&#x5BC4;&#x5B58;&#x5668;&#x5730;&#x5740;&#x90E8;&#x5206;&#x7684;&#x5185;&#x5BB9;&rdquo;&#xFF08;contents
+      of the address part of
+      register&#xFF09;&#x7684;&#x52A9;&#x8BB0;&#x7B26;&#x3002;&#xFF09;
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span><span class="no-breaks"><img src="递归-134.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0372363636363636em; margin-right: -0.0248242424242424em; margin-top: -0.0264727272727273em; vertical-align: 0em; height: 0.781963636363636em"></img>&#xFF0C;cdr&#x7684;&#x5904;&#x7406;&#x65B9;&#x5F0F;&#x4E0E;car&#x76F8;&#x540C;&#xFF0C;&#x9664;&#x4E86;&#x7ED3;&#x679C;&#x51FA;&#x73B0;&#x5728;&#x7D2F;&#x52A0;&#x5668;&#x7684;&#x51CF;&#x91CF;&#x90E8;&#x5206;&#xFF08;&ldquo;</span>
+      cdr&rdquo;&#x4EE3;&#x8868;&ldquo;&#x5BC4;&#x5B58;&#x5668;&#x7684;&#x51CF;&#x91CF;&#x90E8;&#x5206;&#x7684;&#x5185;&#x5BB9;&rdquo;&#xFF08;contents
+      of the decrement part of register&#xFF09;&#x3002;&#xFF09;
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span><span class="no-breaks"><img src="递归-135.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0372363636363636em; margin-right: -0.0248242424242426em; margin-top: -0.038739393939394em; vertical-align: 0em; height: 0.521309090909091em"></img>&#xFF0C;cons</span>
+      [x;
+      y]&#x5FC5;&#x987B;&#x662F;&#x5730;&#x5740;&#x5206;&#x522B;&#x4E3A;x&#x548C;y&#x7684;&#x5BC4;&#x5B58;&#x5668;&#x7684;&#x4F4D;&#x7F6E;&#x3002;&#x8BA1;&#x7B97;&#x673A;&#x4E2D;&#x53EF;&#x80FD;&#x6CA1;&#x6709;&#x8FD9;&#x6837;&#x7684;&#x5BC4;&#x5B58;&#x5668;&#xFF0C;&#x5373;&#x4F7F;&#x6709;&#xFF0C;&#x5B83;&#x4E5F;&#x4F1A;&#x5F88;&#x8D39;&#x65F6;&#x3002;&#x5B9E;&#x9645;&#x4E0A;&#xFF0C;&#x6211;&#x4EEC;&#x8981;&#x505A;&#x7684;&#x662F;&#x4ECE;&#x7A7A;&#x95F2;&#x5B58;&#x50A8;&#x5217;&#x8868;&#x4E2D;&#x83B7;&#x53D6;&#x7B2C;&#x4E00;&#x4E2A;&#x53EF;&#x7528;&#x7684;&#x5BC4;&#x5B58;&#x5668;&#xFF0C;&#x5C06;x&#x548C;y&#x5206;&#x522B;&#x653E;&#x5728;&#x5730;&#x5740;&#x548C;&#x51CF;&#x91CF;&#x90E8;&#x5206;&#x4E2D;&#xFF0C;&#x5E76;&#x4F7F;&#x51FD;&#x6570;&#x7684;&#x503C;&#x6210;&#x4E3A;&#x6240;&#x53D6;&#x5BC4;&#x5B58;&#x5668;&#x7684;&#x4F4D;&#x7F6E;&#x3002;&#xFF08;&ldquo;
+      cons&rdquo;&#x662F;&ldquo;
+      construct&rdquo;&#x7684;&#x7F29;&#x5199;&#x3002;&#xFF09;
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>&#x5F53;&#x7A7A;&#x95F2;&#x5B58;&#x50A8;&#x5217;&#x8868;&#x7528;&#x5B8C;&#x65F6;&#xFF0C;cons&#x7684;&#x5B50;&#x4F8B;&#x7A0B;&#x5C06;&#x542F;&#x52A8;&#x56DE;&#x6536;&#x3002;&#x5728;&#x5F53;&#x524D;&#x4F7F;&#x7528;&#x7684;&#x7CFB;&#x7EDF;&#x7248;&#x672C;&#x4E2D;&#xFF0C;cons&#x7531;&#x5C01;&#x95ED;&#x7684;&#x5B50;&#x4F8B;&#x7A0B;&#x8868;&#x793A;&#x3002;&#x5728;&#x7F16;&#x8BD1;&#x7248;&#x672C;&#x4E2D;&#xFF0C;cons&#x662F;&#x6253;&#x5F00;&#x7684;&#x3002;
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>e&#xFF0C;&#x901A;&#x8FC7;&#x7A0B;&#x5E8F;&#x8868;&#x793A;S&#x51FD;&#x6570;&#x3002;&#x624B;&#x5DE5;&#x6216;&#x901A;&#x8FC7;&#x7F16;&#x8BD1;&#x5668;&#x7A0B;&#x5E8F;&#x5BF9;&#x7531;car&#xFF0C;cdr&#x548C;cons&#x7EC4;&#x6210;&#x7684;&#x51FD;&#x6570;&#x8FDB;&#x884C;&#x7F16;&#x8BD1;&#x5F88;&#x7B80;&#x5355;&#x3002;&#x6761;&#x4EF6;&#x8868;&#x8FBE;&#x5F0F;&#x6CA1;&#x6709;&#x4EC0;&#x4E48;&#x9EBB;&#x70E6;&#xFF0C;&#x9664;&#x4E86;&#x6761;&#x4EF6;&#x8868;&#x8FBE;&#x5F0F;&#x5FC5;&#x987B;&#x7F16;&#x8BD1;&#x4E3A;&#x4EC5;&#x8BA1;&#x7B97;&#x6240;&#x9700;&#x7684;p&#x548C;e&#x4E4B;&#x5916;&#x3002;&#x4F46;&#x662F;&#xFF0C;&#x5728;&#x9012;&#x5F52;&#x51FD;&#x6570;&#x7684;&#x7F16;&#x8BD1;&#x4E2D;&#x4F1A;&#x51FA;&#x73B0;&#x95EE;&#x9898;&#x3002;
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>&#x4E00;&#x822C;&#x800C;&#x8A00;&#xFF08;&#x6211;&#x4EEC;&#x5C06;&#x8BA8;&#x8BBA;&#x5F02;&#x5E38;&#xFF09;&#xFF0C;&#x9012;&#x5F52;&#x51FD;&#x6570;&#x7684;&#x4F8B;&#x7A0B;&#x5C06;&#x81EA;&#x8EAB;&#x7528;&#x4F5C;&#x5B50;&#x4F8B;&#x7A0B;&#x3002;&#x4F8B;&#x5982;&#xFF0C;subst
+      [x; y;
+      z]&#x7684;&#x7A0B;&#x5E8F;&#x672C;&#x8EAB;&#x4F5C;&#x4E3A;&#x5B50;&#x4F8B;&#x7A0B;&#x6765;&#x8BC4;&#x4F30;&#x66FF;&#x6362;&#x4E3A;&#x5B50;&#x8868;&#x8FBE;&#x5F0F;car
+      [z]&#x548C;cdr [z]&#x7684;&#x7ED3;&#x679C;&#x3002;&#x800C;subst [x; y;
+      cdr
+      [z]]&#x6B63;&#x5728;&#x6C42;&#x503C;&#xFF0C;&#x5148;&#x524D;&#x6C42;&#x503C;subst
+      [x; y; car
+      [z]]&#x7684;&#x7ED3;&#x679C;&#x5FC5;&#x987B;&#x4FDD;&#x5B58;&#x5728;&#x4E34;&#x65F6;&#x5B58;&#x50A8;&#x5BC4;&#x5B58;&#x5668;&#x4E2D;&#x3002;&#x4F7F;&#x7528;&#x516C;&#x5171;&#x4E0B;&#x63A8;&#x5217;&#x8868;&#x7684;SAVE&#x548C;UNSAVE&#x4F8B;&#x7A0B;&#x89E3;&#x51B3;&#x4E86;&#x8FD9;&#x79CD;&#x53EF;&#x80FD;&#x7684;&#x51B2;&#x7A81;&#x3002;&#x5728;&#x9012;&#x5F52;&#x51FD;&#x6570;&#x4F8B;&#x7A0B;&#x7684;&#x5F00;&#x5934;&#x8F93;&#x5165;SAVE&#x4F8B;&#x7A0B;&#xFF0C;&#x5E76;&#x8BF7;&#x6C42;&#x4FDD;&#x5B58;&#x7ED9;&#x5B9A;&#x7684;&#x4E00;&#x7EC4;&#x8FDE;&#x7EED;&#x5BC4;&#x5B58;&#x5668;&#x3002;&#x4E3A;&#x6B64;&#xFF0C;&#x4FDD;&#x7559;&#x4E86;&#x4E00;&#x5757;&#x79F0;&#x4E3A;&#x516C;&#x5171;&#x4E0B;&#x63A8;&#x5217;&#x8868;&#x7684;&#x5BC4;&#x5B58;&#x5668;&#x3002;SAVE&#x4F8B;&#x7A0B;&#x5177;&#x6709;&#x4E00;&#x4E2A;&#x7D22;&#x5F15;&#xFF0C;&#x8BE5;&#x7D22;&#x5F15;&#x544A;&#x8BC9;&#x5B83;&#x4E0B;&#x62C9;&#x5217;&#x8868;&#x4E2D;&#x5DF2;&#x7ECF;&#x4F7F;&#x7528;&#x4E86;&#x591A;&#x5C11;&#x4E2A;&#x5BC4;&#x5B58;&#x5668;&#x3002;&#x5B83;&#x5C06;&#x8981;&#x4FDD;&#x5B58;&#x7684;&#x5BC4;&#x5B58;&#x5668;&#x7684;&#x5185;&#x5BB9;&#x79FB;&#x5230;&#x4E0B;&#x62C9;&#x5217;&#x8868;&#x4E2D;&#x7684;&#x7B2C;&#x4E00;&#x4E2A;&#x672A;&#x4F7F;&#x7528;&#x7684;&#x5BC4;&#x5B58;&#x5668;&#x4E2D;&#xFF0C;&#x524D;&#x8FDB;&#x5217;&#x8868;&#x7684;&#x7D22;&#x5F15;&#xFF0C;&#x5E76;&#x8FD4;&#x56DE;&#x5230;&#x63A7;&#x5236;&#x6765;&#x81EA;&#x7684;&#x7A0B;&#x5E8F;&#x3002;&#x7136;&#x540E;&#xFF0C;&#x8BE5;&#x7A0B;&#x5E8F;&#x53EF;&#x4EE5;&#x81EA;&#x7531;&#x4F7F;&#x7528;&#x8FD9;&#x4E9B;&#x5BC4;&#x5B58;&#x5668;&#x8FDB;&#x884C;&#x4E34;&#x65F6;&#x5B58;&#x50A8;&#x3002;&#x5728;&#x4F8B;&#x7A0B;&#x9000;&#x51FA;&#x4E4B;&#x524D;&#xFF0C;&#x5B83;&#x4F7F;&#x7528;UNSAVE&#xFF0C;&#x5B83;&#x5C06;&#x4ECE;&#x4E0B;&#x63A8;&#x5217;&#x8868;&#x4E2D;&#x6062;&#x590D;&#x4E34;&#x65F6;&#x5BC4;&#x5B58;&#x5668;&#x7684;&#x5185;&#x5BB9;&#xFF0C;&#x5E76;&#x5411;&#x540E;&#x79FB;&#x52A8;&#x8BE5;&#x5217;&#x8868;&#x7684;&#x7D22;&#x5F15;&#x3002;&#x8FD9;&#x4E9B;&#x7EA6;&#x5B9A;&#x7684;&#x7ED3;&#x679C;&#x7528;&#x7F16;&#x7A0B;&#x672F;&#x8BED;&#x6765;&#x63CF;&#x8FF0;&#xFF0C;&#x65B9;&#x6CD5;&#x662F;&#x8BF4;&#x9012;&#x5F52;&#x5B50;&#x4F8B;&#x7A0B;&#x5BF9;&#x4E34;&#x65F6;&#x5B58;&#x50A8;&#x5BC4;&#x5B58;&#x5668;&#x662F;&#x900F;&#x660E;&#x7684;&#x3002;
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>f&#xFF0C;
+      LISP&#x7F16;&#x7A0B;&#x7CFB;&#x7EDF;&#x7684;&#x72B6;&#x6001;(1960&#x5E74;2&#x6708;)&#x3002;&#x5728;&#x7B2C;5&#x8282;&#x4E2D;&#x63CF;&#x8FF0;&#x7684;&#x51FD;&#x6570;<span
+      class="no-breaks"><img src="递归-136.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0347151515151515em; margin-right: -0.0266181818181819em; margin-top: -0.0264727272727273em; vertical-align: -0.201115151515152em; height: 0.980557575757576em"></img>&#x7684;&#x53D8;&#x4F53;&#x5DF2;&#x88AB;&#x7FFB;&#x8BD1;&#x4E3A;IBM</span>
+      704&#x7684;&#x7A0B;&#x5E8F;APPLY&#x3002;&#x7531;&#x4E8E;&#x6B64;&#x4F8B;&#x7A0B;&#x53EF;&#x4EE5;&#x6839;&#x636E;&#x7ED9;&#x5B9A;&#x7684;S&#x51FD;&#x6570;&#x8868;&#x8FBE;&#x5F0F;&#x548C;&#x53C2;&#x6570;&#x63CF;&#x8FF0;&#x6765;&#x8BA1;&#x7B97;S&#x51FD;&#x6570;&#x7684;&#x503C;&#xFF0C;&#x5B83;&#x5145;&#x5F53;LISP&#x7F16;&#x7A0B;&#x8BED;&#x8A00;&#x7684;&#x89E3;&#x91CA;&#x5668;&#xFF0C;&#x8BE5;&#x8BED;&#x8A00;&#x4EE5;&#x8FD9;&#x79CD;&#x65B9;&#x5F0F;&#x63CF;&#x8FF0;&#x8BA1;&#x7B97;&#x8FC7;&#x7A0B;&#x3002;
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>&#x7A0B;&#x5E8F;APPLY&#x5DF2;&#x5D4C;&#x5165;&#x5230;&#x5177;&#x6709;&#x4EE5;&#x4E0B;&#x529F;&#x80FD;&#x7684;LISP&#x7F16;&#x7A0B;&#x7CFB;&#x7EDF;&#x4E2D;&#xFF1A;
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>1.&#x7A0B;&#x5E8F;&#x5458;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;S&#x8868;&#x8FBE;&#x5F0F;&#x5B9A;&#x4E49;&#x4EFB;&#x610F;&#x6570;&#x91CF;&#x7684;S&#x51FD;&#x6570;.&#x8FD9;&#x4E9B;&#x51FD;&#x6570;&#x53EF;&#x4EE5;&#x76F8;&#x4E92;&#x5F15;&#x7528;,&#x4E5F;&#x53EF;&#x4EE5;&#x6307;&#x7531;&#x673A;&#x5668;&#x8BED;&#x8A00;&#x7A0B;&#x5E8F;&#x8868;&#x793A;&#x7684;&#x67D0;&#x4E9B;S&#x529F;&#x80FD;.
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>2.&#x53EF;&#x4EE5;&#x8BA1;&#x7B97;&#x5DF2;&#x5B9A;&#x4E49;&#x51FD;&#x6570;&#x7684;&#x503C;.
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>3.S&#x8868;&#x8FBE;&#x5F0F;&#x53EF;&#x4EE5;&#x88AB;&#x8BFB;&#x53D6;&#x548C;&#x6253;&#x5370;(&#x76F4;&#x63A5;&#x6216;&#x901A;&#x8FC7;&#x78C1;&#x5E26;).
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>4.&#x5305;&#x62EC;&#x4E00;&#x4E9B;&#x9519;&#x8BEF;&#x8BCA;&#x65AD;&#x548C;&#x9009;&#x62E9;&#x6027;&#x8DDF;&#x8E2A;&#x529F;&#x80FD;.
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>5.&#x7A0B;&#x5E8F;&#x5458;&#x53EF;&#x80FD;&#x5DF2;&#x7ECF;&#x9009;&#x62E9;&#x4E86;&#x7F16;&#x8BD1;&#x4E3A;&#x673A;&#x5668;&#x8BED;&#x8A00;&#x7A0B;&#x5E8F;&#x7684;S&#x51FD;&#x6570;,&#x5E76;&#x5C06;&#x5176;&#x653E;&#x5165;&#x6838;&#x5FC3;&#x5B58;&#x50A8;&#x5668;&#x4E2D;.&#x7F16;&#x8BD1;&#x51FD;&#x6570;&#x7684;&#x503C;&#x7684;&#x8BA1;&#x7B97;&#x901F;&#x5EA6;&#x5927;&#x7EA6;&#x662F;&#x89E3;&#x91CA;&#x65F6;&#x7684;60&#x500D;,&#x7F16;&#x8BD1;&#x901F;&#x5EA6;&#x8DB3;&#x591F;&#x5FEB;,&#x56E0;&#x6B64;&#x65E0;&#x9700;&#x6253;&#x5B54;&#x5DF2;&#x7F16;&#x8BD1;&#x7684;&#x7A0B;&#x5E8F;&#x4EE5;&#x5907;&#x5C06;&#x6765;&#x4F7F;&#x7528;.
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>6.&ldquo;&#x7A0B;&#x5E8F;&#x529F;&#x80FD;&rdquo;&#x5141;&#x8BB8;&#x7A0B;&#x5E8F;&#x4EE5;ALGOL&#x6837;&#x5F0F;&#x5305;&#x542B;&#x8D4B;&#x503C;&#x548C;go&#x8BED;&#x53E5;.
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>7.&#x5728;&#x7CFB;&#x7EDF;&#x4E2D;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x6D6E;&#x70B9;&#x6570;&#x8FDB;&#x884C;&#x8BA1;&#x7B97;,&#x4F46;&#x8FD9;&#x6548;&#x7387;&#x5F88;&#x4F4E;.
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>8.&#x6B63;&#x5728;&#x51C6;&#x5907;&#x7A0B;&#x5E8F;&#x5458;&#x624B;&#x518C;.LISP&#x7F16;&#x7A0B;&#x7CFB;&#x7EDF;&#x9002;&#x7528;&#x4E8E;&#x8BA1;&#x7B97;,&#x5728;&#x8BE5;&#x8BA1;&#x7B97;&#x4E2D;,&#x53EF;&#x4EE5;&#x65B9;&#x4FBF;&#x5730;&#x5C06;&#x6570;&#x636E;&#x8868;&#x793A;&#x4E3A;&#x7B26;&#x53F7;&#x8868;&#x8FBE;&#x5F0F;,&#x5141;&#x8BB8;&#x4F7F;&#x7528;&#x4E0E;&#x5B50;&#x8868;&#x8FBE;&#x5F0F;&#x76F8;&#x540C;&#x7C7B;&#x578B;&#x7684;&#x8868;&#x8FBE;&#x5F0F;.&#x6B63;&#x5728;&#x51C6;&#x5907;IBM
+      709&#x7684;&#x7CFB;&#x7EDF;&#x7248;&#x672C;.
+    </p>
+    <h2 id="auto-5">5<span style="margin-left: 1em"></span>&#x7B26;&#x53F7;&#x8868;&#x8FBE;&#x5F0F;&#x51FD;&#x6570;&#x7684;&#x5176;&#x4ED6;&#x5F62;&#x5F0F;<span
+    style="margin-left: 1em"></span></h2>
+    <p>
+      <span style="margin-left: 1em"></span>&#x5B9A;&#x4E49;&#x7B26;&#x53F7;&#x8868;&#x8FBE;&#x5F0F;&#x51FD;&#x6570;&#x7684;&#x65B9;&#x6CD5;&#x6709;&#x5F88;&#x591A;&#xFF0C;&#x4E0E;&#x6211;&#x4EEC;&#x91C7;&#x7528;&#x7684;&#x7CFB;&#x7EDF;&#x975E;&#x5E38;&#x76F8;&#x4F3C;&#x3002;&#x5B83;&#x4EEC;&#x6BCF;&#x4E2A;&#x90FD;&#x6D89;&#x53CA;&#x4E09;&#x4E2A;&#x57FA;&#x672C;&#x51FD;&#x6570;&#xFF0C;&#x6761;&#x4EF6;&#x8868;&#x8FBE;&#x5F0F;&#x548C;&#x9012;&#x5F52;&#x51FD;&#x6570;&#x5B9A;&#x4E49;&#xFF0C;&#x4F46;&#x662F;&#x4E0E;S&#x8868;&#x8FBE;&#x5F0F;&#x76F8;&#x5BF9;&#x5E94;&#x7684;&#x8868;&#x8FBE;&#x5F0F;&#x7C7B;&#x522B;&#x4E0D;&#x540C;&#xFF0C;&#x8FD9;&#x4E9B;&#x51FD;&#x6570;&#x7684;&#x7CBE;&#x786E;&#x5B9A;&#x4E49;&#x4E5F;&#x4E0D;&#x540C;&#x3002;&#x6211;&#x4EEC;&#x5C06;&#x63CF;&#x8FF0;&#x8FD9;&#x4E9B;&#x79F0;&#x4E3A;&#x7EBF;&#x6027;LISP&#x7684;&#x53D8;&#x4F53;&#x4E4B;&#x4E00;&#x3002;
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>L&#x8868;&#x8FBE;&#x5F0F;&#x5B9A;&#x4E49;&#x5982;&#x4E0B;&#xFF1A;
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>1.&#x5141;&#x8BB8;&#x4F7F;&#x7528;&#x6709;&#x9650;&#x7684;&#x5B57;&#x7B26;&#x5217;&#x8868;.
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>2.L&#x8868;&#x8FBE;&#x5F0F;&#x4E2D;&#x4EFB;&#x4F55;&#x5141;&#x8BB8;&#x7684;&#x5B57;&#x7B26;&#x5B57;&#x7B26;&#x4E32;,&#x8FD9;&#x5305;&#x62EC;&#x7531;&Lambda;&#x8868;&#x793A;&#x7684;&#x7A7A;&#x5B57;&#x7B26;&#x4E32;.
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>3.&#x5B57;&#x7B26;&#x4E32;&#x6709;&#x4E09;&#x4E2A;&#x529F;&#x80FD;:
+    </p>
+    <p>
+      <span style="margin-left: 2em"></span>1.first[x]&#x662F;&#x5B57;&#x7B26;&#x4E32;x&#x7684;&#x7B2C;&#x4E00;&#x4E2A;&#x5B57;&#x7B26;.
+    </p>
+    <p>
+      <span style="margin-left: 2em"></span>2.rest
+      [x]&#x662F;&#x5F53;&#x5220;&#x9664;&#x5B57;&#x7B26;&#x4E32;&#x7684;&#x7B2C;&#x4E00;&#x4E2A;&#x5B57;&#x7B26;&#x65F6;&#x4FDD;&#x7559;&#x7684;&#x5B57;&#x7B26;&#x4E32;.
+    </p>
+    <p>
+      <span style="margin-left: 3em"></span>rest
+      [&Lambda;]&#x672A;&#x5B9A;&#x4E49;.&#x4F8B;&#x5982;: rest[ABC] = BC.
+    </p>
+    <p>
+      <span style="margin-left: 2em"></span>3.combine[x;
+      y]&#x662F;&#x901A;&#x8FC7;&#x5728;&#x5B57;&#x7B26;&#x4E32;y&#x524D;&#x9762;&#x6DFB;&#x52A0;&#x5B57;&#x7B26;x&#x5F62;&#x6210;&#x7684;&#x5B57;&#x7B26;&#x4E32;.&#x4F8B;&#x5982;:combine[A;BC]=ABC.
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>&#x5B57;&#x7B26;&#x4E32;&#x4E0A;&#x6709;&#x4E09;&#x4E2A;&#x8C13;&#x8BCD;&#xFF1A;
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>1.char[x],x&#x662F;&#x5355;&#x72EC;&#x7684;&#x5B57;&#x7B26;.
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>2.null[x],x&#x662F;&#x7A7A;&#x5B57;&#x7B26;.
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>3.x =
+      y,&#x4E3A;x&#x548C;y&#x5B57;&#x7B26;&#x5B9A;&#x4E49;.
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>&#x7EBF;&#x6027;LISP&#x7684;&#x4F18;&#x70B9;&#x662F;&#xFF0C;&#x6CA1;&#x6709;&#x5B57;&#x7B26;&#x88AB;&#x8D4B;&#x4E88;&#x7279;&#x6B8A;&#x7684;&#x89D2;&#x8272;&#xFF0C;LISP&#x4E2D;&#x7684;&#x62EC;&#x53F7;&#xFF0C;&#x70B9;&#x548C;&#x9017;&#x53F7;&#x4E5F;&#x662F;&#x5982;&#x6B64;&#x3002;&#x8FD9;&#x5141;&#x8BB8;&#x4F7F;&#x7528;&#x53EF;&#x4EE5;&#x7EBF;&#x6027;&#x7F16;&#x5199;&#x7684;&#x6240;&#x6709;&#x8868;&#x8FBE;&#x5F0F;&#x8FDB;&#x884C;&#x8BA1;&#x7B97;&#x3002;&#x7EBF;&#x6027;LISP&#x7684;&#x7F3A;&#x70B9;&#x662F;&#x5B50;&#x8868;&#x8FBE;&#x5F0F;&#x7684;&#x63D0;&#x53D6;&#x662F;&#x76F8;&#x5F53;&#x590D;&#x6742;&#x7684;&#x64CD;&#x4F5C;&#xFF0C;&#x800C;&#x4E0D;&#x662F;&#x57FA;&#x672C;&#x64CD;&#x4F5C;&#x3002;&#x7528;&#x7EBF;&#x6027;LISP&#x7F16;&#x5199;&#x4E0E;LISP&#x57FA;&#x672C;&#x529F;&#x80FD;&#x76F8;&#x5BF9;&#x5E94;&#x7684;&#x51FD;&#x6570;&#x5E76;&#x4E0D;&#x96BE;&#xFF0C;&#x56E0;&#x6B64;&#xFF0C;&#x4ECE;&#x6570;&#x5B66;&#x4E0A;&#x8BB2;&#xFF0C;&#x7EBF;&#x6027;LISP&#x5305;&#x62EC;LISP&#x3002;&#x4E8B;&#x5B9E;&#x8BC1;&#x660E;&#xFF0C;&#x8FD9;&#x662F;&#x6700;&#x7B80;&#x5355;&#x7684;&#x7F16;&#x7A0B;&#x65B9;&#x6CD5;&#xFF0C;&#x5728;&#x7EBF;&#x6027;LISP&#x4E2D;&#xFF0C;&#x66F4;&#x590D;&#x6742;&#x7684;&#x64CD;&#x4F5C;&#x3002;&#x4F46;&#x662F;&#xFF0C;&#x5982;&#x679C;&#x8981;&#x7528;&#x8BA1;&#x7B97;&#x673A;&#x4F8B;&#x7A0B;&#x6765;&#x8868;&#x793A;&#x529F;&#x80FD;&#xFF0C;&#x5219;LISP&#x672C;&#x8D28;&#x4E0A;&#x4F1A;&#x66F4;&#x5FEB;&#x3002;
+    </p>
+    <h2 id="auto-6">6<span style="margin-left: 1em"></span>&#x6D41;&#x7A0B;&#x56FE;&#x548C;&#x9012;&#x5F52;<span
+    style="margin-left: 1em"></span></h2>
+    <p>
+      <span style="margin-left: 1em"></span>&#x7531;&#x4E8E;&#x8BA1;&#x7B97;&#x673A;&#x7A0B;&#x5E8F;&#x7684;&#x901A;&#x5E38;&#x5F62;&#x5F0F;&#x548C;&#x9012;&#x5F52;&#x51FD;&#x6570;&#x5B9A;&#x4E49;&#x5728;&#x8BA1;&#x7B97;&#x4E0A;&#x90FD;&#x662F;&#x901A;&#x7528;&#x7684;&#xFF0C;&#x56E0;&#x6B64;&#x663E;&#x793A;&#x5B83;&#x4EEC;&#x4E4B;&#x95F4;&#x7684;&#x5173;&#x7CFB;&#x5F88;&#x6709;&#x8DA3;&#x3002;&#x9012;&#x5F52;&#x7B26;&#x53F7;&#x529F;&#x80FD;&#x5230;&#x8BA1;&#x7B97;&#x673A;&#x7A0B;&#x5E8F;&#x7684;&#x7FFB;&#x8BD1;&#x662F;&#x672C;&#x62A5;&#x544A;&#x5176;&#x4F59;&#x90E8;&#x5206;&#x7684;&#x4E3B;&#x9898;&#x3002;&#x5728;&#x672C;&#x8282;&#x4E2D;&#xFF0C;&#x6211;&#x4EEC;&#x81F3;&#x5C11;&#x4ECE;&#x539F;&#x7406;&#x4E0A;&#x8BF4;&#x660E;&#x4E86;&#x5982;&#x4F55;&#x8D70;&#x53E6;&#x4E00;&#x6761;&#x8DEF;&#x3002;
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>&#x8BA1;&#x7B97;&#x671F;&#x95F4;&#x4EFB;&#x4F55;&#x65F6;&#x5019;&#x673A;&#x5668;&#x7684;&#x72B6;&#x6001;&#x7531;&#x591A;&#x4E2A;&#x53D8;&#x91CF;&#x7684;&#x503C;&#x7ED9;&#x51FA;&#x3002;&#x8BA9;&#x8FD9;&#x4E9B;&#x53D8;&#x91CF;&#x7EC4;&#x5408;&#x6210;&#x5411;&#x91CF;&xi;&#x3002;
+      &#x8003;&#x8651;&#x4E00;&#x4E2A;&#x5177;&#x6709;&#x4E00;&#x4E2A;&#x5165;&#x53E3;&#x548C;&#x4E00;&#x4E2A;&#x51FA;&#x53E3;&#x7684;&#x7A0B;&#x5E8F;&#x5757;&#x3002;&#x5B83;&#x5B9A;&#x4E49;&#x5E76;&#x672C;&#x8D28;&#x4E0A;&#x7531;&#x67D0;&#x4E2A;&#x51FD;&#x6570;f&#x5B9A;&#x4E49;&#xFF0C;&#x8BE5;&#x51FD;&#x6570;&#x5C06;&#x4E00;&#x79CD;&#x673A;&#x5668;&#x914D;&#x7F6E;&#x8F6C;&#x6362;&#x4E3A;&#x53E6;&#x4E00;&#x79CD;&#xFF0C;&#x5373;f&#x7684;&#x5F62;&#x5F0F;&#x4E3A;<class
+      style="font-variant: small-caps"><img src="递归-137.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0347151515151515em; margin-right: -0.0248242424242422em; margin-top: 0.00130909090909093em; vertical-align: -0.201115151515152em; height: 1.17672727272727em"></img></class>&#x3002;&#x8BA9;&#x6211;&#x4EEC;&#x8C03;&#x7528;&#x7A0B;&#x5E8F;&#x5757;&#x7684;&#x5173;&#x8054;&#x529F;&#x80FD;&#x3002;&#x73B0;&#x5728;&#xFF0C;&#x901A;&#x8FC7;&#x786E;&#x5B9A;&#x5143;&#x7D20;&pi;&#x5C06;&#x8BB8;&#x591A;&#x8FD9;&#x6837;&#x7684;&#x5757;&#x7EC4;&#x5408;&#x5230;&#x7A0B;&#x5E8F;&#x4E2D;&#xFF0C;&#x8FD9;&#x4E9B;&#x51B3;&#x5B9A;&#x5143;&#x7D20;&#x51B3;&#x5B9A;&#x6BCF;&#x4E2A;&#x5757;&#x5B8C;&#x6210;&#x4E4B;&#x540E;&#x63A5;&#x4E0B;&#x6765;&#x8981;&#x8F93;&#x5165;&#x54EA;&#x4E2A;&#x5757;&#x3002;&#x4E0D;&#x8FC7;&#xFF0C;&#x8BA9;&#x6574;&#x4E2A;&#x7A0B;&#x5E8F;&#x8FD8;&#x6709;&#x4E00;&#x4E2A;&#x5165;&#x53E3;&#x548C;&#x4E00;&#x4E2A;&#x51FA;&#x53E3;&#x3002;
+    </p>
+    <p>
+      <img src="递归-138.png" style="margin-left: -0.0248242424242424em; margin-bottom: 0em; margin-right: -0.0248242424242449em; margin-top: 0em; vertical-align: -13.1939878787879em; height: 26.3879757575758em"></img>
+    </p>
+    <p>
+      &#x6211;&#x4EEC;&#x4EE5;&#x56FE;5&#x7684;&#x6D41;&#x7A0B;&#x56FE;&#x4E3A;&#x4F8B;&#x3002;&#x8BA9;&#x6211;&#x4EEC;&#x63CF;&#x8FF0;&#x51FD;&#x6570;
+      r[&xi;]
+      &#xFF0C;&#x5B83;&#x7ED9;&#x51FA;&#x4E86;&#x6574;&#x4E2A;&#x5757;&#x7684;&#x5165;&#x53E3;&#x548C;&#x51FA;&#x53E3;&#x4E4B;&#x95F4;&#x7684;&#x5411;&#x91CF;&xi;&#x7684;&#x8F6C;&#x6362;&#x3002;&#x6211;&#x4EEC;&#x5C06;&#x7ED3;&#x5408;&#x51FD;&#x6570;
+      s(&xi;) &#x548C; t[&xi;]
+      &#x5BF9;&#x5176;&#x8FDB;&#x884C;&#x5B9A;&#x4E49;&#xFF0C;&#x5B83;&#x4EEC;&#x7ED9;&#x51FA;&xi;&#x5728;&#x70B9;S&#x548C;T&#x4E4B;&#x95F4;&#x4EE5;&#x53CA;&#x51FA;&#x53E3;&#x5904;&#x5206;&#x522B;&#x7ECF;&#x5386;&#x7684;&#x53D8;&#x6362;&#x3002;&#x6211;&#x4EEC;&#x6709;
+    </p>
+    <center>
+      <img src="递归-139.png" style="margin-left: -0.0248242424242424em; margin-bottom: 0.0226424242424241em; margin-right: -0.0248242424242413em; margin-top: -0.0309333333333335em; vertical-align: -1.784em; height: 4.04208484848485em"></img>
+    </center>
+    <p>
+      <span style="margin-left: 1em"></span>&#x7ED9;&#x5B9A;&#x4E00;&#x4E2A;&#x5177;&#x6709;&#x5355;&#x4E2A;&#x5165;&#x53E3;&#x548C;&#x5355;&#x4E2A;&#x51FA;&#x53E3;&#x7684;&#x6D41;&#x7A0B;&#x56FE;&#xFF0C;&#x5F88;&#x5BB9;&#x6613;&#x8BB0;&#x4E0B;&#x9012;&#x5F52;&#x51FD;&#x6570;&#xFF0C;&#x8BE5;&#x9012;&#x5F52;&#x51FD;&#x6570;&#x6839;&#x636E;&#x8BA1;&#x7B97;&#x5757;&#x548C;&#x5206;&#x652F;&#x8C13;&#x8BCD;&#x7684;&#x76F8;&#x5E94;&#x51FD;&#x6570;&#x7ED9;&#x51FA;&#x4ECE;&#x5165;&#x53E3;&#x5230;&#x51FA;&#x53E3;&#x7684;&#x72B6;&#x6001;&#x5411;&#x91CF;&#x7684;&#x8F6C;&#x6362;&#x3002;
+      &#x901A;&#x5E38;&#xFF0C;&#x6211;&#x4EEC;&#x8FDB;&#x884C;&#x5982;&#x4E0B;&#x64CD;&#x4F5C;&#x3002;&#x5728;&#x56FE;6&#x4E2D;&#xFF0C;&#x4EE4;&beta;&#x4E3A;n&#x8DEF;&#x5206;&#x652F;&#x70B9;&#xFF0C;&#x4EE4;<span
+      class="no-breaks"><img src="递归-140.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0347151515151515em; margin-right: -0.0248242424242424em; margin-top: -0.0388848484848485em; vertical-align: -0.201115151515152em; height: 0.992969696969697em"></img>&#xFF0C;</span><span style="margin-left: 0.16665em"></span>.<span
+      style="margin-left: 0.16665em"></span>.<span style="margin-left: 0.16665em"></span>.<span style="margin-left: 0.16665em"></span>&#xFF0C;<span
+      class="no-breaks"><img src="递归-141.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0347151515151515em; margin-right: -0.0248242424242426em; margin-top: -0.0388848484848485em; vertical-align: -0.201115151515152em; height: 0.992969696969697em"></img>&#x4E3A;&#x5BFC;&#x81F4;&#x5206;&#x652F;&#x70B9;</span><span
+      class="no-breaks"><img src="递归-142.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.00989090909090909em; margin-right: -0.0248242424242425em; margin-top: -0.0512969696969697em; vertical-align: -0.201115151515152em; height: 0.980557575757576em"></img>&#xFF0C;&hellip;&#xFF0C;</span><span
+      class="no-breaks"><img src="递归-143.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.00989090909090909em; margin-right: -0.0248242424242424em; margin-top: -0.0512969696969697em; vertical-align: -0.201115151515152em; height: 0.980557575757576em"></img>&#x7684;&#x8BA1;&#x7B97;&#x3002;&#x8BBE;</span><span
+      class="no-breaks"><img src="递归-107.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0347151515151515em; margin-right: -0.0248242424242424em; margin-top: -0.0264727272727273em; vertical-align: -0.201115151515152em; height: 0.980557575757576em"></img>&#x662F;&#x5728;&beta;&#x548C;&#x56FE;&#x8868;&#x7684;&#x51FA;&#x53E3;&#x4E4B;&#x95F4;&#x8F6C;&#x6362;&xi;&#x7684;&#x51FD;&#x6570;&#xFF0C;&#x800C;</span><span
+      class="no-breaks"><img src="递归-144.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0347151515151515em; margin-right: -0.0248242424242424em; margin-top: -0.0264727272727273em; vertical-align: -0.201115151515152em; height: 0.980557575757576em"></img>&#xFF0C;</span><span style="margin-left: 0.16665em"></span>.<span
+      style="margin-left: 0.16665em"></span>.<span style="margin-left: 0.16665em"></span>.<span style="margin-left: 0.16665em"></span>&#xFF0C;<span
+      class="no-breaks"><img src="递归-145.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0347151515151515em; margin-right: -0.0248242424242424em; margin-top: -0.0264727272727273em; vertical-align: -0.201115151515152em; height: 0.980557575757576em"></img>&#x662F;</span><span class="no-breaks"><img src="递归-142.png"
+      style="margin-left: -0.0248242424242424em; margin-bottom: -0.00989090909090909em; margin-right: -0.0248242424242425em; margin-top: -0.0512969696969697em; vertical-align: -0.201115151515152em; height: 0.980557575757576em"></img>&#xFF0C;</span><span style="margin-left: 0.16665em"></span>.<span style="margin-left: 0.16665em"></span>.<span
+      style="margin-left: 0.16665em"></span>.<span style="margin-left: 0.16665em"></span>&#xFF0C;<span class="no-breaks"><img src="递归-143.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.00989090909090909em; margin-right: -0.0248242424242424em; margin-top: -0.0512969696969697em; vertical-align: -0.201115151515152em; height: 0.980557575757576em"></img>&#x7684;&#x5BF9;&#x5E94;&#x51FD;&#x6570;&#x3002;&#x7136;&#x540E;&#x6211;&#x4EEC;&#x5199;&#x4E3A;</span>
+    </p>
+    <center>
+      <img src="递归-146.png" style="margin-left: -0.0248242424242424em; margin-bottom: -0.0347151515151515em; margin-right: -0.0248242424242449em; margin-top: -0.0459636363636363em; vertical-align: -0.201115151515152em; height: 1.04261818181818em"></img>
+    </center>
+    <p>
+      <img src="递归-147.png" style="margin-left: -0.0248242424242424em; margin-bottom: 0em; margin-right: -0.0248242424242413em; margin-top: 0em; vertical-align: -0.130618181818182em; height: 12.2290424242424em"></img>
+    </p>
+    <h2 id="auto-7">7<span style="margin-left: 1em"></span>&#x81F4;&#x8C22;<span style="margin-left: 1em"></span></h2>
+    <p>
+      <span style="margin-left: 1em"></span>N.
+      Rochester&#x6CE8;&#x610F;&#x5230;&lambda;&#x7B26;&#x53F7;&#x4E0D;&#x8DB3;&#x4EE5;&#x547D;&#x540D;&#x9012;&#x5F52;&#x51FD;&#x6570;&#xFF0C;&#x4ED6;&#x53D1;&#x73B0;&#x4E86;&#x8FD9;&#x91CC;&#x4F7F;&#x7528;&#x7684;&#x6D89;&#x53CA;&#x6807;&#x7B7E;&#x7684;&#x89E3;&#x51B3;&#x65B9;&#x6848;&#x7684;&#x66FF;&#x4EE3;&#x65B9;&#x6848;&#x3002;&#x7531;cons&#x7684;&#x5B50;&#x4F8B;&#x7A0B;&#x7684;&#x5F62;&#x5F0F;&#xFF0C;&#x4F7F;&#x5176;&#x4E0E;&#x5176;&#x4ED6;&#x529F;&#x80FD;&#x7ED3;&#x5408;&#x5728;&#x4E00;&#x8D77;&#xFF0C;&#x662F;&#x7531;IBM&#x516C;&#x53F8;&#x7684;C.
+      Gerberick&#x548C;H. L.
+      Gelernter&#x53D1;&#x660E;&#x7684;&#xFF0C;&#x5E76;&#x4E0E;&#x53E6;&#x4E00;&#x4E2A;&#x7F16;&#x7A0B;&#x7CFB;&#x7EDF;&#x6709;&#x5173;&#x3002;LlSP&#x7F16;&#x7A0B;&#x7CFB;&#x7EDF;&#x7531;&#x5305;&#x62EC;R.
+      Brayton&#xFF0C;D.Edwards&#xFF0C;P.Fox&#xFF0C;L.Hodes&#xFF0C;D.Luckham&#xFF0C;K.Maling&#xFF0C;J.McCarthy&#xFF0C;D.Park&#xFF0C;S.Russell&#x5728;&#x5185;&#x7684;&#x56E2;&#x961F;&#x5F00;&#x53D1;&#x3002;
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>&#x8BE5;&#x5C0F;&#x7EC4;&#x5F97;&#x5230;&#x4E86;M.I.T.
+      &#x8BA1;&#x7B97;&#x4E2D;&#x5FC3;&#xFF0C;&#x7531;M.I.T.
+      &#x7535;&#x5B50;&#x7814;&#x7A76;&#x5B9E;&#x9A8C;&#x5BA4;&#xFF08;&#x90E8;&#x5206;&#x7531;&#x7F8E;&#x56FD;&#x9646;&#x519B;&#xFF08;&#x4FE1;&#x53F7;&#x519B;&#xFF09;&#xFF0C;&#x7F8E;&#x56FD;&#x7A7A;&#x519B;&#xFF08;&#x79D1;&#x5B66;&#x7814;&#x7A76;&#x5BA4;&#xFF0C;&#x7A7A;&#x4E2D;&#x7814;&#x7A76;&#x4E0E;&#x53D1;&#x5C55;&#x53F8;&#x4EE4;&#x90E8;&#xFF09;&#x548C;&#x7F8E;&#x56FD;&#x6D77;&#x519B;&#xFF08;&#x6D77;&#x519B;&#x7814;&#x7A76;&#x5BA4;&#xFF09;&#x63D0;&#x4F9B;&#x652F;&#x6301;&#xFF09;&#x3002;&#x4F5C;&#x8005;&#x8FD8;&#x6DF1;&#x5207;&#x611F;&#x8C22;Alfred
+      P.
+      Sloan&#x57FA;&#x91D1;&#x4F1A;&#x7684;&#x4E2A;&#x4EBA;&#x8D22;&#x653F;&#x652F;&#x6301;&#x3002;
+    </p>
+    <h2 id="auto-8">8<span style="margin-left: 1em"></span>&#x5F15;&#x7528;<span style="margin-left: 1em"></span></h2>
+    <p>
+      <span style="margin-left: 1em"></span>1.J. McCARTHY, Programs with common sense, Paper
+      presented at the Symposium on the Mechanization of Thought Processes,
+      National Physical Laboratory, Teddington, England, Nov. 24-27, 1958.
+      (Published in Proceedings of the Symposium by H. M. Stationery Office).
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>2.A. NEWELL AND J. C. SHAW, Programming the logic
+      theory machine,Proc. Western Joint Computer Conference, Feb. 1957.
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>3. A. CHURCH, The Calculi of Lambda-Conversion
+      (Princeton University Press, Princeton, N. J., 1941).
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>4.FORTRAN Programmer's Reference Manual, IBM
+      Corporation, New York, Oct. 15, 1956.
+    </p>
+    <p>
+      <span style="margin-left: 1em"></span>5.A. J. PERLIS AND K. SAMELS0N, International
+      algebraic language,Preliminary Report, Comm. Assoc. Comp. Mach., Dec.
+      1958.
+    </p>
+  </body>
+</html>
